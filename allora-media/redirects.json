@@ -1,0 +1,199 @@
+[
+  {
+    "source": "/social-media-marketing",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ad-management",
+    "destination": "/paid-media",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions/video-production",
+    "destination": "/media-production",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions/testimonial-videos",
+    "destination": "/services/testimonial-videos",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions/tv-commercials",
+    "destination": "/services/tv-commercials",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions/drone-video",
+    "destination": "/services/drone-content",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions/corporate-photography",
+    "destination": "/services/corporate-photography",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions/product-shoots",
+    "destination": "/services/product-shoots",
+    "permanent": true
+  },
+  {
+    "source": "/business-solutions",
+    "destination": "/paid-media",
+    "permanent": true
+  },
+  {
+    "source": "/business-content",
+    "destination": "/media-production",
+    "permanent": true
+  },
+  {
+    "source": "/business-content-packages",
+    "destination": "/media-production",
+    "permanent": true
+  },
+  {
+    "source": "/business-content-packages-pricing",
+    "destination": "/contact",
+    "permanent": true
+  },
+  {
+    "source": "/business-marketing/graphic-design",
+    "destination": "/services/graphic-design",
+    "permanent": true
+  },
+  {
+    "source": "/business-marketing",
+    "destination": "/paid-media",
+    "permanent": true
+  },
+  {
+    "source": "/about-us",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/faq",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/reviews",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/services",
+    "destination": "/media-production",
+    "permanent": true
+  },
+
+  {
+    "source": "/photography",
+    "destination": "/services/corporate-photography",
+    "permanent": true
+  },
+  {
+    "source": "/drone",
+    "destination": "/services/drone-content",
+    "permanent": true
+  },
+  {
+    "source": "/graphic-design",
+    "destination": "/services/graphic-design",
+    "permanent": true
+  },
+  {
+    "source": "/growth-systems",
+    "destination": "/paid-media",
+    "permanent": true
+  },
+  {
+    "source": "/SMM-packages",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-essentials",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-growth",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/premium-social-media",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-apex",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content/event-coverage",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content/wedding-and-engagement",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content/family-photography",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content/engagement-photos",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content/senior-photos",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/personal-content/maternity-photos",
+    "destination": "/personal",
+    "permanent": true
+  },
+  {
+    "source": "/case-studies/page-item-url",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+
+  {
+    "source": "/our-work",
+    "destination": "/case-studies",
+    "permanent": true
+  },
+  {
+    "source": "/pricing-social-media-packages",
+    "destination": "/organic-social",
+    "permanent": true
+  },
+  {
+    "source": "/video",
+    "destination": "/video-production",
+    "permanent": true
+  },
+  {
+    "source": "/home",
+    "destination": "/",
+    "permanent": true
+  }
+]

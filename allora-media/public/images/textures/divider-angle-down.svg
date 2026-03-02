@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="100" viewBox="0 0 1440 100" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="tiltGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="40%" stop-color="#0e1c11"/>
+      <stop offset="60%" stop-color="#131E13"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+  </defs>
+  <!-- Angled divider — goes from top-left to lower-right -->
+  <polygon points="0,0 1440,0 1440,40 0,100" fill="url(#tiltGrad)"/>
+  <!-- Green accent line along the angle -->
+  <line x1="0" y1="100" x2="1440" y2="40" stroke="rgba(101,178,7,0.12)" stroke-width="1"/>
+</svg>

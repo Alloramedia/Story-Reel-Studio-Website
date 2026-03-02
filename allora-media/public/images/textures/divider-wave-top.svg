@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="120" viewBox="0 0 1440 120" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="divGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="50%" stop-color="#131E13"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0 L1440,0 L1440,60 Q1080,120 720,80 Q360,40 0,90 Z" fill="url(#divGrad)"/>
+  <!-- Subtle green accent line along the curve -->
+  <path d="M0,90 Q360,40 720,80 Q1080,120 1440,60" fill="none" stroke="rgba(101,178,7,0.15)" stroke-width="1"/>
+</svg>
