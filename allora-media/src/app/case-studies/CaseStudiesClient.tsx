@@ -15,10 +15,10 @@ import { HeroBanner } from "@/components/HeroBanner";
 import { AngleDivider, EdgeAccentStripe, GradientOverlay, RadialGlow } from "@/components/SectionTextures";
 
 const stats = [
-  { value: "150+", label: "Campaigns Managed" },
-  { value: "$0.32–$0.65", label: "Avg. CPC Range", benchmark: "Industry Avg: $1.95" },
-  { value: "3–5x", label: "Typical ROAS", benchmark: "Industry Avg: 1.5–2x" },
-  { value: "30M+", label: "Ad Impressions Delivered" },
+  { value: "300+", label: "Videos Produced" },
+  { value: "6", label: "Industries Served" },
+  { value: "Telly", label: "Award-Winning Studio"},
+  { value: "100%", label: "Client Retention Rate" },
 ];
 
 export function CaseStudiesClient() {
@@ -60,10 +60,10 @@ export function CaseStudiesClient() {
             transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
             className="mt-6 max-w-xl text-lg leading-relaxed text-white/70"
           >
-            Every agency says they get results. We show you exactly how.
-            Each case study below breaks down the problem, the strategy we
-            built, and the measurable outcome — with real numbers. These
-            are the same approaches we&apos;ll use for your business.
+            Every production company says they make great videos. We show
+            you the strategy behind the content and the results it drives.
+            Each case study breaks down the challenge, the production
+            approach, and the measurable impact — with real outcomes.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 18 }}
@@ -113,7 +113,7 @@ export function CaseStudiesClient() {
         <SectionHeader
           eyebrow="Filter by Industry"
           title="Find a business like yours."
-          description="Click an industry to see how we helped businesses in that space. Every strategy is built around your specific market — not a one-size-fits-all template."
+          description="Click an industry to see the work we've done. Every production strategy is built around your specific audience — not a one-size-fits-all template."
         />
         <div className="mb-8 flex flex-wrap justify-center gap-2">
           {industries.map((industry) => (
@@ -156,18 +156,18 @@ export function CaseStudiesClient() {
             {[
               {
                 step: "01",
-                title: "We install real tracking first",
-                desc: "Before launching anything, we set up conversion tracking so every lead, call, and form submission is attributed to the exact campaign that generated it. No guessing.",
+                title: "We start with story strategy",
+                desc: "Before a single camera rolls, we dig into your mission, audience, and goals. Every production decision flows from a strategic brief — so your content actually moves the needle.",
               },
               {
                 step: "02",
-                title: "We produce content that performs",
-                desc: "Every video, photo, and graphic is designed for ad performance — not just aesthetics. Testimonial videos, project documentation, and brand content built to convert.",
+                title: "We produce content libraries",
+                desc: "Not just a single video. Every shoot yields brand films, interview segments, social cuts, b-roll packages, and platform-specific edits — giving you months of strategic content.",
               },
               {
                 step: "03",
-                title: "We optimize with real data",
-                desc: "Monthly reviews, creative testing, audience refinement, and budget optimization — all based on actual performance data, not gut feelings.",
+                title: "We measure what matters",
+                desc: "Views, engagement, website traffic, lead generation, investor interest, donor response — we track the outcomes your content was built to drive.",
               },
             ].map((item, i) => (
               <motion.div
@@ -200,36 +200,36 @@ export function CaseStudiesClient() {
         <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
-          eyebrow="Industry Benchmarks"
-          title="What's possible in your industry."
-          description="These are real ranges based on campaigns we've managed. Your results will vary based on your market, offer, and budget — but this is what we consistently deliver."
+          eyebrow="By Industry"
+          title="What we've built for organizations like yours."
+          description="Every industry has unique storytelling needs. Here's a snapshot of what strategic video production delivers in each sector we serve."
         />
         <div className="mx-auto max-w-4xl">
           <div className="grid gap-4 md:grid-cols-2">
             {[
               {
-                industry: "Construction & Trades",
-                cpl: "$40–$250",
-                roas: "5–15x",
-                detail: "High-ticket services sustain higher CPLs — a single roofing or remodeling close can pay for months of ad spend.",
+                industry: "Manufacturing",
+                highlight: "20+ Sales Assets",
+                outcome: "3x LinkedIn Growth",
+                detail: "Product overviews, facility tours, and capability videos that give sales teams tools to close — resulting in tens of thousands of units sold.",
               },
               {
-                industry: "Home Services",
-                cpl: "$25–$80",
-                roas: "4–10x",
-                detail: "Recurring service potential makes each customer worth far more than the initial job.",
+                industry: "Health & Biotech",
+                highlight: "100+ Videos",
+                outcome: "Investor Confidence",
+                detail: "Clinical pipeline explainers, executive profiles, and investor-grade content for a company that went from startup to NASDAQ listing.",
               },
               {
-                industry: "Food & Beverage",
-                cpl: "$5–$25",
-                roas: "3–8x",
-                detail: "Low CPL with high volume. Social proof and visual content drive foot traffic fast.",
+                industry: "Nonprofit & Advocacy",
+                highlight: "Telly Award",
+                outcome: "Record Fundraising",
+                detail: "Impact films and donor stories that connect audiences emotionally to the mission — driving donations and volunteer engagement.",
               },
               {
-                industry: "Beauty & Retail",
-                cpl: "$10–$40",
-                roas: "4–8x",
-                detail: "Visual-first industry where professional content has an outsized impact on conversion.",
+                industry: "Lifestyle & DTC",
+                highlight: "40% ↓ CPA",
+                outcome: "Brand Awareness",
+                detail: "Adventure-driven brand films, product demos, and UGC-style content that builds authentic connection with consumers.",
               },
             ].map((item, i) => (
               <motion.div
@@ -243,12 +243,12 @@ export function CaseStudiesClient() {
                 <h3 className="font-heading text-lg font-bold text-white">{item.industry}</h3>
                 <div className="mt-3 flex gap-6">
                   <div>
-                    <p className="text-xs text-white/40">Cost Per Lead</p>
-                    <p className="font-heading text-xl font-black text-[#68ccd1]">{item.cpl}</p>
+                    <p className="text-xs text-white/40">Key Highlight</p>
+                    <p className="font-heading text-xl font-black text-[#68ccd1]">{item.highlight}</p>
                   </div>
                   <div>
-                    <p className="text-xs text-white/40">Typical ROAS</p>
-                    <p className="font-heading text-xl font-black text-[#68ccd1]">{item.roas}</p>
+                    <p className="text-xs text-white/40">Outcome</p>
+                    <p className="font-heading text-xl font-black text-[#68ccd1]">{item.outcome}</p>
                   </div>
                 </div>
                 <p className="mt-3 text-sm text-white/55">{item.detail}</p>
@@ -279,7 +279,7 @@ export function CaseStudiesClient() {
                 We only take on a handful of new clients each month.
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/60">
-                We&apos;re a small, focused team — not a factory. Every client gets direct access to the people building and managing their campaigns. To keep that quality, we limit new onboarding to <span className="font-bold text-[#68ccd1]">3–5 new clients per month</span>. When we&apos;re full, we&apos;re full.
+                We&apos;re a small, focused team — not a factory. Every client gets direct access to the producers and directors behind their project. To keep that quality, we limit new engagements to <span className="font-bold text-[#68ccd1]">3–5 new clients per month</span>. When we&apos;re full, we&apos;re full.
               </p>
               <Link
                 href="/contact"
@@ -299,9 +299,9 @@ export function CaseStudiesClient() {
 
       {/* CTA */}
       <CTASection
-        headline="Want results like these for your business?"
-        subhead="Book a free Strategy Call. We'll audit your current content strategy, show you the gaps, and give you a clear plan to get real, measurable results — whether you work with us or not."
-        primaryLabel="Book a Strategy Call"
+        headline="Ready to see what video can do for your organization?"
+        subhead="Book a Brand Story Consultation. We'll learn about your mission, your audience, and your goals — and map out exactly how cinematic content can drive real results."
+        primaryLabel="Book a Consultation"
         primaryHref="/contact"
       />
     </>

@@ -6,10 +6,11 @@ import {
   Star,
   TrendingUp,
   Briefcase,
-  Building2,
-  Wrench,
-  UtensilsCrossed,
-  Sparkles,
+  Factory,
+  Heart,
+  Microscope,
+  ShoppingBag,
+  Trophy,
   Scale,
 } from "lucide-react";
 import { industryData, getAllIndustrySlugs } from "@/lib/industries-data";
@@ -29,36 +30,37 @@ import { googleReview, credibilityStats } from "@/lib/constants";
 
 /* ── SEO-rich metadata ── */
 export const metadata: Metadata = {
-  title: "Industry-Specific Video Production in Connecticut — Story Real Studios",
+  title: "Industries We Serve — Video Production for Purpose-Driven Organizations",
   description:
-    "Story Real Studios delivers industry-specific video production and content systems for construction, home services, restaurants, beauty & retail, and professional services in Connecticut. Explore strategies built for how your customers actually buy.",
+    "Story Real Studios delivers industry-specific video production for manufacturers, nonprofits, biotech companies, lifestyle brands, sports franchises, and professional services. Visual storytelling crafted specifically for your industry.",
   alternates: {
     canonical: "https://www.storyreal.co/industries",
   },
   openGraph: {
-    title: "Industry-Specific Video Production in Connecticut — Story Real Studios",
+    title: "Industries We Serve — Story Real Studios",
     description:
-      "Strategy-led video production & content systems tailored to construction, home services, restaurants, beauty, and professional services across Connecticut.",
+      "Visual storytelling crafted specifically for your industry. Manufacturing, nonprofits, health & biotech, brand lifestyle, sports, and professional services.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   keywords: [
-    "Connecticut video production studio",
-    "industry video production CT",
-    "construction video production Connecticut",
-    "home services video CT",
-    "restaurant video production studio",
-    "beauty salon video production",
+    "manufacturing video production",
+    "nonprofit video production",
+    "biotech video production",
+    "brand lifestyle video production",
+    "sports video production",
     "professional services video production",
-    "video production Connecticut",
+    "Connecticut video production",
+    "Story Real Studios",
   ],
 };
 
 /* ── icon mapping per slug ── */
 const industryIcons: Record<string, React.ReactNode> = {
-  construction: <Building2 size={28} />,
-  "home-services": <Wrench size={28} />,
-  "food-beverage": <UtensilsCrossed size={28} />,
-  "beauty-retail": <Sparkles size={28} />,
+  manufacturing: <Factory size={28} />,
+  nonprofits: <Heart size={28} />,
+  "health-biotech": <Microscope size={28} />,
+  "brand-lifestyle": <ShoppingBag size={28} />,
+  "sports-entertainment": <Trophy size={28} />,
   "professional-services": <Scale size={28} />,
 };
 
@@ -67,32 +69,32 @@ const industriesFaqs = [
   {
     question: "What industries does Story Real Studios work with?",
     answer:
-      "We specialize in five core industries: construction & general contracting, home services (HVAC, plumbing, electrical, landscaping), food & beverage (restaurants, cafes, bars), beauty & retail (salons, med spas, boutiques), and professional services (law firms, accounting, financial advisors). Each industry gets a custom strategy — not a recycled template.",
+      "We specialize in video production for purpose-driven organizations across six core sectors: manufacturing, nonprofits, health & biotech, brand lifestyle & DTC, sports & entertainment, and professional services. Each industry receives a custom content strategy built around how your specific audience discovers, evaluates, and connects with organizations like yours.",
   },
   {
-    question: "How does industry-specific video production differ from generic content?",
+    question: "How does industry-specific video production differ from generic production?",
     answer:
-      "Generic agencies apply the same playbook to every client. We build campaigns around how YOUR customers actually search, evaluate, and buy. A homeowner choosing an HVAC company behaves completely differently from someone picking a restaurant or hiring a lawyer. Our targeting, creative, and conversion strategy change for each.",
+      "Generic production companies apply the same approach to every client. We build content strategies around how YOUR audience consumes media and makes decisions. A biotech investor watching a clinical pipeline video behaves completely differently from a manufacturing buyer evaluating a factory tour or a donor watching a nonprofit impact film. Our production approach adapts to those differences.",
   },
   {
-    question: "Do you only work with businesses in Connecticut?",
+    question: "Do you only work with organizations in Connecticut?",
     answer:
-      "Our headquarters is in Connecticut and the majority of our clients are CT-based, but we also work with businesses across the Northeast. Our geo-targeting systems work in any market.",
+      "We're headquartered in Southington, CT, but we produce content nationally. We've filmed in manufacturing facilities, hospital systems, WNBA arenas, and at corporate headquarters across the country. We bring the full crew and equipment wherever your story lives.",
   },
   {
-    question: "How quickly will I see results?",
+    question: "How long does a typical production engagement take?",
     answer:
-      "Most clients receive their first leads within 2–4 weeks of campaign launch. The quality and volume of leads improve significantly over the first 90 days as we optimize targeting, creative, and audiences based on real data.",
+      "A standard brand story documentary project takes 4–8 weeks from discovery to final delivery. Interview-based content and event coverage can deliver faster. Multi-phase campaigns with ongoing content may span several months. We provide a clear timeline during the blueprint phase before any production begins.",
   },
   {
-    question: "What does a typical engagement look like?",
+    question: "What deliverables do I receive from a video production engagement?",
     answer:
-      "We start with a free Strategy Call where we audit your current content strategy, research your local market, and present a clear plan. From there, we handle everything — video production, content creation, campaign deployment, and monthly performance reviews. No long-term contracts required.",
+      "Every engagement produces a complete content library — not just one video. You receive hero brand films, interview segments, short-form social cuts, behind-the-scenes content, b-roll packages, and platform-specific edits. Full-resolution master files plus optimized versions for web, social, and paid media.",
   },
   {
-    question: "How much does it cost?",
+    question: "How do you determine the right content strategy for my industry?",
     answer:
-      "Monthly investment varies by industry and market size. Most clients invest between $2,000 and $8,000 per month in ad spend plus management fees. We'll recommend a budget during your free Strategy Call based on your goals and competitive landscape.",
+      "Every engagement starts with a Brand Story Consultation where we learn your organization's mission, goals, audience, and competitive landscape. From there, we develop a Media Blueprint — a strategic production plan tailored to your industry that defines exactly what content you need, why, and how it will be deployed.",
   },
 ];
 
@@ -121,33 +123,32 @@ export default function IndustriesPage() {
         />
         <div className="relative mx-auto max-w-4xl px-6 text-center lg:px-8">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
-            Industry-Specific Video Production
+            Industries We Serve
           </p>
           <h1 className="font-heading text-4xl font-black leading-[1.1] text-white md:text-5xl lg:text-6xl">
-            Your industry has rules.
+            Storytelling crafted
             <br className="hidden sm:block" />
-            <span className="text-[#68ccd1]"> We know how to break through.</span>
+            <span className="text-[#68ccd1]"> specifically for your industry.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/60">
-            Every industry has a different buying cycle, different objections, and
-            different competition. Generic content ignores that — we don&apos;t. Story Real
-            Studios builds video production and content system strategies tailored
-            to how <em>your</em> customers actually discover, evaluate, and choose
-            businesses like yours in Connecticut.
+            From mission-driven nonprofits to innovative manufacturers, we help
+            brands tell stories that move people to action. Every industry has
+            different audiences, different challenges, and different opportunities
+            — our production approach adapts to each one.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
-              Book a Free Strategy Call
+              Talk to a Producer
               <ArrowRight size={18} />
             </Link>
             <Link
-              href="/case-studies"
+              href="/work"
               className="inline-flex items-center gap-2 rounded-full border border-white/20 px-8 py-4 text-base font-bold text-white transition-all hover:bg-white/5"
             >
-              See Case Studies
+              View Our Portfolio
             </Link>
           </div>
 
@@ -163,9 +164,9 @@ export default function IndustriesPage() {
               </span>
             </span>
             <span className="hidden sm:inline text-white/20">|</span>
-            <span>Serving {credibilityStats.businessesServed} CT Businesses</span>
+            <span>Telly Award-Winning</span>
             <span className="hidden sm:inline text-white/20">|</span>
-            <span>5 Specialized Industries</span>
+            <span>6 Specialized Industries</span>
           </div>
         </div>
       </section>
@@ -176,24 +177,24 @@ export default function IndustriesPage() {
         <GradientOverlay from="rgba(104,204,209,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
           eyebrow="Why It Matters"
-          title={<>Generic content wastes your money.<br className="hidden md:block" /> Industry expertise multiplies it.</>}
-          description="A homeowner hiring a roofer, a couple booking a restaurant, and a CEO choosing a law firm all make decisions completely differently. We build campaigns around those differences — not despite them."
+          title={<>Every industry has a different story to tell.<br className="hidden md:block" /> We know how to find yours.</>}
+          description="A manufacturer needs facility tours and capability videos. A nonprofit needs impact films and donor stories. A biotech company needs investor-grade content. We build production strategies around those differences — not despite them."
         />
         <div className="grid gap-6 md:grid-cols-3">
           {[
             {
-              title: "Custom Creative for Your Market",
-              desc: "We produce the drone footage, food photography, transformation videos, or authority content your industry demands — not stock photos and clip art.",
+              title: "Content Built for Your Audience",
+              desc: "We produce the factory tours, documentary films, athlete profiles, and brand stories your specific audience needs to see — not generic corporate video.",
               icon: <Briefcase size={20} />,
             },
             {
-              title: "Targeting That Reaches Buyers",
-              desc: "Property developers, local diners, beauty clients, homeowners — we know the demographics, interests, and behaviors that convert in each market.",
+              title: "Stories That Drive Real Outcomes",
+              desc: "Whether it's recruiting talent, raising capital, winning contracts, or inspiring donors — every piece of content is tied to a measurable business objective.",
               icon: <TrendingUp size={20} />,
             },
             {
-              title: "Metrics That Matter to You",
-              desc: "We track what your industry cares about — signed contracts, booked appointments, filled tables, or retained clients — not vanity metrics.",
+              title: "Proven Industry Track Record",
+              desc: "100+ videos for a biotech startup. 20+ manufacturing sales assets. Telly Award-winning nonprofit films. We bring deep experience to every project.",
               icon: <CheckCircle2 size={20} />,
             },
           ].map((item, i) => (
@@ -221,8 +222,8 @@ export default function IndustriesPage() {
           <SectionHeader
             variant="light"
             eyebrow="Our Specialties"
-            title="Five industries. Five proven playbooks."
-            description="Click into any industry to see the full strategy — the services, results, approach, and FAQs specific to your business type."
+            title="Six industries. Six proven approaches."
+            description="Click into any industry to see the full strategy — the services, results, approach, and FAQs specific to your organization."
           />
 
           <div className="space-y-6">
@@ -251,7 +252,7 @@ export default function IndustriesPage() {
                     {/* content */}
                     <div className="flex-1">
                       <h3 className="hidden font-heading text-2xl font-bold text-white md:block">
-                        {industry.name} Video & Content
+                        {industry.name} Video Production
                       </h3>
                       <p className="hidden text-sm font-semibold text-[#68ccd1] md:mt-1 md:block">
                         {industry.headline}
@@ -324,17 +325,17 @@ export default function IndustriesPage() {
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="Proven Results"
-          title="Results across every industry we touch."
-          description="These aren't projections — they're real outcomes from real Connecticut businesses that partnered with Story Real Studios."
+          title="Results across every industry we serve."
+          description="These aren't projections — they're real outcomes from real organizations that partnered with Story Real Studios."
         />
 
         {/* highlight metrics strip */}
         <div className="mb-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl md:grid-cols-4">
           {[
-            { value: "3.8x", label: "Avg. Return on Ad Spend", benchmark: "Industry Avg: 1.5–2x" },
-            { value: "52%", label: "Avg. Cost Per Lead Reduction" },
-            { value: credibilityStats.businessesServed, label: "CT Businesses Served" },
-            { value: "30", label: "Days to First Leads" },
+            { value: "100+", label: "Videos for Cybin (Biotech)" },
+            { value: "3x", label: "LinkedIn Growth (POWR2)" },
+            { value: "Telly", label: "Award-Winning Content" },
+            { value: credibilityStats.projectsDelivered, label: "Projects Delivered" },
           ].map((stat, i) => (
             <div
               key={i}
@@ -346,9 +347,6 @@ export default function IndustriesPage() {
               <span className="mt-1 text-xs font-medium uppercase tracking-wider text-white/50">
                 {stat.label}
               </span>
-              {stat.benchmark && (
-                <span className="mt-1 text-[10px] text-white/50">{stat.benchmark}</span>
-              )}
             </div>
           ))}
         </div>
@@ -365,29 +363,29 @@ export default function IndustriesPage() {
           <SectionHeader
             variant="light"
             eyebrow="How It Works"
-            title="From first call to consistent leads — in 4 steps."
+            title="From consultation to content library — in 4 phases."
           />
           <div className="mx-auto max-w-3xl space-y-4">
             {[
               {
                 step: "1",
-                title: "Free Strategy Call",
-                desc: "We audit your current content strategy, research your local market and competitors, and present a clear, actionable plan — no obligation, no pressure.",
+                title: "Brand Story Consultation",
+                desc: "We learn your organization's mission, goals, audience, and competitive landscape. You'll walk away with a clear brand story statement, industry-specific best practices, and at least three actionable video ideas.",
               },
               {
                 step: "2",
-                title: "Industry-Specific Strategy & Media Production",
-                desc: "We produce all the creative your industry needs — drone footage for construction, food photography for restaurants, transformation videos for beauty, authority content for professionals — then build campaigns around it.",
+                title: "Media Blueprint",
+                desc: "We develop a strategic production plan defining exactly what content you need, why, and how it will be deployed — tailored to your specific industry and business objectives.",
               },
               {
                 step: "3",
-                title: "Launch Targeted Campaigns",
-                desc: "Your ads go live on Facebook and Instagram, reaching the exact demographics and locations where your customers are. Every lead is tracked and attributed.",
+                title: "Cinematic Production",
+                desc: "On-location production with cinema-grade cameras, professional lighting, and expert direction. We capture months worth of content in focused, efficient production days without disrupting your operations.",
               },
               {
                 step: "4",
-                title: "Optimize, Report, Scale",
-                desc: "Monthly performance reviews with real numbers — not vanity metrics. We optimize creative, audiences, and budget to lower costs and increase lead quality over time.",
+                title: "Content Library Delivery",
+                desc: "We deliver a complete library of strategic content — hero brand films, interview segments, social cuts, b-roll packages — all organized, platform-optimized, and ready for deployment.",
               },
             ].map((item) => (
               <div
@@ -424,12 +422,12 @@ export default function IndustriesPage() {
 
       {/* ═══════ BOTTOM CTA ═══════ */}
       <CTASection
-        headline="Not sure which strategy fits your business?"
-        subhead="Book a free Strategy Call. We'll research your industry, your competitors, and show you exactly where the biggest opportunities are — no obligation."
-        primaryLabel="Book a Strategy Call"
+        headline="Ready to tell your organization's story?"
+        subhead="Schedule a Brand Story Consultation. We'll learn about your mission, your audience, and your goals — and show you exactly how cinematic video content can drive real results for your industry."
+        primaryLabel="Talk to a Producer"
         primaryHref="/contact"
-        secondaryLabel="See Case Studies"
-        secondaryHref="/case-studies"
+        secondaryLabel="View Our Portfolio"
+        secondaryHref="/work"
       />
     </>
   );

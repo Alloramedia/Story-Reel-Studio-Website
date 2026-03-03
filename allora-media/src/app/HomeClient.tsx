@@ -295,10 +295,10 @@ export default function HomeClient() {
           {[
             { title: "Manufacturing", href: "/industries/manufacturing", desc: "Factory tours, capability videos, and recruitment content" },
             { title: "Nonprofits", href: "/industries/nonprofits", desc: "Fundraising campaigns, impact stories, and donor trust" },
-            { title: "Product Brands", href: "/industries/product-brands", desc: "Performance creative, demos, and e-commerce video" },
             { title: "Health & Biotech", href: "/industries/health-biotech", desc: "Brand films, recruitment, and investor content" },
-            { title: "Real Estate", href: "/industries/real-estate", desc: "Property video, drone aerials, and agent branding" },
-            { title: "Marketing Teams", href: "/industries/marketing-teams", desc: "Embedded production partner for ongoing content" },
+            { title: "Brand Lifestyle & DTC", href: "/industries/brand-lifestyle", desc: "Campaign films, product content, and performance creative" },
+            { title: "Sports & Entertainment", href: "/industries/sports-entertainment", desc: "Athlete stories, game-day content, and brand partnerships" },
+            { title: "Professional Services", href: "/industries/professional-services", desc: "Authority content, team profiles, and thought leadership" },
           ].map((industry) => (
             <FadeIn key={industry.href}>
               <Link
