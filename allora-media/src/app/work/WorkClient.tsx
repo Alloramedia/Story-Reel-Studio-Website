@@ -122,7 +122,7 @@ export default function WorkClient() {
               <span className="mr-1 flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#888]">
                 <Filter size={14} /> Industry
               </span>
-              {["All", ...industries].map((industry) => (
+              {industries.map((industry) => (
                 <button
                   key={industry}
                   onClick={() => setActiveIndustry(industry)}
