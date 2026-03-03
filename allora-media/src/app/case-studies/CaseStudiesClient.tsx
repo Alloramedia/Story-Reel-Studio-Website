@@ -98,9 +98,6 @@ export function CaseStudiesClient() {
                   {stat.value}
                 </p>
                 <p className="mt-1 text-sm text-white/55">{stat.label}</p>
-                {stat.benchmark && (
-                  <p className="mt-1 text-xs text-white/50">{stat.benchmark}</p>
-                )}
               </motion.div>
             ))}
           </div>
