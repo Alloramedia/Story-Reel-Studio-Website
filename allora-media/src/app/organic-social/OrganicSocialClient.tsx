@@ -96,7 +96,7 @@ export function OrganicSocialClient() {
 
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-drone.mp4"
+        videoSrc="/videos/hero-social.mp4"
         imageSrc="/images/organic-social-hero.jpg"
         imageAlt="Organic social content deployment"
         overlayOpacity={65}

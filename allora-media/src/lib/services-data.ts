@@ -28,7 +28,7 @@ export const servicesData: Record<string, ServiceData> = {
     headline: "Your most valuable communications asset is your story.",
     subhead: "Cinematic brand documentaries that share your mission, values, and team — deepening trust and loyalty with every viewer.",
     description: "A brand story documentary is the most powerful content asset your organization can own. By sharing your mission, values, and the passionate people behind your brand in an immersive video, you deepen trust and loyalty with customers, investors, and talent prospects alike.",
-    heroVideo: "/videos/hero-general.mp4",
+    heroVideo: "/videos/hero-about.mp4",
     whatWeDeliver: [
       "Full documentary-style brand film (2–5 minutes)",
       "Pre-production research, creative briefs, and storyboards",

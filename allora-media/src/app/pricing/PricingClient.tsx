@@ -128,7 +128,7 @@ export function PricingClient() {
     <>
       {/* ── HERO ── */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-about.mp4"
         imageSrc="/images/portfolio/hero-banner-poster.jpg"
         imageAlt="Story Real Studios pricing"
         overlayOpacity={65}

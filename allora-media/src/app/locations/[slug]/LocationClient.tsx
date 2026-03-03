@@ -54,7 +54,7 @@ export function LocationClient({ location }: { location: LocationData }) {
     <>
       {/* ═══ HERO ═══ */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-production.mp4"
         imageSrc="/images/portfolio/hero-banner-poster.jpg"
         imageAlt={`Video production in ${location.name} — Story Real Studios`}
         overlayOpacity={70}

@@ -83,7 +83,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── HERO ──────────── */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-production.mp4"
         overlayOpacity={68}
         cursorSpotlight
       >

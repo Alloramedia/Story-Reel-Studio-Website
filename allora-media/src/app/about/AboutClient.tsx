@@ -108,7 +108,7 @@ export function AboutClient() {
     <>
       {/* ── HERO ── */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-about.mp4"
         overlayOpacity={60}
         cursorSpotlight
       >

@@ -96,7 +96,7 @@ export function PaidMediaClient() {
 
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-drone.mp4"
+        videoSrc="/videos/hero-social.mp4"
         imageSrc="/images/paid-media-hero.jpg"
         imageAlt="Video-powered paid media campaigns"
         overlayOpacity={65}

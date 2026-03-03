@@ -95,7 +95,7 @@ export function MediaProductionClient() {
 
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-drone.mp4"
+        videoSrc="/videos/hero-production.mp4"
         imageSrc="/images/media-production-hero.jpg"
         imageAlt="Professional media production studio"
         overlayOpacity={65}

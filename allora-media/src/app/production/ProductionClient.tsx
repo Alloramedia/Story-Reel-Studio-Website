@@ -206,7 +206,7 @@ export default function ProductionClient() {
     <>
       {/* ── HERO ── */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-production.mp4"
         overlayOpacity={70}
       >
         <div className="max-w-4xl">

@@ -123,7 +123,7 @@ export function VideoProductionClient() {
 
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-production.mp4"
         imageSrc="/images/production-hero.jpg"
         imageAlt="Cinematic video production for purpose-driven organizations"
         overlayOpacity={60}

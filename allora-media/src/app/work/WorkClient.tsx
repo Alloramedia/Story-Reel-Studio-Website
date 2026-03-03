@@ -46,7 +46,7 @@ export default function WorkClient() {
     <>
       {/* ═══ HERO ═══ */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-casestudies.mp4"
         overlayOpacity={72}
       >
         <div className="max-w-4xl">

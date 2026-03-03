@@ -71,7 +71,7 @@ export function ClientPortalClient() {
     <>
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-about.mp4"
         overlayOpacity={70}
         cursorSpotlight
       >

@@ -100,7 +100,7 @@ export function ProcessClient() {
     <>
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-drone.mp4"
+        videoSrc="/videos/hero-production.mp4"
         imageSrc="/images/process-hero.jpg"
         imageAlt="Our production process"
         overlayOpacity={65}

@@ -28,7 +28,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
     <>
       {/* HERO */}
       <HeroBanner
-        videoSrc="/videos/hero-general.mp4"
+        videoSrc="/videos/hero-about.mp4"
         imageSrc="/images/hero-bg.jpg"
         imageAlt="Story Real Studios blog"
         overlayOpacity={70}
