@@ -3,16 +3,16 @@ import { OrganicSocialClient } from "./OrganicSocialClient";
 import { ServiceSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
-  title: "Social Media Management — Instagram, Facebook & LinkedIn",
+  title: "Organic Social — Content Deployment Across Every Platform",
   description:
-    "Professional social media management for Instagram, Facebook, and LinkedIn. We keep your brand active, build trust with your audience, and grow retargeting audiences that improve your ad performance.",
+    "Deploy your video content organically across Instagram, Facebook, YouTube, LinkedIn, and TikTok. Strategy-led posting, platform management, and content distribution — powered by Story Real Studios production.",
   alternates: {
     canonical: "https://www.storyreal.co/organic-social",
   },
   openGraph: {
-    title: "Social Media Management — Instagram, Facebook & LinkedIn",
+    title: "Organic Social — Video Content Deployment That Builds Your Brand",
     description:
-      "Professional social media management that keeps your brand active and builds trust. We handle content, scheduling, and community management so your business looks polished everywhere.",
+      "Professional video content deployed strategically across every social platform. Content calendars, platform management, and brand-building — powered by Story Real Studios.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };
@@ -21,8 +21,8 @@ export default function OrganicSocialPage() {
   return (
     <>
       <ServiceSchema
-        name="Social Media Management"
-        description="Professional social media management for Instagram, Facebook, and LinkedIn. Content, scheduling, and community management."
+        name="Organic Social Content Deployment"
+        description="Strategic deployment of professional video content across Instagram, Facebook, YouTube, LinkedIn, and TikTok — powered by Story Real Studios production."
       />
       <BreadcrumbSchema
         items={[

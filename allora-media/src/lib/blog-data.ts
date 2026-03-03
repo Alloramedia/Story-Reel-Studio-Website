@@ -1129,7 +1129,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedPages: [
       { label: "Our Paid Media Services", href: "/paid-media" },
-      { label: "Book a Growth Blueprint Call", href: "/contact" },
+      { label: "Book a Strategy Call", href: "/contact" },
       { label: "See Our Case Studies", href: "/case-studies" },
     ],
   },
@@ -1282,7 +1282,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedPages: [
       { label: "Our Full-Service Approach", href: "/paid-media" },
-      { label: "Book a Growth Blueprint Call", href: "/contact" },
+      { label: "Book a Strategy Call", href: "/contact" },
       { label: "See Our Results", href: "/case-studies" },
     ],
   },
@@ -2559,7 +2559,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             type: "cta",
-            text: "Ready to build your omnipresent brand? Book a free Growth Blueprint Call and we'll map out your multi-channel strategy.",
+            text: "Ready to build your omnipresent brand? Book a free Strategy Call and we'll map out your multi-channel strategy.",
             href: "/contact",
           },
         ],

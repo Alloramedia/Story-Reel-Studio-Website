@@ -91,7 +91,7 @@ export function ContactClient() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="mb-4 text-sm font-bold uppercase text-balance text-[#68ccd1]"
           >
-            Book a Growth Blueprint Call
+            Book a Strategy Call
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 28, filter: "blur(6px)" }}
@@ -272,7 +272,7 @@ export function ContactClient() {
                   {[
                     { step: "1", text: "We review your info and research your market" },
                     { step: "2", text: "We reach out within 1 business day with an assessment" },
-                    { step: "3", text: "We schedule a Growth Blueprint Call (~30 min)" },
+                    { step: "3", text: "We schedule a Strategy Call (~30 min)" },
                     { step: "4", text: "You get a clear plan — whether you hire us or not" },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-3">
@@ -304,7 +304,7 @@ export function ContactClient() {
                     { icon: <Star size={16} />, text: "5.0 Google Rating" },
                     { icon: <ShieldCheck size={16} />, text: "Month-to-month flexibility" },
                     { icon: <CheckCircle size={16} />, text: `${credibilityStats.businessesServed} businesses served` },
-                    { icon: <Zap size={16} />, text: "Free Growth Blueprint included" },
+                    { icon: <Zap size={16} />, text: "Free Strategy Session included" },
                   ].map((item, i) => (
                     <StaggerItem key={i}>
                       <div className="flex items-center gap-3">

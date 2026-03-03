@@ -336,7 +336,7 @@ export function ClientPortalClient() {
             href="/contact"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
           >
-            Book a Growth Blueprint Call
+            Book a Strategy Call
           </Link>
         </div>
       </Section>

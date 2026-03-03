@@ -229,8 +229,8 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
       {/* CTA */}
       <CTASection
         headline="Ready to apply these strategies to your business?"
-        subhead="Book a free Growth Blueprint Call. We'll audit your current content strategy, show you the biggest opportunities, and give you a clear plan — whether you work with us or not."
-        primaryLabel="Book a Growth Blueprint Call"
+        subhead="Book a free Strategy Call. We'll audit your current content strategy, show you the biggest opportunities, and give you a clear plan — whether you work with us or not."
+        primaryLabel="Book a Strategy Call"
         primaryHref="/contact"
         secondaryLabel="See Our Results"
         secondaryHref="/case-studies"

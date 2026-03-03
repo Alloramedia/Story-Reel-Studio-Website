@@ -122,7 +122,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da] shadow-lg shadow-[#68ccd1]/20"
             >
-              Book a Growth Blueprint Call
+              Book a Strategy Call
             </Link>
             <Link
               href="/case-studies"
@@ -529,14 +529,14 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             Ready to see what this looks like for your {industry.name.toLowerCase()} business?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/55">
-            Book a free Growth Blueprint Call. We&apos;ll audit your current content strategy, show you what&apos;s working in your market, and map out a clear plan — no obligation.
+            Book a free Strategy Call. We&apos;ll audit your current content strategy, show you what&apos;s working in your market, and map out a clear plan — no obligation.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
-              Book a Growth Blueprint Call
+              Book a Strategy Call
               <ArrowRight size={18} />
             </Link>
             <Link
@@ -552,8 +552,8 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
       {/* ──────────── BOTTOM CTA ──────────── */}
       <CTASection
         headline={`Let\u2019s build a content system for your ${industry.name.toLowerCase()} business.`}
-        subhead="Book a free Growth Blueprint Call. We\u2019ll review your current content strategy, identify the biggest opportunities in your market, and give you a clear plan \u2014 whether you work with us or not."
-        primaryLabel="Book a Growth Blueprint Call"
+        subhead="Book a free Strategy Call. We\u2019ll review your current content strategy, identify the biggest opportunities in your market, and give you a clear plan \u2014 whether you work with us or not."
+        primaryLabel="Book a Strategy Call"
         primaryHref="/contact"
         secondaryLabel="See Case Studies"
         secondaryHref="/case-studies"

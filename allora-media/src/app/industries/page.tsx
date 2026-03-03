@@ -87,12 +87,12 @@ const industriesFaqs = [
   {
     question: "What does a typical engagement look like?",
     answer:
-      "We start with a free Growth Blueprint Call where we audit your current content strategy, research your local market, and present a clear plan. From there, we handle everything — video production, content creation, campaign deployment, and monthly performance reviews. No long-term contracts required.",
+      "We start with a free Strategy Call where we audit your current content strategy, research your local market, and present a clear plan. From there, we handle everything — video production, content creation, campaign deployment, and monthly performance reviews. No long-term contracts required.",
   },
   {
     question: "How much does it cost?",
     answer:
-      "Monthly investment varies by industry and market size. Most clients invest between $2,000 and $8,000 per month in ad spend plus management fees. We'll recommend a budget during your free Growth Blueprint Call based on your goals and competitive landscape.",
+      "Monthly investment varies by industry and market size. Most clients invest between $2,000 and $8,000 per month in ad spend plus management fees. We'll recommend a budget during your free Strategy Call based on your goals and competitive landscape.",
   },
 ];
 
@@ -140,7 +140,7 @@ export default function IndustriesPage() {
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
-              Book a Free Growth Blueprint Call
+              Book a Free Strategy Call
               <ArrowRight size={18} />
             </Link>
             <Link
@@ -371,7 +371,7 @@ export default function IndustriesPage() {
             {[
               {
                 step: "1",
-                title: "Free Growth Blueprint Call",
+                title: "Free Strategy Call",
                 desc: "We audit your current content strategy, research your local market and competitors, and present a clear, actionable plan — no obligation, no pressure.",
               },
               {
@@ -425,8 +425,8 @@ export default function IndustriesPage() {
       {/* ═══════ BOTTOM CTA ═══════ */}
       <CTASection
         headline="Not sure which strategy fits your business?"
-        subhead="Book a free Growth Blueprint Call. We'll research your industry, your competitors, and show you exactly where the biggest opportunities are — no obligation."
-        primaryLabel="Book a Growth Blueprint Call"
+        subhead="Book a free Strategy Call. We'll research your industry, your competitors, and show you exactly where the biggest opportunities are — no obligation."
+        primaryLabel="Book a Strategy Call"
         primaryHref="/contact"
         secondaryLabel="See Case Studies"
         secondaryHref="/case-studies"

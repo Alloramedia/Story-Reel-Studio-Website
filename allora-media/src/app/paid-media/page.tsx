@@ -3,16 +3,16 @@ import { PaidMediaClient } from "./PaidMediaClient";
 import { ServiceSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
-  title: "Facebook & Instagram Advertising Services — Meta Ads Management",
+  title: "Paid Media — Video-Powered Advertising on Meta & YouTube",
   description:
-    "Get more leads from Facebook and Instagram ads. We build, manage, and optimize paid advertising campaigns for Connecticut businesses — with full tracking and monthly reporting.",
+    "Deploy your cinematic video content through targeted paid campaigns on Facebook, Instagram, and YouTube. Strategy-led media buying powered by professional production.",
   alternates: {
     canonical: "https://www.storyreal.co/paid-media",
   },
   openGraph: {
-    title: "Paid Media — Facebook & Instagram Ads That Bring in Customers",
+    title: "Paid Media — Video-Powered Advertising That Drives Real Growth",
     description:
-      "We build, manage, and optimize Facebook & Instagram ad campaigns for Connecticut businesses. Full tracking, monthly reporting, and a strategy focused on leads and revenue — not just clicks.",
+      "Deploy cinematic video content through targeted paid campaigns. Full tracking, creative testing, and distribution strategy — powered by Story Real Studios production.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };
@@ -21,8 +21,8 @@ export default function PaidMediaPage() {
   return (
     <>
       <ServiceSchema
-        name="Facebook & Instagram Advertising"
-        description="We build, manage, and optimize paid advertising campaigns on Facebook and Instagram for Connecticut businesses — with full tracking and monthly reporting."
+        name="Video-Powered Paid Media"
+        description="Deploy cinematic video content through targeted paid campaigns on Facebook, Instagram, and YouTube. Strategy-led media buying powered by professional production from Story Real Studios."
       />
       <BreadcrumbSchema
         items={[

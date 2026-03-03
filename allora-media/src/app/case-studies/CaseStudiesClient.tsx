@@ -300,8 +300,8 @@ export function CaseStudiesClient() {
       {/* CTA */}
       <CTASection
         headline="Want results like these for your business?"
-        subhead="Book a free Growth Blueprint Call. We'll audit your current content strategy, show you the gaps, and give you a clear plan to get real, measurable results — whether you work with us or not."
-        primaryLabel="Book a Growth Blueprint Call"
+        subhead="Book a free Strategy Call. We'll audit your current content strategy, show you the gaps, and give you a clear plan to get real, measurable results — whether you work with us or not."
+        primaryLabel="Book a Strategy Call"
         primaryHref="/contact"
       />
     </>

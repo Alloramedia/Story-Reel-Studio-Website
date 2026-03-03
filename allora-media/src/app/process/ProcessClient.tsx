@@ -14,83 +14,83 @@ const steps = [
     step: "01",
     title: "Discovery",
     description:
-      "We start by learning everything about your business — who your customers are, what you've tried before, what's working, and where the biggest growth opportunities are. We look at your current content strategy, your competitors, and your analytics to figure out the smartest path forward.",
+      "We start by learning everything about your organization — your mission, your audience, what you've tried before, and where video and content can create the biggest impact. We audit your current content ecosystem, study your competitors, and map the strategic landscape.",
     details: [
-      "Deep dive into your business, customers, and goals",
-      "Audit of your current ads, website, and social media",
-      "Competitive research on what's working in your market",
-      "Assessment of your current tracking setup",
+      "Deep dive into your organization, audience, and goals",
+      "Audit of your existing video, website, and content presence",
+      "Competitive research on how your market communicates",
+      "Stakeholder interviews and brand voice alignment",
       "Clear goal setting and success metrics definition",
     ],
   },
   {
     icon: <Map size={28} />,
     step: "02",
-    title: "Strategy & Planning",
+    title: "Media Blueprint",
     description:
-      "Based on what we learn, we build your Growth Blueprint — a detailed plan covering exactly who we're targeting, what ads we're running, what content we need to produce, how much to spend, and what results to expect. You'll know the plan before a single dollar goes to work.",
+      "We build your Media Blueprint — a strategic plan covering exactly what stories to tell, who they're for, how they'll be produced, and where they'll be deployed. You'll see the full creative direction, shot lists, and distribution strategy before a single camera rolls.",
     details: [
-      "Campaign plan with targeting and audience strategy",
-      "Creative direction — what content we need to produce",
-      "Budget recommendations with expected cost per lead",
-      "Tracking and attribution setup plan",
-      "Timeline and milestones so you know what's next",
+      "Messaging framework and story architecture",
+      "Creative direction — concepts, tone, visual approach",
+      "Shot lists and production planning for each deliverable",
+      "Distribution strategy across all target channels",
+      "Timeline and milestones so you always know what's next",
     ],
   },
   {
     icon: <Camera size={28} />,
     step: "03",
-    title: "Content Production",
+    title: "Production",
     description:
-      "We produce all the professional video, photography, and graphics your campaigns need — in-house, with our team. No stock photos. No outsourced freelancers. Everything is built specifically for your ads, your website, and your brand.",
+      "Our team handles every aspect of production — cinematic video, photography, drone, interviews, graphics. Everything is shot and edited in-house with our crew. No outsourced freelancers. Every asset is purpose-built for your strategy, not generic B-roll.",
     details: [
-      "Professional video (testimonials, brand stories, drone)",
-      "Photography (team photos, project shots, products)",
-      "Ad graphics and social media content",
-      "Multiple sizes and formats for every platform",
-      "Different ad variations ready for testing",
+      "Pre-production — casting, location scouting, scripting",
+      "Cinematic shoot days with professional crew and equipment",
+      "Testimonial interviews, brand stories, product demos",
+      "Drone and aerial cinematography",
+      "Full post-production — editing, color, sound, motion graphics",
     ],
   },
   {
     icon: <Rocket size={28} />,
     step: "04",
-    title: "Campaign Launch",
+    title: "Content Library & Deployment",
     description:
-      "We build your campaigns, install all tracking on your website, set up call tracking if needed, and go live. Every campaign launches with proper measurement from day one — so you can see leads coming in from the start.",
+      "We deliver a complete, organized content library — every asset formatted, labeled, and ready to deploy across every channel. We also build your deployment guides: what goes where, when, and why. Your team or ours can execute from day one.",
     details: [
-      "Full campaign setup on Facebook and Instagram",
-      "Tracking pixel and conversion tracking installation",
-      "Call tracking setup for phone leads",
-      "Budget controls and spending safeguards",
-      "Quality check and launch",
+      "Finished videos in all platform formats and aspect ratios",
+      "Organized content library with naming conventions",
+      "Platform-specific deployment guides",
+      "Organic social content calendar and posting strategy",
+      "Paid media creative sets ready for campaign launch",
     ],
   },
   {
     icon: <BarChart3 size={28} />,
     step: "05",
-    title: "Optimization",
+    title: "Deployment & Optimization",
     description:
-      "Once live, we monitor your campaigns daily and make improvements weekly. We test different ads, refine who sees them, adjust budgets toward what's working, and cut what isn't. This is how your cost per lead goes down over time.",
+      "If you're on an ongoing engagement, we deploy your content across paid and organic channels — monitoring performance, testing creative variations, and optimizing distribution for maximum reach and conversion.",
     details: [
-      "Daily campaign monitoring for issues or opportunities",
-      "Weekly ad and audience optimization",
-      "A/B testing on headlines, images, videos, and hooks",
-      "Budget shifted toward best-performing campaigns",
-      "Landing page and form improvements when needed",
+      "Paid media campaign setup and management",
+      "Organic social content publishing and management",
+      "Creative A/B testing across platforms",
+      "Budget optimization toward top-performing content",
+      "Retargeting audiences built from engaged viewers",
     ],
   },
   {
     icon: <RefreshCcw size={28} />,
     step: "06",
-    title: "Monthly Review",
+    title: "Review & Evolve",
     description:
-      "Every month we sit down with you, walk through the results, explain what worked, address what didn't, and plan the next month's strategy together. You always know exactly what your content is doing for your business.",
+      "Every month we review performance together — what content is resonating, where the pipeline impact is strongest, and what to produce next. Your content system evolves with real data, not guesswork.",
     details: [
-      "Clear monthly performance report",
-      "Live review call to discuss results together",
-      "Budget and cost per lead analysis",
-      "Next month's plan for content and campaigns",
-      "24/7 access to real-time data in your client portal",
+      "Monthly performance review and content audit",
+      "Live strategy call to discuss results and direction",
+      "Pipeline and engagement analysis by content type",
+      "Next cycle planning — new stories, refreshed creative",
+      "24/7 access to your project dashboard and content library",
     ],
   },
 ];
@@ -205,22 +205,22 @@ export function ProcessClient() {
         <SectionHeader
           variant="light"
           eyebrow="The Deliverables"
-          title="What you'll have after 90 days."
-          description="This isn't vague. Here's the tangible, measurable stuff you walk away with after your first 90 days as a Story Real Studios client."
+          title="What you'll have after your first engagement."
+          description="This isn't vague. Here's exactly what you walk away with after your first production cycle with Story Real Studios."
         />
         <div className="mx-auto max-w-4xl">
           <div className="grid gap-4 md:grid-cols-2">
             {[
-              "A fully built and optimized ad campaign on Facebook & Instagram",
-              "Conversion tracking installed on your website",
-              "Call tracking for phone leads (if applicable)",
-              "Professional video content — testimonials, brand story, project docs",
-              "Professional photography — team, projects, products",
-              "Custom ad graphics and social media content",
-              "A growing retargeting audience of warm prospects",
-              "A real-time client portal with all your campaign data",
-              "3 monthly performance reports with clear ROI analysis",
-              "A proven system generating leads on autopilot",
+              "A complete Media Blueprint with messaging and creative strategy",
+              "Cinematic brand film or campaign video — fully produced and edited",
+              "Testimonial videos from your best clients or stakeholders",
+              "Professional photography — team, facilities, products, projects",
+              "Full content library — organized, labeled, and deployment-ready",
+              "Social media content formatted for every major platform",
+              "Paid media creative sets ready for campaign launch",
+              "Distribution guides for organic and paid channels",
+              "Drone and aerial footage (when applicable)",
+              "A scalable content system you can build on quarter after quarter",
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -256,11 +256,11 @@ export function ProcessClient() {
                   Zero risk. Zero obligation. Every time.
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-white/60">
-                  We don&apos;t charge setup fees just to get started. And we&apos;ll give you a complete Growth Blueprint — with competitor research, campaign strategy, and budget recommendations — <span className="font-bold text-[#68ccd1]">before you spend a single dollar</span>. If we don&apos;t believe we can get you results, we&apos;ll tell you straight up. That&apos;s how confident we are in this process.
+                  We don&apos;t charge setup fees just to get started. And we&apos;ll give you a complete Strategy Session — with audience analysis, content audit, and creative direction — <span className="font-bold text-[#68ccd1]">before you commit to production</span>. If we don&apos;t believe we can deliver real impact, we&apos;ll tell you straight up. That&apos;s how confident we are in this process.
                 </p>
                 <div className="mt-6 flex flex-wrap justify-center gap-6 md:justify-start">
                   {[
-                    { icon: <Flame size={16} />, text: "Free Growth Blueprint before you commit" },
+                    { icon: <Flame size={16} />, text: "Free Strategy Session before you commit" },
                     { icon: <ShieldCheck size={16} />, text: "Month-to-month — cancel anytime" },
                     { icon: <Users size={16} />, text: "We’ll tell you if we’re not the right fit" },
                   ].map((item, i) => (
@@ -280,8 +280,8 @@ export function ProcessClient() {
       {/* CTA */}
       <CTASection
         headline="Ready to get started?"
-        subhead="Book a free Growth Blueprint Call. We'll walk you through this process, audit your current content strategy, and show you exactly what we'd build for your business."
-        primaryLabel="Book a Free Growth Blueprint Call"
+        subhead="Book a free Strategy Call. We'll walk you through this process, audit your current content strategy, and show you exactly what we'd build for your business."
+        primaryLabel="Book a Free Strategy Call"
         primaryHref="/contact"
         secondaryLabel="See Client Results"
         secondaryHref="/case-studies"
