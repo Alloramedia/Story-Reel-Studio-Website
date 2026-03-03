@@ -29,7 +29,7 @@ const problems = [
 export function ProblemSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#080808" from="#65B207" />
+      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
@@ -40,7 +40,7 @@ export function ProblemSection() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {problems.map((item, i) => (
             <TiltCard key={i} tiltIntensity={6} className="h-full">
-              <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#131E13] p-7 hover-lift gradient-border-card border-glow">
+              <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#151515] p-7 hover-lift gradient-border-card border-glow">
                 <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-red-500/10 text-red-400">
                   {item.icon}
                 </div>

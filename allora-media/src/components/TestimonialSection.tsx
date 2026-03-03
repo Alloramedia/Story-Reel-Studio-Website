@@ -31,10 +31,10 @@ export function TestimonialSection() {
           transition={{ duration: 0.5 }}
           className="mx-auto mb-14 max-w-3xl text-center"
         >
-          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
-            <span className="mr-2 inline-block h-px w-6 bg-[#65B207] align-middle" />
+          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
+            <span className="mr-2 inline-block h-px w-6 bg-[#68ccd1] align-middle" />
             Proven Results
-            <span className="ml-2 inline-block h-px w-6 bg-[#65B207] align-middle" />
+            <span className="ml-2 inline-block h-px w-6 bg-[#68ccd1] align-middle" />
           </p>
           <h2 className="font-heading text-3xl font-black text-white md:text-4xl lg:text-5xl">
             Don&apos;t take our word for it.
@@ -80,7 +80,7 @@ export function TestimonialSection() {
             >
               <Link
                 href={study.href}
-                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#65B207]/30"
+                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#68ccd1]/30"
               >
                 <div className="relative aspect-video overflow-hidden">
                   <Image
@@ -91,7 +91,7 @@ export function TestimonialSection() {
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-transparent" />
-                  <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#65B207]/20 px-3 py-1 text-xs font-semibold text-[#65B207]">
+                  <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#68ccd1]/20 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {study.industry}
                   </span>
                 </div>
@@ -102,14 +102,14 @@ export function TestimonialSection() {
                   <p className="mt-2 text-sm text-white/55">{study.result}</p>
                   <div className="mt-4 flex items-center justify-between">
                     <div>
-                      <p className="font-heading text-2xl font-black text-[#65B207]">
+                      <p className="font-heading text-2xl font-black text-[#68ccd1]">
                         {study.metric}
                       </p>
                       <p className="text-xs text-white/40">
                         {study.metricLabel}
                       </p>
                     </div>
-                    <span className="flex items-center gap-1 text-sm font-semibold text-[#65B207] opacity-0 transition-opacity group-hover:opacity-100">
+                    <span className="flex items-center gap-1 text-sm font-semibold text-[#68ccd1] opacity-0 transition-opacity group-hover:opacity-100">
                       View details <ArrowRight size={14} />
                     </span>
                   </div>
@@ -128,7 +128,7 @@ export function TestimonialSection() {
         >
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 rounded-full border-2 border-[#65B207] px-8 py-3.5 font-semibold text-[#65B207] transition-all hover:bg-[#65B207] hover:text-white"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-[#68ccd1] px-8 py-3.5 font-semibold text-[#68ccd1] transition-all hover:bg-[#68ccd1] hover:text-white"
           >
             View All Case Studies
             <ArrowRight size={18} />
@@ -176,7 +176,7 @@ export function TestimonialSection() {
               </p>
               <div className="flex items-center justify-between border-t border-white/5 pt-4">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#65B207]/15 text-sm font-bold text-[#65B207]">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#68ccd1]/15 text-sm font-bold text-[#68ccd1]">
                     {review.name.charAt(0)}
                   </div>
                   <div>
@@ -202,7 +202,7 @@ export function TestimonialSection() {
             href={googleReview.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#65B207] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#65B207]/20 transition-all duration-300 hover:shadow-[#65B207]/30 hover:scale-[1.03]"
+            className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#68ccd1] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all duration-300 hover:shadow-[#68ccd1]/30 hover:scale-[1.03]"
           >
             <GoogleLogo className="h-5 w-5" />
             Read All Reviews on Google

@@ -77,7 +77,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       />
 
       {/* ═══════ HERO — IMMERSIVE IMAGE ═══════ */}
-      <section className="relative min-h-[60vh] bg-[#131E13] text-white overflow-hidden noise-texture">
+      <section className="relative min-h-[60vh] bg-[#151515] text-white overflow-hidden noise-texture">
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
@@ -96,12 +96,12 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col justify-end min-h-[60vh] pb-16 pt-36">
           <Link
             href="/case-studies"
-            className="mb-8 inline-flex items-center gap-2 text-sm text-white/55 transition-colors hover:text-[#65B207] w-fit"
+            className="mb-8 inline-flex items-center gap-2 text-sm text-white/55 transition-colors hover:text-[#68ccd1] w-fit"
           >
             <ArrowLeft size={14} />
             Back to Case Studies
           </Link>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#65B207]">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#68ccd1]">
             {study.industry}
           </p>
           <h1 className="max-w-4xl text-3xl font-heading font-black leading-tight tracking-tight md:text-4xl lg:text-5xl xl:text-6xl">
@@ -119,7 +119,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-12">
             {study.metrics.map((m) => (
               <div key={m.label} className="text-center">
-                <p className="font-heading text-4xl font-black text-[#65B207] md:text-5xl">
+                <p className="font-heading text-4xl font-black text-[#68ccd1] md:text-5xl">
                   {m.value}
                 </p>
                 <p className="mt-2 text-sm font-medium uppercase tracking-wider text-white/45">
@@ -142,7 +142,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
           <div className="grid gap-12 lg:grid-cols-[280px_1fr] lg:gap-16">
             {/* Sticky sidebar */}
             <aside className="lg:sticky lg:top-28 lg:self-start">
-              <div className="rounded-2xl border border-white/10 bg-[#131E13] p-6">
+              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6">
                 {/* Client Logo */}
                 {study.logo && (
                   <div className="mb-5 flex justify-center">
@@ -158,7 +158,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
                   </div>
                 )}
                 {study.logo && <div className="h-px bg-white/10 mb-5" />}
-                <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-[#65B207] mb-4">
+                <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1] mb-4">
                   Project Details
                 </h3>
                 <div className="space-y-4">
@@ -180,7 +180,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
                           href={study.websiteUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="mt-1 inline-flex items-center gap-1.5 text-sm font-semibold text-[#65B207] transition-colors hover:text-[#7acc09]"
+                          className="mt-1 inline-flex items-center gap-1.5 text-sm font-semibold text-[#68ccd1] transition-colors hover:text-[#7dd6da]"
                         >
                           {study.websiteUrl.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}
                           <ExternalLink size={12} />
@@ -198,14 +198,14 @@ export default async function CaseStudyDetailPage({ params }: Props) {
                           <Link
                             key={s}
                             href={href}
-                            className="inline-flex items-center rounded-full bg-[#65B207]/10 px-2.5 py-1 text-xs font-medium text-[#65B207] transition-colors hover:bg-[#65B207]/20"
+                            className="inline-flex items-center rounded-full bg-[#68ccd1]/10 px-2.5 py-1 text-xs font-medium text-[#68ccd1] transition-colors hover:bg-[#68ccd1]/20"
                           >
                             {s}
                           </Link>
                         ) : (
                           <span
                             key={s}
-                            className="inline-flex items-center rounded-full bg-[#65B207]/10 px-2.5 py-1 text-xs font-medium text-[#65B207]"
+                            className="inline-flex items-center rounded-full bg-[#68ccd1]/10 px-2.5 py-1 text-xs font-medium text-[#68ccd1]"
                           >
                             {s}
                           </span>
@@ -220,12 +220,12 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             {/* Challenge content */}
             <div>
               <div className="mb-3 flex items-center gap-3">
-                <span className="font-heading text-3xl font-black text-[#65B207]/30">01</span>
+                <span className="font-heading text-3xl font-black text-[#68ccd1]/30">01</span>
                 <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                   The Challenge
                 </h2>
               </div>
-              <div className="h-px bg-linear-to-r from-[#65B207]/40 to-transparent mb-8" />
+              <div className="h-px bg-linear-to-r from-[#68ccd1]/40 to-transparent mb-8" />
               <div className="space-y-5">
                 {study.challenge.map((p, i) => (
                   <p key={i} className="text-base leading-[1.8] text-white/60 md:text-lg">
@@ -240,16 +240,16 @@ export default async function CaseStudyDetailPage({ params }: Props) {
 
       {/* ═══════ BUILDING THE FOUNDATION ═══════ */}
       <section className="bg-[#0d0d0d] py-20 md:py-28 relative overflow-hidden">
-        <div className="pointer-events-none absolute -right-40 top-0 h-96 w-96 rounded-full bg-[#65B207]/5 blur-3xl" />
+        <div className="pointer-events-none absolute -right-40 top-0 h-96 w-96 rounded-full bg-[#68ccd1]/5 blur-3xl" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
             <div className="mb-3 flex items-center gap-3">
-              <span className="font-heading text-3xl font-black text-[#65B207]/30">02</span>
+              <span className="font-heading text-3xl font-black text-[#68ccd1]/30">02</span>
               <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                 Building the Content Foundation
               </h2>
             </div>
-            <div className="h-px bg-linear-to-r from-[#65B207]/40 to-transparent mb-8" />
+            <div className="h-px bg-linear-to-r from-[#68ccd1]/40 to-transparent mb-8" />
             <div className="space-y-5">
               {study.buildingFoundation.map((p, i) => (
                 <p key={i} className="text-base leading-[1.8] text-white/60 md:text-lg">
@@ -266,12 +266,12 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
             <div className="mb-3 flex items-center gap-3">
-              <span className="font-heading text-3xl font-black text-[#65B207]/30">03</span>
+              <span className="font-heading text-3xl font-black text-[#68ccd1]/30">03</span>
               <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                 The Strategy
               </h2>
             </div>
-            <div className="h-px bg-linear-to-r from-[#65B207]/40 to-transparent mb-8" />
+            <div className="h-px bg-linear-to-r from-[#68ccd1]/40 to-transparent mb-8" />
             <div className="space-y-5">
               {study.strategy.map((p, i) => (
                 <p key={i} className="text-base leading-[1.8] text-white/60 md:text-lg">
@@ -285,16 +285,16 @@ export default async function CaseStudyDetailPage({ params }: Props) {
 
       {/* ═══════ WHAT WE DELIVERED ═══════ */}
       <section className="bg-[#0d0d0d] py-20 md:py-28 relative overflow-hidden">
-        <div className="pointer-events-none absolute -left-40 bottom-0 h-80 w-80 rounded-full bg-[#65B207]/5 blur-3xl" />
+        <div className="pointer-events-none absolute -left-40 bottom-0 h-80 w-80 rounded-full bg-[#68ccd1]/5 blur-3xl" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
             <div className="mb-3 flex items-center gap-3">
-              <span className="font-heading text-3xl font-black text-[#65B207]/30">04</span>
+              <span className="font-heading text-3xl font-black text-[#68ccd1]/30">04</span>
               <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                 What We Delivered
               </h2>
             </div>
-            <div className="h-px bg-linear-to-r from-[#65B207]/40 to-transparent mb-8" />
+            <div className="h-px bg-linear-to-r from-[#68ccd1]/40 to-transparent mb-8" />
 
             {/* Services grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
@@ -302,7 +302,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
                 const href = serviceUrlMap[s];
                 const inner = (
                   <>
-                    <CheckCircle2 size={16} className="shrink-0 text-[#65B207]" />
+                    <CheckCircle2 size={16} className="shrink-0 text-[#68ccd1]" />
                     <span className="text-sm font-medium text-white/70">{s}</span>
                   </>
                 );
@@ -310,7 +310,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
                   <Link
                     key={s}
                     href={href}
-                    className="flex items-center gap-3 rounded-xl border border-white/5 bg-white/2 px-4 py-3 transition-colors hover:border-[#65B207]/30 hover:bg-[#65B207]/5"
+                    className="flex items-center gap-3 rounded-xl border border-white/5 bg-white/2 px-4 py-3 transition-colors hover:border-[#68ccd1]/30 hover:bg-[#68ccd1]/5"
                   >
                     {inner}
                   </Link>
@@ -338,17 +338,17 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       </section>
 
       {/* ═══════ THE RESULTS ═══════ */}
-      <section className="bg-[#131E13] py-20 md:py-28 relative overflow-hidden noise-texture">
-        <div className="pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 h-96 w-96 rounded-full bg-[#65B207]/5 blur-3xl" />
+      <section className="bg-[#151515] py-20 md:py-28 relative overflow-hidden noise-texture">
+        <div className="pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 h-96 w-96 rounded-full bg-[#68ccd1]/5 blur-3xl" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
             <div className="mb-3 flex items-center gap-3">
-              <span className="font-heading text-3xl font-black text-[#65B207]/30">05</span>
+              <span className="font-heading text-3xl font-black text-[#68ccd1]/30">05</span>
               <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                 The Results
               </h2>
             </div>
-            <div className="h-px bg-linear-to-r from-[#65B207]/40 to-transparent mb-8" />
+            <div className="h-px bg-linear-to-r from-[#68ccd1]/40 to-transparent mb-8" />
             <div className="space-y-5">
               {study.results.map((p, i) => (
                 <p key={i} className="text-base leading-[1.8] text-white/60 md:text-lg">
@@ -362,9 +362,9 @@ export default async function CaseStudyDetailPage({ params }: Props) {
               {study.metrics.map((m) => (
                 <div
                   key={m.label}
-                  className="rounded-xl border border-[#65B207]/20 bg-[#65B207]/5 p-6 text-center"
+                  className="rounded-xl border border-[#68ccd1]/20 bg-[#68ccd1]/5 p-6 text-center"
                 >
-                  <p className="font-heading text-3xl font-black text-[#65B207]">
+                  <p className="font-heading text-3xl font-black text-[#68ccd1]">
                     {m.value}
                   </p>
                   <p className="mt-1 text-sm font-medium text-white/50">
@@ -386,13 +386,13 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       <section className="border-t border-white/10 bg-[#080808] py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
-            <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-[#65B207] mb-6">
+            <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1] mb-6">
               What We Delivered
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {study.services.map((service) => (
                 <div key={service} className="flex items-center gap-3">
-                  <CheckCircle2 size={16} className="shrink-0 text-[#65B207]" />
+                  <CheckCircle2 size={16} className="shrink-0 text-[#68ccd1]" />
                   <span className="text-sm font-medium text-white/70">{service}</span>
                 </div>
               ))}
@@ -408,7 +408,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             {prevStudy ? (
               <Link
                 href={`/case-studies/${prevStudy.slug}`}
-                className="group flex items-center gap-3 text-white/60 transition-colors hover:text-[#65B207]"
+                className="group flex items-center gap-3 text-white/60 transition-colors hover:text-[#68ccd1]"
               >
                 <ArrowLeft
                   size={18}
@@ -427,7 +427,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             {nextStudy ? (
               <Link
                 href={`/case-studies/${nextStudy.slug}`}
-                className="group flex items-center gap-3 text-right text-white/60 transition-colors hover:text-[#65B207]"
+                className="group flex items-center gap-3 text-right text-white/60 transition-colors hover:text-[#68ccd1]"
               >
                 <div>
                   <p className="text-xs uppercase tracking-widest text-white/40">

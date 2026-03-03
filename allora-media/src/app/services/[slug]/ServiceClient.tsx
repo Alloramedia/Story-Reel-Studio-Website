@@ -67,9 +67,9 @@ const whyAllora = [
 ];
 
 const whyCardIcons = [
-  <Lightbulb key="0" size={20} className="text-[#65B207]" />,
-  <TrendingUp key="1" size={20} className="text-[#65B207]" />,
-  <Zap key="2" size={20} className="text-[#65B207]" />,
+  <Lightbulb key="0" size={20} className="text-[#68ccd1]" />,
+  <TrendingUp key="1" size={20} className="text-[#68ccd1]" />,
+  <Zap key="2" size={20} className="text-[#68ccd1]" />,
 ];
 
 export function ServiceClient({ service }: { service: ServiceData }) {
@@ -89,7 +89,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             initial={{ opacity: 0, y: 24, filter: "blur(4px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase tracking-widest text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase tracking-widest text-balance text-[#68ccd1]"
           >
             Media Production &mdash; {service.name}
           </motion.p>
@@ -117,7 +117,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
               Discuss Your Project
               <ArrowRight size={18} />
@@ -133,7 +133,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       </HeroBanner>
 
       {/* ═══ CREDIBILITY BAR ═══ */}
-      <section className="relative py-5 lg:py-6 bg-[#65B207]">
+      <section className="relative py-5 lg:py-6 bg-[#68ccd1]">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
             {[
@@ -162,7 +162,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         </div>
       </section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#65B207" />
+      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
 
       {/* ═══ DESCRIPTION + WHY CARDS ═══ */}
       <Section variant="dark">
@@ -206,20 +206,20 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         )}
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ═══ THE NUMBERS ═══ */}
       {service.stats && service.stats.length > 0 && (
         <>
           <Section variant="light">
-            <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+            <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
             <GradientOverlay
               from="rgba(15,61,21,0.03)"
               to="transparent"
               direction="to bottom right"
             />
             <RadialGlow
-              color="#65B207"
+              color="#68ccd1"
               position="90% 20%"
               size="600px"
               opacity={0.04}
@@ -238,9 +238,9 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.3, delay: i * 0.05 }}
-                    className="rounded-xl border border-[#65B207]/20 bg-[#131E13] p-5 text-center hover-lift"
+                    className="rounded-xl border border-[#68ccd1]/20 bg-[#151515] p-5 text-center hover-lift"
                   >
-                    <p className="font-heading text-3xl font-black text-[#65B207]">
+                    <p className="font-heading text-3xl font-black text-[#68ccd1]">
                       {item.stat}
                     </p>
                     <p className="mt-1 text-xs text-white/55">{item.label}</p>
@@ -254,7 +254,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-                className="rounded-2xl border border-white/10 bg-[#131E13] p-8 md:p-10"
+                className="rounded-2xl border border-white/10 bg-[#151515] p-8 md:p-10"
               >
                 <h3 className="mb-4 text-center font-heading text-xl font-bold text-white">
                   The bottom line
@@ -266,7 +266,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+          <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
         </>
       )}
 
@@ -278,7 +278,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
           direction="to top left"
         />
         <RadialGlow
-          color="#65B207"
+          color="#68ccd1"
           position="10% 50%"
           size="500px"
           opacity={0.03}
@@ -290,7 +290,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             description="Every project includes a clear scope, timeline, and deliverable list. No surprise charges. No mystery fees."
           />
           <div className="mx-auto max-w-4xl">
-            <div className="rounded-2xl border border-[#65B207]/20 bg-[#080808] p-8 md:p-10">
+            <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8 md:p-10">
               <div className="grid gap-4 md:grid-cols-2">
                 {service.whatWeDeliver.map((item, i) => (
                   <motion.div
@@ -299,11 +299,11 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.3, delay: i * 0.05 }}
-                    className="flex items-start gap-3 rounded-xl bg-[#131E13] p-4"
+                    className="flex items-start gap-3 rounded-xl bg-[#151515] p-4"
                   >
                     <CheckCircle
                       size={18}
-                      className="mt-0.5 shrink-0 text-[#65B207]"
+                      className="mt-0.5 shrink-0 text-[#68ccd1]"
                     />
                     <span className="text-sm leading-relaxed text-white/80">
                       {item}
@@ -316,13 +316,13 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ═══ OUR PROCESS ═══ */}
       {service.process && service.process.length > 0 && (
         <>
           <Section variant="light">
-            <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+            <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
             <GradientOverlay
               from="rgba(15,61,21,0.03)"
               to="rgba(101,178,7,0.02)"
@@ -338,7 +338,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
               <div className="mx-auto max-w-3xl">
                 <div className="relative">
                   {/* Timeline line */}
-                  <div className="absolute left-5.75 top-0 bottom-0 w-px bg-[#65B207]/20 md:left-6.75" />
+                  <div className="absolute left-5.75 top-0 bottom-0 w-px bg-[#68ccd1]/20 md:left-6.75" />
 
                   <div className="space-y-8">
                     {service.process.map((step, i) => (
@@ -350,12 +350,12 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                         transition={{ duration: 0.4, delay: i * 0.1 }}
                         className="relative flex items-start gap-5"
                       >
-                        <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-[#65B207] bg-[#131E13] md:h-14 md:w-14">
-                          <span className="font-heading text-sm font-black text-[#65B207]">
+                        <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-[#68ccd1] bg-[#151515] md:h-14 md:w-14">
+                          <span className="font-heading text-sm font-black text-[#68ccd1]">
                             {step.step}
                           </span>
                         </div>
-                        <div className="rounded-xl border border-white/10 bg-[#131E13] p-5 flex-1">
+                        <div className="rounded-xl border border-white/10 bg-[#151515] p-5 flex-1">
                           <h3 className="font-heading text-base font-bold text-white md:text-lg">
                             {step.title}
                           </h3>
@@ -371,7 +371,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+          <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
         </>
       )}
 
@@ -385,7 +385,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
               direction="to top left"
             />
             <RadialGlow
-              color="#65B207"
+              color="#68ccd1"
               position="50% 50%"
               size="600px"
               opacity={0.03}
@@ -416,7 +416,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     </div>
                   </SlideIn>
                   <SlideIn from="right">
-                    <div className="h-full rounded-2xl border border-[#65B207]/20 bg-[#1a2a1a] p-6">
+                    <div className="h-full rounded-2xl border border-[#68ccd1]/20 bg-[#1a2a1a] p-6">
                       <h3 className="mb-4 text-lg font-bold text-white">
                         Allora Media {service.name}
                       </h3>
@@ -425,7 +425,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                           <li key={i} className="flex items-start gap-2">
                             <CheckCircle
                               size={16}
-                              className="mt-0.5 shrink-0 text-[#65B207]"
+                              className="mt-0.5 shrink-0 text-[#68ccd1]"
                             />
                             {item}
                           </li>
@@ -438,7 +438,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+          <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
         </>
       )}
 
@@ -452,7 +452,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
               direction="to bottom"
             />
             <RadialGlow
-              color="#65B207"
+              color="#68ccd1"
               position="50% 80%"
               size="700px"
               opacity={0.04}
@@ -474,8 +474,8 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     className="h-full"
                   >
                     <TiltCard tiltIntensity={5} className="h-full">
-                      <div className="flex h-full flex-col rounded-2xl border border-[#65B207]/15 bg-[#131E13] p-7 hover-lift">
-                        <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                      <div className="flex h-full flex-col rounded-2xl border border-[#68ccd1]/15 bg-[#151515] p-7 hover-lift">
+                        <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                           <Target size={20} />
                         </div>
                         <h3 className="font-heading text-lg font-bold text-white">
@@ -492,7 +492,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+          <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
         </>
       )}
 
@@ -504,7 +504,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
           direction="to top left"
         />
         <RadialGlow
-          color="#65B207"
+          color="#68ccd1"
           position="10% 50%"
           size="500px"
           opacity={0.03}
@@ -526,7 +526,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
               >
                 <TiltCard tiltIntensity={5} className="h-full">
                   <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-glow">
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>
                     <h3 className="font-heading text-lg font-bold text-white">
@@ -571,7 +571,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       {service.slug === "testimonial-videos" && (
         <Section variant="dark">
           <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom right" />
-          <RadialGlow color="#65B207" position="80% 30%" size="500px" opacity={0.03} />
+          <RadialGlow color="#68ccd1" position="80% 30%" size="500px" opacity={0.03} />
           <VideoShowcase
             videos={[
               {

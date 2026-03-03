@@ -19,7 +19,7 @@ const helpOptions = [
 ];
 
 const inputClasses =
-  "w-full rounded-lg border border-white/10 bg-[#1a2a1a] px-4 py-3 text-base text-white placeholder:text-white/30 transition-all duration-300 focus:border-[#65B207] focus:ring-2 focus:ring-[#65B207]/20 focus:outline-none";
+  "w-full rounded-lg border border-white/10 bg-[#1a2a1a] px-4 py-3 text-base text-white placeholder:text-white/30 transition-all duration-300 focus:border-[#68ccd1] focus:ring-2 focus:ring-[#68ccd1]/20 focus:outline-none";
 
 export function ContactClient() {
   const router = useRouter();
@@ -89,7 +89,7 @@ export function ContactClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-bold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-bold uppercase text-balance text-[#68ccd1]"
           >
             Book a Growth Blueprint Call
           </motion.p>
@@ -242,7 +242,7 @@ export function ContactClient() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all duration-300 hover:bg-[#7acc09] hover:scale-[1.03] disabled:opacity-50 disabled:hover:scale-100"
+                  className="w-full rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03] disabled:opacity-50 disabled:hover:scale-100"
                 >
                   {loading ? "Sending..." : "Send My Inquiry"}
                 </button>
@@ -264,7 +264,7 @@ export function ContactClient() {
             {/* SIDEBAR — TRUST SIGNALS */}
             <SlideIn from="right" className="space-y-6">
               {/* What Happens Next */}
-              <div className="rounded-2xl border border-white/10 bg-[#131E13] p-6 hover-lift">
+              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6 hover-lift">
                 <h3 className="mb-4 font-heading text-lg font-bold text-white">
                   What happens next?
                 </h3>
@@ -276,7 +276,7 @@ export function ContactClient() {
                     { step: "4", text: "You get a clear plan — whether you hire us or not" },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-3">
-                      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#65B207]/10 text-xs font-bold text-[#65B207]">
+                      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#68ccd1]/10 text-xs font-bold text-[#68ccd1]">
                         {item.step}
                       </div>
                       <span className="text-sm text-white/60">{item.text}</span>
@@ -286,8 +286,8 @@ export function ContactClient() {
               </div>
 
               {/* Limited Spots */}
-              <div className="rounded-2xl border border-[#65B207]/20 bg-[#65B207]/5 p-6 text-center border-glow">
-                <Clock size={24} className="mx-auto mb-3 text-[#65B207]" />
+              <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#68ccd1]/5 p-6 text-center border-glow">
+                <Clock size={24} className="mx-auto mb-3 text-[#68ccd1]" />
                 <p className="font-heading text-base font-bold text-white">
                   We take 3–5 new clients per month.
                 </p>
@@ -298,7 +298,7 @@ export function ContactClient() {
               </div>
 
               {/* Trust Badges */}
-              <div className="rounded-2xl border border-white/10 bg-[#131E13] p-6 hover-lift">
+              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6 hover-lift">
                 <StaggerContainer className="space-y-4">
                   {[
                     { icon: <Star size={16} />, text: "5.0 Google Rating" },
@@ -308,7 +308,7 @@ export function ContactClient() {
                   ].map((item, i) => (
                     <StaggerItem key={i}>
                       <div className="flex items-center gap-3">
-                        <span className="text-[#65B207]">{item.icon}</span>
+                        <span className="text-[#68ccd1]">{item.icon}</span>
                         <span className="text-sm text-white/60">{item.text}</span>
                       </div>
                     </StaggerItem>
@@ -317,10 +317,10 @@ export function ContactClient() {
               </div>
 
               {/* Quick Quote */}
-              <div className="rounded-2xl border border-white/10 bg-[#131E13] p-6 hover-lift">
+              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6 hover-lift">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={14} className="fill-[#65B207] text-[#65B207]" />
+                    <Star key={i} size={14} className="fill-[#68ccd1] text-[#68ccd1]" />
                   ))}
                 </div>
                 <p className="text-sm italic leading-relaxed text-white/60">

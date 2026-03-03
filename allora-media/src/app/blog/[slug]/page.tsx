@@ -74,7 +74,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
       return (
         <ul className="space-y-2 pl-5 text-base leading-relaxed text-white/65 md:text-lg md:leading-relaxed">
           {block.items.map((item, i) => (
-            <li key={i} className="relative pl-2 before:absolute before:-left-5 before:top-[0.6em] before:h-1.5 before:w-1.5 before:rounded-full before:bg-[#65B207]">
+            <li key={i} className="relative pl-2 before:absolute before:-left-5 before:top-[0.6em] before:h-1.5 before:w-1.5 before:rounded-full before:bg-[#68ccd1]">
               {item}
             </li>
           ))}
@@ -86,7 +86,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
         <ol className="space-y-3 pl-5 text-base leading-relaxed text-white/65 md:text-lg md:leading-relaxed list-none counter-reset-[item]">
           {block.items.map((item, i) => (
             <li key={i} className="relative pl-6">
-              <span className="absolute left-0 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-[#65B207]/15 text-xs font-bold text-[#65B207]">
+              <span className="absolute left-0 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-[#68ccd1]/15 text-xs font-bold text-[#68ccd1]">
                 {i + 1}
               </span>
               {item}
@@ -97,8 +97,8 @@ function RenderBlock({ block }: { block: ContentBlock }) {
 
     case "stat":
       return (
-        <div className="my-6 flex items-center gap-5 rounded-2xl border border-[#65B207]/20 bg-[#65B207]/4 p-6">
-          <span className="shrink-0 font-heading text-4xl font-black text-[#65B207] md:text-5xl">
+        <div className="my-6 flex items-center gap-5 rounded-2xl border border-[#68ccd1]/20 bg-[#68ccd1]/4 p-6">
+          <span className="shrink-0 font-heading text-4xl font-black text-[#68ccd1] md:text-5xl">
             {block.value}
           </span>
           <div>
@@ -116,7 +116,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
 
     case "quote":
       return (
-        <blockquote className="my-6 border-l-4 border-[#65B207] pl-5 md:pl-6">
+        <blockquote className="my-6 border-l-4 border-[#68ccd1] pl-5 md:pl-6">
           <p className="text-base italic leading-relaxed text-white/80 md:text-lg md:leading-relaxed">
             &ldquo;{block.text}&rdquo;
           </p>
@@ -131,7 +131,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
     case "callout":
       return (
         <div className="my-6 rounded-2xl border border-white/10 bg-white/3 p-5 md:p-6">
-          <p className="mb-2 font-heading text-sm font-bold uppercase tracking-wider text-[#65B207]">
+          <p className="mb-2 font-heading text-sm font-bold uppercase tracking-wider text-[#68ccd1]">
             {block.title}
           </p>
           <p className="text-sm leading-relaxed text-white/65 md:text-base md:leading-relaxed">
@@ -142,10 +142,10 @@ function RenderBlock({ block }: { block: ContentBlock }) {
 
     case "cta":
       return (
-        <div className="my-8 rounded-2xl border border-[#65B207]/30 bg-[#65B207]/5 p-6 text-center">
+        <div className="my-8 rounded-2xl border border-[#68ccd1]/30 bg-[#68ccd1]/5 p-6 text-center">
           <Link
             href={block.href}
-            className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-[#7acc09]"
+            className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-[#7dd6da]"
           >
             {block.text}
             <ArrowRight size={14} />
@@ -192,18 +192,18 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       {/* HERO */}
-      <section className="relative bg-[#131E13] pt-32 pb-20 text-white md:pt-40 md:pb-28 overflow-hidden noise-texture">
-        <div className="pointer-events-none absolute -right-40 -top-40 h-125 w-125 rounded-full bg-[#65B207]/5 blur-3xl" />
-        <div className="pointer-events-none absolute -left-20 bottom-0 h-80 w-80 rounded-full bg-[#65B207]/3 blur-3xl" />
+      <section className="relative bg-[#151515] pt-32 pb-20 text-white md:pt-40 md:pb-28 overflow-hidden noise-texture">
+        <div className="pointer-events-none absolute -right-40 -top-40 h-125 w-125 rounded-full bg-[#68ccd1]/5 blur-3xl" />
+        <div className="pointer-events-none absolute -left-20 bottom-0 h-80 w-80 rounded-full bg-[#68ccd1]/3 blur-3xl" />
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <Link
             href="/blog"
-            className="mb-8 inline-flex items-center gap-2 text-sm text-white/55 transition-colors hover:text-[#65B207]"
+            className="mb-8 inline-flex items-center gap-2 text-sm text-white/55 transition-colors hover:text-[#68ccd1]"
           >
             <ArrowLeft size={14} />
             Back to Blog
           </Link>
-          <span className="mb-4 inline-block rounded-full bg-[#65B207]/10 px-3 py-1 text-xs font-semibold text-[#65B207]">
+          <span className="mb-4 inline-block rounded-full bg-[#68ccd1]/10 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
             {post.category}
           </span>
           <h1 className="max-w-4xl text-3xl font-heading font-black leading-tight tracking-tight md:text-4xl lg:text-5xl">
@@ -267,7 +267,7 @@ export default async function BlogPostPage({ params }: Props) {
           {/* AUTHOR BIO */}
           <div className="mt-16 rounded-2xl border border-white/10 p-6 md:p-8">
             <div className="flex items-start gap-4">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#65B207]/20 font-heading text-lg font-bold text-[#65B207]">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#68ccd1]/20 font-heading text-lg font-bold text-[#68ccd1]">
                 {post.author
                   .split(" ")
                   .map((n) => n[0])
@@ -288,8 +288,8 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* RELATED SERVICES / PAGES */}
           {post.relatedPages && post.relatedPages.length > 0 && (
-            <div className="mt-10 rounded-2xl border border-white/10 bg-[#131E13] p-6">
-              <h3 className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <div className="mt-10 rounded-2xl border border-white/10 bg-[#151515] p-6">
+              <h3 className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
                 Related Services & Resources
               </h3>
               <div className="grid gap-2">
@@ -297,12 +297,12 @@ export default async function BlogPostPage({ params }: Props) {
                   <Link
                     key={page.href}
                     href={page.href}
-                    className="group flex items-center justify-between rounded-xl border border-white/5 bg-white/2 px-4 py-3 transition-colors hover:border-[#65B207]/30 hover:bg-[#65B207]/5"
+                    className="group flex items-center justify-between rounded-xl border border-white/5 bg-white/2 px-4 py-3 transition-colors hover:border-[#68ccd1]/30 hover:bg-[#68ccd1]/5"
                   >
                     <span className="text-sm font-medium text-white/70 transition-colors group-hover:text-white">
                       {page.label}
                     </span>
-                    <ArrowRight size={14} className="text-[#65B207] transition-transform group-hover:translate-x-1" />
+                    <ArrowRight size={14} className="text-[#68ccd1] transition-transform group-hover:translate-x-1" />
                   </Link>
                 ))}
               </div>
@@ -324,7 +324,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <Link
                     key={related.slug}
                     href={`/blog/${related.slug}`}
-                    className="group overflow-hidden rounded-2xl border border-white/10 bg-[#0d0d0d] transition-colors hover:border-[#65B207]/30"
+                    className="group overflow-hidden rounded-2xl border border-white/10 bg-[#0d0d0d] transition-colors hover:border-[#68ccd1]/30"
                   >
                     <div className="relative aspect-video overflow-hidden">
                       <Image
@@ -336,10 +336,10 @@ export default async function BlogPostPage({ params }: Props) {
                       />
                     </div>
                     <div className="p-5">
-                      <span className="mb-2 inline-block text-xs font-semibold text-[#65B207]">
+                      <span className="mb-2 inline-block text-xs font-semibold text-[#68ccd1]">
                         {related.category}
                       </span>
-                      <h3 className="font-heading text-base font-bold text-white transition-colors group-hover:text-[#65B207]">
+                      <h3 className="font-heading text-base font-bold text-white transition-colors group-hover:text-[#68ccd1]">
                         {related.title}
                       </h3>
                       <p className="mt-2 line-clamp-2 text-sm text-white/50">
@@ -355,13 +355,13 @@ export default async function BlogPostPage({ params }: Props) {
       )}
 
       {/* PREV / NEXT NAV */}
-      <section className="border-t border-white/10 bg-[#131E13] py-12">
+      <section className="border-t border-white/10 bg-[#151515] py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {prevPost ? (
               <Link
                 href={`/blog/${prevPost.slug}`}
-                className="group flex items-center gap-3 text-white/60 transition-colors hover:text-[#65B207]"
+                className="group flex items-center gap-3 text-white/60 transition-colors hover:text-[#68ccd1]"
               >
                 <ArrowLeft
                   size={18}
@@ -382,7 +382,7 @@ export default async function BlogPostPage({ params }: Props) {
             {nextPost ? (
               <Link
                 href={`/blog/${nextPost.slug}`}
-                className="group flex items-center gap-3 text-right text-white/60 transition-colors hover:text-[#65B207]"
+                className="group flex items-center gap-3 text-right text-white/60 transition-colors hover:text-[#68ccd1]"
               >
                 <div>
                   <p className="text-xs uppercase tracking-widest text-white/40">

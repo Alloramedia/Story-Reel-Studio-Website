@@ -87,7 +87,7 @@ function StaticMetric({ value, label, benchmark }: { value: string; label: strin
 
 export function MetricsStrip({ metrics }: MetricsStripProps) {
   return (
-    <section className="relative bg-[#65B207] py-5 lg:py-6">
+    <section className="relative bg-[#68ccd1] py-5 lg:py-6">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
           {metrics.map((metric) =>

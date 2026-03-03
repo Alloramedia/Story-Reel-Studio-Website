@@ -24,10 +24,10 @@ export function PillarCard({ title, description, href, icon, index = 0 }: Pillar
       <TiltCard tiltIntensity={6}>
         <Link
           href={href}
-          className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#131E13] p-8 transition-all duration-500 hover:border-[#65B207]/50 hover:shadow-2xl hover:shadow-[#65B207]/12 md:p-10 gradient-border-card"
+          className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#151515] p-8 transition-all duration-500 hover:border-[#68ccd1]/50 hover:shadow-2xl hover:shadow-[#68ccd1]/12 md:p-10 gradient-border-card"
         >
           <motion.div
-            className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]"
+            className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]"
             whileHover={{ scale: 1.15, rotate: 8 }}
             transition={{ type: "spring", stiffness: 260, damping: 12 }}
           >
@@ -37,7 +37,7 @@ export function PillarCard({ title, description, href, icon, index = 0 }: Pillar
           <p className="mt-3 flex-1 text-base leading-relaxed text-white/60">
             {description}
           </p>
-          <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-[#65B207] transition-colors">
+          <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-[#68ccd1] transition-colors">
             Learn more
             <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
           </div>

@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "Allora Media",
+  name: "Story Real Studios",
   description:
-    "Allora Media builds performance-driven marketing using paid growth strategy, authority media production, and disciplined execution for businesses ready to scale.",
-  url: "https://www.alloramedia.us",
+    "Story Real Studios builds strategy-led video campaigns and content systems for purpose-led organizations — combining strategy, cinematic production, and deployment into measurable growth.",
+  url: "https://www.storyreal.co",
   ogImage: "/og-image.jpg",
   portalUrl: "https://app.alloramedia.us",
   email: "jared@alloramedia.us",
@@ -26,6 +26,11 @@ export const siteConfig = {
     bookingUrl: "https://api.leadconnectorhq.com/widget/booking/iIpMe9Rgoxo9BY0mGUF8",
     formEmbedScript: "https://link.msgsndr.com/js/form_embed.js",
   },
+  /** Shortcut — same as ghl.bookingUrl */
+  get bookingUrl() {
+    return this.ghl.bookingUrl;
+  },
+  studioBookingUrl: "https://api.leadconnectorhq.com/widget/booking/iIpMe9Rgoxo9BY0mGUF8",
 };
 
 /* ------------------------------------------------------------------ */
@@ -44,6 +49,9 @@ export const credibilityStats = {
   businessesServed: "50+",
   googleReviewCount: "27",
   googleRating: "5.0",
+  projectsDelivered: "200+",
+  yearsInBusiness: "7+",
+  industriesServed: "12+",
 } as const;
 
 export interface NavLink {
@@ -54,21 +62,12 @@ export interface NavLink {
 
 export const navLinks: NavLink[] = [
   {
-    label: "Paid Media",
-    href: "/paid-media",
-  },
-  {
-    label: "Media Production",
-    href: "/media-production",
-  },
-  {
-    label: "Case Studies",
-    href: "/case-studies",
-  },
-  {
     label: "Services",
     href: "#services",
     children: [
+      { label: "Strategy", href: "/strategy" },
+      { label: "Production", href: "/production" },
+      { label: "Deployment", href: "/deployment" },
       { label: "Paid Media (Meta Ads)", href: "/paid-media" },
       { label: "Video Production", href: "/video-production" },
       { label: "Media Production", href: "/media-production" },
@@ -82,17 +81,39 @@ export const navLinks: NavLink[] = [
     ],
   },
   {
-    label: "Blog",
-    href: "/blog",
+    label: "Industries",
+    href: "/industries",
+    children: [
+      { label: "Construction", href: "/industries/construction" },
+      { label: "Home Services", href: "/industries/home-services" },
+      { label: "Food & Beverage", href: "/industries/food-beverage" },
+      { label: "Beauty & Retail", href: "/industries/beauty-retail" },
+      { label: "Professional Services", href: "/industries/professional-services" },
+      { label: "Manufacturing", href: "/industries/manufacturing" },
+      { label: "Nonprofits", href: "/industries/nonprofits" },
+      { label: "Health & Biotech", href: "/industries/health-biotech" },
+      { label: "Real Estate", href: "/industries/real-estate" },
+    ],
+  },
+  {
+    label: "Work",
+    href: "/work",
   },
   {
     label: "About",
     href: "/about",
   },
+  {
+    label: "Process",
+    href: "/process",
+  },
 ];
 
 export const footerLinks = {
   services: [
+    { label: "Strategy", href: "/strategy" },
+    { label: "Production", href: "/production" },
+    { label: "Deployment", href: "/deployment" },
     { label: "Paid Media (Meta Ads)", href: "/paid-media" },
     { label: "Video Production", href: "/video-production" },
     { label: "Media Production", href: "/media-production" },
@@ -107,10 +128,13 @@ export const footerLinks = {
   company: [
     { label: "About", href: "/about" },
     { label: "Our Process", href: "/process" },
+    { label: "Work", href: "/work" },
     { label: "Case Studies", href: "/case-studies" },
     { label: "Blog", href: "/blog" },
     { label: "Client Portal", href: "/client-portal" },
     { label: "Contact", href: "/contact" },
+    { label: "Pricing", href: "/pricing" },
+    { label: "Studio", href: "/studio" },
   ],
   industries: [
     { label: "Construction", href: "/industries/construction" },
@@ -118,6 +142,10 @@ export const footerLinks = {
     { label: "Food & Beverage", href: "/industries/food-beverage" },
     { label: "Beauty & Retail", href: "/industries/beauty-retail" },
     { label: "Professional Services", href: "/industries/professional-services" },
+    { label: "Manufacturing", href: "/industries/manufacturing" },
+    { label: "Nonprofits", href: "/industries/nonprofits" },
+    { label: "Health & Biotech", href: "/industries/health-biotech" },
+    { label: "Real Estate", href: "/industries/real-estate" },
   ],
   personal: [
     { label: "Personal Content", href: "/personal" },

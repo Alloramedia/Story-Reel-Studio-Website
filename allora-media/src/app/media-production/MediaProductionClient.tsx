@@ -172,11 +172,11 @@ function ContentMultiplierSlider() {
 
   return (
     <div className="mx-auto max-w-4xl">
-      <div className="rounded-2xl border border-[#65B207]/20 bg-[#080808] p-8 md:p-10">
+      <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8 md:p-10">
 
         {/* Shoot Duration Slider */}
         <div className="mb-8">
-          <div className="mb-4 flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-[#65B207]">
+          <div className="mb-4 flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-[#68ccd1]">
             <Clock size={16} />
             Shoot Duration
           </div>
@@ -189,8 +189,8 @@ function ContentMultiplierSlider() {
                 onClick={() => setTierIndex(i)}
                 className={`rounded-xl px-4 py-3 text-center transition-all duration-300 ${
                   tierIndex === i
-                    ? "bg-[#65B207] text-white shadow-lg shadow-[#65B207]/25 scale-[1.03]"
-                    : "bg-[#131E13] text-white/50 hover:bg-[#1a2a1a] hover:text-white/70"
+                    ? "bg-[#68ccd1] text-white shadow-lg shadow-[#68ccd1]/25 scale-[1.03]"
+                    : "bg-[#151515] text-white/50 hover:bg-[#1a2a1a] hover:text-white/70"
                 }`}
               >
                 <span className="block text-sm font-bold">{t.label}</span>
@@ -228,7 +228,7 @@ function ContentMultiplierSlider() {
               onClick={() => setInvolvement("engaged")}
               className={`flex flex-1 items-center justify-center gap-2 px-4 py-3 text-sm font-semibold transition-all duration-300 ${
                 involvement === "engaged"
-                  ? "bg-[#65B207]/15 text-[#65B207] border-r border-[#65B207]/30"
+                  ? "bg-[#68ccd1]/15 text-[#68ccd1] border-r border-[#68ccd1]/30"
                   : "bg-transparent text-white/40 hover:text-white/60 border-r border-white/10"
               }`}
             >
@@ -270,9 +270,9 @@ function ContentMultiplierSlider() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.25, delay: i * 0.04 }}
-                className="flex items-center gap-4 rounded-xl bg-[#131E13] p-4"
+                className="flex items-center gap-4 rounded-xl bg-[#151515] p-4"
               >
-                <span className="shrink-0 whitespace-nowrap font-heading text-2xl font-black text-[#65B207]">{item.count}</span>
+                <span className="shrink-0 whitespace-nowrap font-heading text-2xl font-black text-[#68ccd1]">{item.count}</span>
                 <span className="text-sm text-white/60">{item.label}</span>
               </motion.div>
             ))}
@@ -280,11 +280,11 @@ function ContentMultiplierSlider() {
         </AnimatePresence>
 
         {/* Involvement note */}
-        <div className="mt-6 rounded-xl bg-[#131E13] p-4">
+        <div className="mt-6 rounded-xl bg-[#151515] p-4">
           <div className="flex items-start gap-3">
-            <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#65B207]/10">
+            <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#68ccd1]/10">
               {involvement === "engaged" ? (
-                <UserCheck size={12} className="text-[#65B207]" />
+                <UserCheck size={12} className="text-[#68ccd1]" />
               ) : (
                 <UserX size={12} className="text-white/40" />
               )}
@@ -292,7 +292,7 @@ function ContentMultiplierSlider() {
             <p className="text-xs leading-relaxed text-white/50">
               {involvement === "engaged" ? (
                 <>
-                  <span className="font-bold text-[#65B207]">Maximum output.</span>{" "}
+                  <span className="font-bold text-[#68ccd1]">Maximum output.</span>{" "}
                   When clients are receptive and open to our creative direction — willing to do on-camera interviews, personality-driven clips, and behind-the-scenes moments — we can capture significantly more high-value content like testimonial videos, day-in-the-life stories, and authentic brand moments that connect with audiences.
                 </>
               ) : (
@@ -330,7 +330,7 @@ export function MediaProductionClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase text-balance text-[#68ccd1]"
           >
             Video & Photo Production in Connecticut
           </motion.p>
@@ -357,7 +357,7 @@ export function MediaProductionClient() {
       </HeroBanner>
 
       {/* ═══ CREDIBILITY BAR ═══ */}
-      <section className="relative py-5 lg:py-6 bg-[#65B207]">
+      <section className="relative py-5 lg:py-6 bg-[#68ccd1]">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
             {[
@@ -386,7 +386,7 @@ export function MediaProductionClient() {
         </div>
       </section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#65B207" />
+      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
 
       {/* WHY STRATEGIC CREATIVE MATTERS */}
       <Section variant="dark">
@@ -428,13 +428,13 @@ export function MediaProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* CONTENT IS KING */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -456,9 +456,9 @@ export function MediaProductionClient() {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: i * 0.05 }}
-                className="rounded-xl border border-[#65B207]/20 bg-[#131E13] p-5 text-center hover-lift"
+                className="rounded-xl border border-[#68ccd1]/20 bg-[#151515] p-5 text-center hover-lift"
               >
-                <p className="font-heading text-3xl font-black text-[#65B207]">{item.stat}</p>
+                <p className="font-heading text-3xl font-black text-[#68ccd1]">{item.stat}</p>
                 <p className="mt-1 text-xs text-white/55">{item.label}</p>
               </motion.div>
             ))}
@@ -470,7 +470,7 @@ export function MediaProductionClient() {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="rounded-2xl border border-white/10 bg-[#131E13] p-8 md:p-10"
+            className="rounded-2xl border border-white/10 bg-[#151515] p-8 md:p-10"
           >
             <h3 className="mb-6 text-center font-heading text-xl font-bold text-white">
               Why content beats every other marketing channel
@@ -495,8 +495,8 @@ export function MediaProductionClient() {
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <div className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#65B207]/10">
-                    <ArrowRight size={12} className="text-[#65B207]" />
+                  <div className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                    <ArrowRight size={12} className="text-[#68ccd1]" />
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-white">{item.title}</h4>
@@ -507,19 +507,19 @@ export function MediaProductionClient() {
             </div>
             <div className="mt-8 rounded-xl bg-[#080808] p-5 text-center">
               <p className="text-sm text-white/60">
-                <span className="font-bold text-[#65B207]">The businesses winning in 2026 and beyond</span> aren&apos;t the ones with the biggest budgets — they&apos;re the ones with the best content. Professional content is no longer a luxury. It&apos;s the cost of entry.
+                <span className="font-bold text-[#68ccd1]">The businesses winning in 2026 and beyond</span> aren&apos;t the ones with the biggest budgets — they&apos;re the ones with the best content. Professional content is no longer a luxury. It&apos;s the cost of entry.
               </p>
             </div>
           </motion.div>
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* CONTENT MULTIPLIER — Interactive Slider */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="The Content Multiplier"
           title="Choose your shoot. See what you get."
@@ -531,11 +531,11 @@ export function MediaProductionClient() {
       {/* ═══ OMNIPRESENCE & CONTENT ═══ */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="30% 50%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="30% 50%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           eyebrow="Omnipresence Through Content"
-          title={<>Your content is the engine behind{' '}<span className="text-[#65B207]">omnipresence marketing.</span></>}
+          title={<>Your content is the engine behind{' '}<span className="text-[#68ccd1]">omnipresence marketing.</span></>}
           description="Omnipresence means showing up everywhere your customers look — paid ads, social feeds, Google, YouTube, your website. But you can't be everywhere without a library of professional content to power every channel. That's where production becomes your biggest competitive advantage."
         />
 
@@ -544,7 +544,7 @@ export function MediaProductionClient() {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true }}
           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-          className="rounded-2xl border border-white/10 bg-[#131E13] p-8 md:p-10"
+          className="rounded-2xl border border-white/10 bg-[#151515] p-8 md:p-10"
         >
           <h3 className="mb-6 text-center font-heading text-xl font-bold text-white">
             One production day fuels every channel
@@ -569,8 +569,8 @@ export function MediaProductionClient() {
               },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
-                <div className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#65B207]/10">
-                  <CheckCircle size={12} className="text-[#65B207]" />
+                <div className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                  <CheckCircle size={12} className="text-[#68ccd1]" />
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-white">{item.title}</h4>
@@ -581,7 +581,7 @@ export function MediaProductionClient() {
           </div>
           <div className="mt-8 rounded-xl bg-[#080808] p-5 text-center">
             <p className="text-sm text-white/60">
-              <span className="font-bold text-[#65B207]">Businesses that achieve omnipresence don&apos;t do it by accident.</span>{" "}
+              <span className="font-bold text-[#68ccd1]">Businesses that achieve omnipresence don&apos;t do it by accident.</span>{" "}
               They invest in a content library deep enough to keep every channel running with professional, on-brand material — month after month.
             </p>
           </div>
@@ -589,11 +589,11 @@ export function MediaProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* STOCK VS PROFESSIONAL */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
@@ -624,7 +624,7 @@ export function MediaProductionClient() {
             </div>
             </SlideIn>
             <SlideIn from="right">
-            <div className="rounded-2xl border border-white/10 bg-[#080808] p-6 border-l-4 border-l-[#65B207]">
+            <div className="rounded-2xl border border-white/10 bg-[#080808] p-6 border-l-4 border-l-[#68ccd1]">
               <h3 className="mb-4 text-lg font-bold text-white">Allora Media Production</h3>
               <ul className="space-y-3 text-sm text-white/80">
                 {[
@@ -636,7 +636,7 @@ export function MediaProductionClient() {
                   "A brand presence that positions you as the market leader",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <CheckCircle size={16} className="mt-0.5 shrink-0 text-[#65B207]" />
+                    <CheckCircle size={16} className="mt-0.5 shrink-0 text-[#68ccd1]" />
                     {item}
                   </li>
                 ))}
@@ -648,7 +648,7 @@ export function MediaProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* DELIVERABLE TYPES */}
       <Section variant="dark">
@@ -666,7 +666,7 @@ export function MediaProductionClient() {
               transition={{ duration: 0.4, delay: i * 0.05 }}
               className="h-full rounded-2xl bg-[#1a2a1a] p-6 shadow-sm hover-lift border-glow"
             >
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#131E13] text-white">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#151515] text-white">
                 {item.icon}
               </div>
               <h3 className="mb-2 text-lg font-bold">{item.title}</h3>
@@ -678,13 +678,13 @@ export function MediaProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ═══ INDUSTRIES WE SERVE ═══ */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
-        <RadialGlow color="#65B207" position="50% 80%" size="800px" opacity={0.035} />
+        <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -735,7 +735,7 @@ export function MediaProductionClient() {
               >
                 <TiltCard tiltIntensity={5} className="h-full">
                   <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-glow">
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>
                     <h3 className="font-heading text-lg font-bold text-white">

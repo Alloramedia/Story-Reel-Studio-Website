@@ -80,7 +80,7 @@ export function ClientPortalClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase text-balance text-[#68ccd1]"
           >
             Your Client Portal
           </motion.p>
@@ -114,7 +114,7 @@ export function ClientPortalClient() {
               href={siteConfig.portalUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
               Log In to Client Portal
               <ExternalLink size={18} />
@@ -141,7 +141,7 @@ export function ClientPortalClient() {
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="h-full rounded-2xl border border-white/10 p-8 hover-lift border-glow"
             >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#131E13] text-white">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#151515] text-white">
                 {feature.icon}
               </div>
               <h3 className="mb-2 text-xl font-bold">{feature.title}</h3>
@@ -153,11 +153,11 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* HOW IT WORKS */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
@@ -173,9 +173,9 @@ export function ClientPortalClient() {
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.15 }}
-              className="h-full rounded-2xl border border-white/10 bg-[#080808] p-7 text-center hover-lift border-t-4 border-t-[#65B207]"
+              className="h-full rounded-2xl border border-white/10 bg-[#080808] p-7 text-center hover-lift border-t-4 border-t-[#68ccd1]"
             >
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#65B207]/10 text-[#65B207]">
+              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10 text-[#68ccd1]">
                 {item.icon}
               </div>
               <h3 className="mb-2 text-lg font-bold text-white">{item.step}</h3>
@@ -186,7 +186,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* PORTAL SCREENSHOT */}
       <Section variant="dark">
@@ -205,13 +205,13 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* WHAT OTHER AGENCIES GIVE YOU */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
-        <RadialGlow color="#65B207" position="50% 80%" size="800px" opacity={0.035} />
+        <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -220,14 +220,14 @@ export function ClientPortalClient() {
         />
         <div className="mx-auto max-w-4xl">
           <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#080808]">
-            <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center bg-[#131E13] px-6 py-4">
+            <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center bg-[#151515] px-6 py-4">
               <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Agency</span>
               <span className="text-white/20">vs</span>
-              <span className="text-right text-sm font-bold uppercase tracking-wider text-[#65B207]">Allora Media</span>
+              <span className="text-right text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Allora Media</span>
             </div>
-            <div className="flex md:hidden items-center justify-between bg-[#131E13] px-6 py-4">
+            <div className="flex md:hidden items-center justify-between bg-[#151515] px-6 py-4">
               <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Agency</span>
-              <span className="text-sm font-bold uppercase tracking-wider text-[#65B207]">Allora Media</span>
+              <span className="text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Allora Media</span>
             </div>
             {[
               ["Monthly PDF emailed 2 weeks late", "Real-time dashboard accessible 24/7"],
@@ -249,7 +249,7 @@ export function ClientPortalClient() {
                 </div>
                 <div className="hidden md:block h-6 w-px bg-white/10" />
                 <div className="flex items-start gap-2 text-sm text-white/80">
-                  <CheckCircle size={16} className="mt-0.5 shrink-0 text-[#65B207]" />
+                  <CheckCircle size={16} className="mt-0.5 shrink-0 text-[#68ccd1]" />
                   {good}
                 </div>
               </div>
@@ -259,7 +259,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* RED FLAGS */}
       <Section variant="dark">
@@ -297,7 +297,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* TRANSPARENCY CALLOUT */}
       <Section variant="light">
@@ -307,7 +307,7 @@ export function ClientPortalClient() {
             eyebrow="Our Philosophy"
             title="Transparency isn't a feature. It's the standard."
           />
-          <p className="text-lg leading-relaxed text-[#0f3d15]/60">
+          <p className="text-lg leading-relaxed text-[#1a1a1a]/60">
             Every Allora Media client gets portal access from day one — at no
             extra cost. We don&apos;t hide data behind vague reports or unclear
             jargon. You see the same numbers we see. If your current agency
@@ -317,7 +317,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" />
 
       {/* NOT A CLIENT YET */}
       <Section variant="dark">
@@ -334,7 +334,7 @@ export function ClientPortalClient() {
           </p>
           <Link
             href="/contact"
-            className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
           >
             Book a Growth Blueprint Call
           </Link>

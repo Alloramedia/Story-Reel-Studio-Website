@@ -43,7 +43,7 @@ export function FAQAccordion({ items, variant = "dark" }: { items: FAQItem[]; va
                 <ChevronDown
                   size={20}
                   className={cn(
-                    "shrink-0 text-[#65B207] transition-transform duration-200",
+                    "shrink-0 text-[#68ccd1] transition-transform duration-200",
                     isOpen && "rotate-180"
                   )}
                 />

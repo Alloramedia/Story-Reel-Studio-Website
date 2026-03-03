@@ -133,7 +133,7 @@ export function SocialMediaTimeline() {
     <div className="mx-auto max-w-4xl">
       <div className="relative">
         {/* Vertical line */}
-        <div className="absolute left-5.75 top-0 bottom-0 w-px bg-linear-to-b from-[#65B207]/0 via-[#65B207]/40 to-[#65B207]/0 md:left-8" />
+        <div className="absolute left-5.75 top-0 bottom-0 w-px bg-linear-to-b from-[#68ccd1]/0 via-[#68ccd1]/40 to-[#68ccd1]/0 md:left-8" />
 
         {timelineData.map((item, i) => {
           const isOpen = openIndex === i;
@@ -148,8 +148,8 @@ export function SocialMediaTimeline() {
               className="relative mb-3 flex items-start"
             >
               {/* Year dot */}
-              <div className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#65B207] bg-[#131E13] md:h-12 md:w-12">
-                <span className="text-[10px] font-black text-[#65B207]">{item.year}</span>
+              <div className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#68ccd1] bg-[#151515] md:h-12 md:w-12">
+                <span className="text-[10px] font-black text-[#68ccd1]">{item.year}</span>
               </div>
 
               {/* Content card */}
@@ -157,8 +157,8 @@ export function SocialMediaTimeline() {
                 <div
                   className={`w-full rounded-2xl border bg-[#080808] px-5 py-4 text-left transition-colors ${
                     isOpen
-                      ? "border-[#65B207]/40"
-                      : "border-white/10 hover:border-[#65B207]/20"
+                      ? "border-[#68ccd1]/40"
+                      : "border-white/10 hover:border-[#68ccd1]/20"
                   }`}
                 >
                   <button
@@ -172,7 +172,7 @@ export function SocialMediaTimeline() {
                       {item.headline}
                     </h3>
                     <svg
-                      className={`h-4 w-4 shrink-0 text-[#65B207] transition-transform duration-300 ${
+                      className={`h-4 w-4 shrink-0 text-[#68ccd1] transition-transform duration-300 ${
                         isOpen ? "rotate-180" : ""
                       }`}
                       fill="none"
@@ -203,13 +203,13 @@ export function SocialMediaTimeline() {
                               key={j}
                               className="flex items-start gap-2 text-sm leading-relaxed text-white/60"
                             >
-                              <span className="mt-1 shrink-0 text-[#65B207]">&#8226;</span>
+                              <span className="mt-1 shrink-0 text-[#68ccd1]">&#8226;</span>
                               {point}
                             </li>
                           ))}
                         </ul>
-                        <div className="mt-4 rounded-xl bg-[#131E13] p-4">
-                          <p className="text-xs font-semibold uppercase tracking-widest text-[#65B207]/60">
+                        <div className="mt-4 rounded-xl bg-[#151515] p-4">
+                          <p className="text-xs font-semibold uppercase tracking-widest text-[#68ccd1]/60">
                             Key Takeaway
                           </p>
                           <p className="mt-1 text-sm leading-relaxed text-white/55">

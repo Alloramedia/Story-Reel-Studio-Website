@@ -3,7 +3,7 @@
    
    Layered section overlays, wave dividers, edge accent stripes,
    and branded silhouettes — inspired by JP Carroll Roofing's
-   Elementor-based layered design system, adapted for Allora Media.
+   Elementor-based layered design system, adapted for Story Real Studios.
    ═══════════════════════════════════════════════════════════ */
 
 /* ──────── Angle Section Divider ────────
@@ -14,7 +14,7 @@
    Uses negative margins + shape-rendering to eliminate seams. */
 export function AngleDivider({
   variant = "steep",
-  fill = "#0f3d15",
+  fill = "#1a1a1a",
   from = "transparent",
   className = "",
   flip = false,
@@ -57,7 +57,7 @@ export function AngleDivider({
    to create a hard vertical stripe on the side of sections. 
    On mobile it switches to a horizontal bottom stripe. */
 export function EdgeAccentStripe({
-  color = "#65B207",
+  color = "#68ccd1",
   side = "left",
   width = "7%",
   className = "",
@@ -316,7 +316,7 @@ export function DotGridOverlay({ className = "" }: { className?: string }) {
    Positioned radial gradient glow for visual depth,
    like JP Carroll's motion effects layer color overlays. */
 export function RadialGlow({
-  color = "#65B207",
+  color = "#68ccd1",
   position = "center",
   size = "600px",
   opacity = 0.06,

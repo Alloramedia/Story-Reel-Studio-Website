@@ -1,15 +1,15 @@
 import { Metadata } from "next";
-import { HomeClient } from "./HomeClient";
+import HomeClient from "./HomeClient";
 import { ReviewSchema } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Allora Media | Marketing Agency in Connecticut — Paid Ads, Video & Social Media",
+    absolute: "Story Real Studios | Strategy-Led Video Production in Connecticut",
   },
   description:
-    "Allora Media is a full-service marketing agency in Southington, CT. We build paid advertising campaigns, produce professional video & photography, and manage social media — so your marketing actually brings in customers.",
+    "Story Real Studios builds strategy-led video campaigns and content systems for purpose-led organizations — combining strategy, cinematic production, and deployment into measurable growth.",
   alternates: {
-    canonical: "https://www.alloramedia.us",
+    canonical: "https://www.storyreal.co",
   },
 };
 

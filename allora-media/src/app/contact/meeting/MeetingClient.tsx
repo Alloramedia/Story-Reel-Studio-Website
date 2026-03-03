@@ -16,7 +16,7 @@ export function MeetingClient() {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#65B207]/10 px-4 py-2 text-sm font-semibold text-[#65B207]">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#68ccd1]/10 px-4 py-2 text-sm font-semibold text-[#68ccd1]">
             <Calendar size={16} />
             Schedule a Meeting
           </div>
@@ -63,7 +63,7 @@ export function MeetingClient() {
             If you have an immediate concern, call us directly at{" "}
             <a
               href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
-              className="inline-flex items-center gap-1 font-medium text-[#65B207] hover:underline"
+              className="inline-flex items-center gap-1 font-medium text-[#68ccd1] hover:underline"
             >
               <Phone size={14} />
               {siteConfig.phone}

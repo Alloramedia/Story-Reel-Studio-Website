@@ -118,7 +118,7 @@ export function PaidMediaClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase text-balance text-[#68ccd1]"
           >
             Facebook & Instagram Advertising
           </motion.p>
@@ -153,7 +153,7 @@ export function PaidMediaClient() {
         ]}
       />
 
-      <AngleDivider variant="notch" fill="#080808" from="#65B207" />
+      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
 
       {/* WHAT SUCCESS LOOKS LIKE */}
       <Section variant="dark">
@@ -187,13 +187,13 @@ export function PaidMediaClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* STRATEGY OVER SHORTCUTS */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-3xl py-6 text-center">
           <SectionHeader
             variant="light"
@@ -223,7 +223,7 @@ export function PaidMediaClient() {
             </div>
             </SlideIn>
             <SlideIn from="right">
-            <div className="rounded-2xl border border-white/10 bg-[#080808] p-6 border-l-4 border-l-[#65B207]">
+            <div className="rounded-2xl border border-white/10 bg-[#080808] p-6 border-l-4 border-l-[#68ccd1]">
               <h3 className="mb-4 text-lg font-bold text-white">The Allora Approach</h3>
               <ul className="space-y-3 text-sm text-white/80">
                 {[
@@ -234,7 +234,7 @@ export function PaidMediaClient() {
                   "Monthly reviews so you see exactly what's working and what's next",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <CheckCircle size={16} className="mt-0.5 shrink-0 text-[#65B207]" />
+                    <CheckCircle size={16} className="mt-0.5 shrink-0 text-[#68ccd1]" />
                     {item}
                   </li>
                 ))}
@@ -245,7 +245,7 @@ export function PaidMediaClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* CAPABILITIES */}
       <Section variant="dark">
@@ -263,7 +263,7 @@ export function PaidMediaClient() {
               transition={{ duration: 0.4, delay: i * 0.05 }}
               className="h-full rounded-2xl border border-white/10 p-6 hover-lift border-glow"
             >
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#131E13] text-white">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#151515] text-white">
                 {cap.icon}
               </div>
               <h3 className="mb-2 text-lg font-bold">{cap.title}</h3>
@@ -275,13 +275,13 @@ export function PaidMediaClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* META ADS vs GOOGLE ADS */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
-        <RadialGlow color="#65B207" position="50% 80%" size="800px" opacity={0.035} />
+        <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -296,7 +296,7 @@ export function PaidMediaClient() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-              className="rounded-2xl border border-white/10 bg-[#131E13] p-8"
+              className="rounded-2xl border border-white/10 bg-[#151515] p-8"
             >
               <p className="mb-2 text-xs font-bold uppercase tracking-wider text-white/40">Google Ads</p>
               <h3 className="mb-4 font-heading text-2xl font-bold text-white">Captures existing demand</h3>
@@ -325,13 +325,13 @@ export function PaidMediaClient() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-              className="rounded-2xl border border-[#65B207]/30 bg-[#131E13] p-8 ring-1 ring-[#65B207]/10"
+              className="rounded-2xl border border-[#68ccd1]/30 bg-[#151515] p-8 ring-1 ring-[#68ccd1]/10"
             >
               <div className="mb-2 flex items-center gap-2">
-                <p className="text-xs font-bold uppercase tracking-wider text-[#65B207]">Meta Ads (Facebook & Instagram)</p>
-                <span className="rounded-full bg-[#65B207]/10 px-2 py-0.5 text-[10px] font-bold text-[#65B207]">Our Focus</span>
+                <p className="text-xs font-bold uppercase tracking-wider text-[#68ccd1]">Meta Ads (Facebook & Instagram)</p>
+                <span className="rounded-full bg-[#68ccd1]/10 px-2 py-0.5 text-[10px] font-bold text-[#68ccd1]">Our Focus</span>
               </div>
-              <h3 className="mb-4 font-heading text-2xl font-bold text-white">Creates <span className="text-[#65B207]">new</span> demand</h3>
+              <h3 className="mb-4 font-heading text-2xl font-bold text-white">Creates <span className="text-[#68ccd1]">new</span> demand</h3>
               <p className="text-sm leading-relaxed text-white/60">
                 Meta puts your business in front of your <span className="text-white">ideal customer</span> — even before they know they need you. It builds awareness, trust, and desire through visual storytelling. And every person who engages becomes a retargetable audience for future campaigns.
               </p>
@@ -345,7 +345,7 @@ export function PaidMediaClient() {
                   "Audiences you build become long-term business assets",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <CheckCircle size={14} className="mt-0.5 shrink-0 text-[#65B207]" />
+                    <CheckCircle size={14} className="mt-0.5 shrink-0 text-[#68ccd1]" />
                     {item}
                   </li>
                 ))}
@@ -359,7 +359,7 @@ export function PaidMediaClient() {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="rounded-2xl border border-[#65B207]/20 bg-[#080808] p-8 md:p-10"
+            className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8 md:p-10"
           >
             <h3 className="mb-6 text-center font-heading text-xl font-bold text-white">
               The real difference in one sentence:
@@ -367,7 +367,7 @@ export function PaidMediaClient() {
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-lg leading-relaxed text-white/70">
                 Google Ads fights for the <span className="font-bold text-white">5% of your market</span> that&apos;s searching right now.
-                Meta Ads puts you in front of the <span className="font-bold text-[#65B207]">other 95%</span> — and turns them into customers before your competitors even know they exist.
+                Meta Ads puts you in front of the <span className="font-bold text-[#68ccd1]">other 95%</span> — and turns them into customers before your competitors even know they exist.
               </p>
             </div>
 
@@ -390,7 +390,7 @@ export function PaidMediaClient() {
                 },
               ].map((item, i) => (
                 <div key={i} className="text-center">
-                  <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-[#65B207]/10 text-[#65B207]">
+                  <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-[#68ccd1]/10 text-[#68ccd1]">
                     {item.icon}
                   </div>
                   <h4 className="text-sm font-bold text-white">{item.title}</h4>
@@ -399,21 +399,21 @@ export function PaidMediaClient() {
               ))}
             </div>
 
-            <div className="mt-8 rounded-xl bg-[#131E13] p-5 text-center">
+            <div className="mt-8 rounded-xl bg-[#151515] p-5 text-center">
               <p className="text-sm text-white/60">
-                <span className="font-bold text-white">Bottom line:</span> Google is a search engine. Meta is a <span className="font-bold text-[#65B207]">discovery engine</span>. For local service businesses that need to build awareness AND generate leads, Meta delivers better ROI, lower costs, and long-term audience assets that Google simply can&apos;t match.
+                <span className="font-bold text-white">Bottom line:</span> Google is a search engine. Meta is a <span className="font-bold text-[#68ccd1]">discovery engine</span>. For local service businesses that need to build awareness AND generate leads, Meta delivers better ROI, lower costs, and long-term audience assets that Google simply can&apos;t match.
               </p>
             </div>
           </motion.div>
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* THE MATH — ROI BREAKDOWN */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="The Math"
           title="Here's why paid ads pay for themselves."
@@ -421,33 +421,33 @@ export function PaidMediaClient() {
         />
         <div className="mx-auto max-w-4xl">
           <ScaleIn>
-          <div className="rounded-2xl border border-[#65B207]/20 bg-[#080808] p-8 md:p-10">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8 md:p-10">
             <div className="grid gap-8 md:grid-cols-3">
               <div className="text-center">
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#65B207]/10">
-                  <DollarSign size={24} className="text-[#65B207]" />
+                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                  <DollarSign size={24} className="text-[#68ccd1]" />
                 </div>
-                <p className="font-heading text-3xl font-black text-[#65B207] md:text-4xl">$3,000</p>
+                <p className="font-heading text-3xl font-black text-[#68ccd1] md:text-4xl">$3,000</p>
                 <p className="mt-1 text-sm text-white/55">Monthly Ad Spend</p>
               </div>
               <div className="text-center">
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#65B207]/10">
-                  <Target size={24} className="text-[#65B207]" />
+                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                  <Target size={24} className="text-[#68ccd1]" />
                 </div>
-                <p className="font-heading text-3xl font-black text-[#65B207] md:text-4xl">30–50</p>
+                <p className="font-heading text-3xl font-black text-[#68ccd1] md:text-4xl">30–50</p>
                 <p className="mt-1 text-sm text-white/55">Leads Per Month</p>
               </div>
               <div className="text-center">
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#65B207]/10">
-                  <TrendingUp size={24} className="text-[#65B207]" />
+                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                  <TrendingUp size={24} className="text-[#68ccd1]" />
                 </div>
-                <p className="font-heading text-3xl font-black text-[#65B207] md:text-4xl">3–5x</p>
+                <p className="font-heading text-3xl font-black text-[#68ccd1] md:text-4xl">3–5x</p>
                 <p className="mt-1 text-sm text-white/55">Return on Ad Spend</p>
               </div>
             </div>
-            <div className="mt-8 rounded-xl bg-[#131E13] p-6">
+            <div className="mt-8 rounded-xl bg-[#151515] p-6">
               <p className="text-center text-base leading-relaxed text-white/70">
-                <span className="font-bold text-white">Example:</span> A contractor spending $3,000/month on ads generates 40 leads. If 10 of those close at an average project value of $5,000 — that&apos;s <span className="font-black text-[#65B207]">$50,000 in revenue</span> from a $3,000 investment. That&apos;s a <span className="font-black text-[#65B207]">16x return</span>. Even if only 5 close, that&apos;s $25,000 — still an 8x return.
+                <span className="font-bold text-white">Example:</span> A contractor spending $3,000/month on ads generates 40 leads. If 10 of those close at an average project value of $5,000 — that&apos;s <span className="font-black text-[#68ccd1]">$50,000 in revenue</span> from a $3,000 investment. That&apos;s a <span className="font-black text-[#68ccd1]">16x return</span>. Even if only 5 close, that&apos;s $25,000 — still an 8x return.
               </p>
             </div>
           </div>
@@ -455,13 +455,13 @@ export function PaidMediaClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* 90-DAY TIMELINE */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="3%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="3%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom left" />
-        <RadialGlow color="#65B207" position="80% 30%" size="500px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="80% 30%" size="500px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -471,35 +471,35 @@ export function PaidMediaClient() {
         />
         <div className="mx-auto max-w-3xl">
           <div className="relative">
-            <div className="absolute left-6 top-0 bottom-0 w-px bg-[#65B207]/20 md:left-8" />
+            <div className="absolute left-6 top-0 bottom-0 w-px bg-[#68ccd1]/20 md:left-8" />
             {[
               {
                 period: "Week 1–2",
                 icon: <Zap size={20} />,
                 title: "Setup & Launch",
                 detail: "We install tracking, build your campaigns, produce ad creative, and go live. You’ll see your first impressions within days.",
-                color: "bg-[#65B207]/20 text-[#65B207]",
+                color: "bg-[#68ccd1]/20 text-[#68ccd1]",
               },
               {
                 period: "Week 3–4",
                 icon: <Eye size={20} />,
                 title: "First Leads Roll In",
                 detail: "Campaigns start generating leads. We’re monitoring daily, learning what’s working, and beginning to optimize targeting and creative.",
-                color: "bg-[#65B207]/30 text-[#65B207]",
+                color: "bg-[#68ccd1]/30 text-[#68ccd1]",
               },
               {
                 period: "Month 2",
                 icon: <BarChart3 size={20} />,
                 title: "Optimization Kicks In",
                 detail: "With real data, we kill underperforming ads, double down on winners, refine audiences, and your cost per lead starts dropping.",
-                color: "bg-[#65B207]/40 text-[#65B207]",
+                color: "bg-[#68ccd1]/40 text-[#68ccd1]",
               },
               {
                 period: "Month 3",
                 icon: <TrendingUp size={20} />,
                 title: "System Maturity",
                 detail: "Retargeting audiences are built, ad costs are optimized, and you have a predictable lead flow. This is when ROI compounds.",
-                color: "bg-[#65B207] text-white",
+                color: "bg-[#68ccd1] text-white",
               },
             ].map((item, i) => (
               <motion.div
@@ -513,13 +513,13 @@ export function PaidMediaClient() {
                 <div className={`absolute -left-[2.35rem] top-1 flex h-10 w-10 items-center justify-center rounded-full ${item.color} md:-left-[3.1rem]`}>
                   {item.icon}
                 </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-[#65B207]">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#68ccd1]">
                   {item.period}
                 </span>
-                <h3 className="mt-1 font-heading text-lg font-bold text-[#0f3d15]">
+                <h3 className="mt-1 font-heading text-lg font-bold text-[#1a1a1a]">
                   {item.title}
                 </h3>
-                <p className="mt-1 text-sm leading-relaxed text-[#0f3d15]/60">
+                <p className="mt-1 text-sm leading-relaxed text-[#1a1a1a]/60">
                   {item.detail}
                 </p>
               </motion.div>
@@ -529,7 +529,7 @@ export function PaidMediaClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" />
 
       {/* META ADS TIMELINE */}
       <Section variant="dark">
@@ -542,13 +542,13 @@ export function PaidMediaClient() {
         <MetaAdsTimeline />
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ═══ INDUSTRIES WE SERVE ═══ */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
-        <RadialGlow color="#65B207" position="50% 80%" size="800px" opacity={0.035} />
+        <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -599,7 +599,7 @@ export function PaidMediaClient() {
               >
                 <TiltCard tiltIntensity={5} className="h-full">
                   <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-glow">
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>
                     <h3 className="font-heading text-lg font-bold text-white">

@@ -5,16 +5,16 @@ import { BreadcrumbSchema } from "@/components/StructuredData";
 export const metadata: Metadata = {
   title: "Website Policies",
   description:
-    "Privacy policy and terms of service for Allora Media. Learn how we collect, use, and protect your information.",
+    "Privacy policy and terms of service for Story Real Studios. Learn how we collect, use, and protect your information.",
   alternates: {
     canonical: "https://www.alloramedia.us/website-policies",
   },
   openGraph: {
-    title: "Website Policies | Allora Media",
+    title: "Website Policies | Story Real Studios",
     description:
-      "Privacy policy and terms of service for Allora Media. Learn how we collect, use, and protect your information.",
+      "Privacy policy and terms of service for Story Real Studios. Learn how we collect, use, and protect your information.",
     url: "https://www.alloramedia.us/website-policies",
-    siteName: "Allora Media",
+    siteName: "Story Real Studios",
     type: "website",
   },
 };
@@ -28,9 +28,9 @@ export default function WebsitePoliciesPage() {
           { name: "Website Policies", href: "/website-policies" },
         ]}
       />
-      <section className="bg-[#131E13] pt-32 pb-16 md:pt-40 md:pb-20">
+      <section className="bg-[#151515] pt-32 pb-16 md:pt-40 md:pb-20">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
-          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
+          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
             Legal
           </p>
           <h1 className="font-heading text-4xl font-black text-white md:text-5xl">
@@ -49,14 +49,14 @@ export default function WebsitePoliciesPage() {
             <div id="privacy-policy">
               <h2>Privacy Policy</h2>
               <p>
-                Allora Media (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or
+                Story Real Studios (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or
                 &ldquo;our&rdquo;) respects your privacy and is committed to
                 protecting the personal information you share with us. This
                 Privacy Policy explains how we collect, use, and safeguard your
                 information when you visit our website at{" "}
                 <a
                   href={siteConfig.url}
-                  className="text-[#65B207] hover:underline"
+                  className="text-[#68ccd1] hover:underline"
                 >
                   {siteConfig.url}
                 </a>
@@ -116,7 +116,7 @@ export default function WebsitePoliciesPage() {
                 information. To exercise these rights, please contact us at{" "}
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="text-[#65B207] hover:underline"
+                  className="text-[#68ccd1] hover:underline"
                 >
                   {siteConfig.email}
                 </a>
@@ -128,7 +128,7 @@ export default function WebsitePoliciesPage() {
             <div id="terms-of-service" className="pt-8 border-t border-white/10">
               <h2>Terms of Service</h2>
               <p>
-                By accessing and using the Allora Media website, you accept and
+                By accessing and using the Story Real Studios website, you accept and
                 agree to be bound by these Terms of Service.
               </p>
 
@@ -143,7 +143,7 @@ export default function WebsitePoliciesPage() {
               <h3>Intellectual Property</h3>
               <p>
                 All content on this website — including text, graphics, logos,
-                images, videos, and software — is the property of Allora Media
+                images, videos, and software — is the property of Story Real Studios
                 and is protected by copyright and intellectual property laws.
                 You may not reproduce, distribute, or create derivative works
                 without our express written permission.
@@ -160,7 +160,7 @@ export default function WebsitePoliciesPage() {
 
               <h3>Limitation of Liability</h3>
               <p>
-                Allora Media shall not be liable for any indirect, incidental,
+                Story Real Studios shall not be liable for any indirect, incidental,
                 special, or consequential damages arising from your use of this
                 website or our services.
               </p>
@@ -170,14 +170,14 @@ export default function WebsitePoliciesPage() {
                 For questions about these policies, please contact us at{" "}
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="text-[#65B207] hover:underline"
+                  className="text-[#68ccd1] hover:underline"
                 >
                   {siteConfig.email}
                 </a>{" "}
                 or call{" "}
                 <a
                   href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
-                  className="text-[#65B207] hover:underline"
+                  className="text-[#68ccd1] hover:underline"
                 >
                   {siteConfig.phone}
                 </a>

@@ -11,8 +11,8 @@ const GOOGLE_REVIEW_URL = googleReview.url;
 export function SocialProofSection() {
   return (
     <section className="relative overflow-hidden bg-[#0a0a0a] py-20 lg:py-28">
-      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-[#65B207]/20 to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-[#65B207]/20 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-[#68ccd1]/20 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-[#68ccd1]/20 to-transparent" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
@@ -23,7 +23,7 @@ export function SocialProofSection() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="mx-auto mb-14 max-w-3xl text-center"
         >
-          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
+          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
             Real Reviews
           </p>
           <h2 className="font-heading text-3xl font-black text-white md:text-4xl lg:text-5xl">
@@ -40,11 +40,11 @@ export function SocialProofSection() {
           className="relative mx-auto max-w-2xl"
         >
           {/* Glow backdrop */}
-          <div className="absolute -inset-4 rounded-3xl bg-linear-to-br from-[#65B207]/6 via-transparent to-[#65B207]/3 blur-2xl pointer-events-none" />
+          <div className="absolute -inset-4 rounded-3xl bg-linear-to-br from-[#68ccd1]/6 via-transparent to-[#68ccd1]/3 blur-2xl pointer-events-none" />
 
           <div className="relative rounded-2xl border border-white/8 bg-[#111611]/80 p-8 md:p-12 backdrop-blur-sm overflow-hidden">
             {/* Radial highlight */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#65B207]/4 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#68ccd1]/4 rounded-full blur-3xl pointer-events-none" />
 
             <div className="relative z-10 text-center">
               {/* Google branding */}
@@ -107,7 +107,7 @@ export function SocialProofSection() {
               </motion.p>
 
               {/* Divider */}
-              <div className="mx-auto my-8 h-px w-16 bg-linear-to-r from-transparent via-[#65B207]/40 to-transparent" />
+              <div className="mx-auto my-8 h-px w-16 bg-linear-to-r from-transparent via-[#68ccd1]/40 to-transparent" />
 
               {/* Tagline */}
               <motion.p
@@ -133,7 +133,7 @@ export function SocialProofSection() {
                   href={GOOGLE_REVIEW_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#65B207] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#65B207]/20 transition-all duration-300 hover:shadow-[#65B207]/30 hover:scale-[1.03]"
+                  className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#68ccd1] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all duration-300 hover:shadow-[#68ccd1]/30 hover:scale-[1.03]"
                 >
                   <GoogleLogo className="h-5 w-5" />
                   Read Our Reviews on Google

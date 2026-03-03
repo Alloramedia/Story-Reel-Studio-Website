@@ -62,7 +62,7 @@ export function YouTubeEmbed({
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-black/40 transition-colors duration-300 group-hover:bg-black/30" />
           {/* Play button */}
-          <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full bg-[#65B207] shadow-lg shadow-[#65B207]/30 transition-transform duration-300 group-hover:scale-110 md:h-20 md:w-20">
+          <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full bg-[#68ccd1] shadow-lg shadow-[#68ccd1]/30 transition-transform duration-300 group-hover:scale-110 md:h-20 md:w-20">
             <Play size={28} className="ml-1 text-white" fill="white" />
           </div>
         </button>
@@ -98,7 +98,7 @@ export function VideoShowcase({
       {(eyebrow || heading) && (
         <div className="mb-10 text-center">
           {eyebrow && (
-            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
               {eyebrow}
             </p>
           )}
@@ -136,7 +136,7 @@ export function VideoShowcase({
             {(video.title || video.client || video.description) && (
               <div className="mt-3 px-1">
                 {video.client && (
-                  <p className="text-xs font-semibold uppercase tracking-wider text-[#65B207]">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-[#68ccd1]">
                     {video.client}
                   </p>
                 )}

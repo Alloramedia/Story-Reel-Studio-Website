@@ -502,3 +502,22 @@ export const industries = [
   "All",
   ...Array.from(new Set(caseStudies.map((cs) => cs.industry))),
 ];
+
+/** Get unique industries for filtering */
+export function getCaseStudyIndustries(): string[] {
+  return Array.from(new Set(caseStudies.map((cs) => cs.industry)));
+}
+
+/** Get unique video types for filtering */
+export function getCaseStudyVideoTypes(): string[] {
+  return Array.from(
+    new Set(caseStudies.map((cs) => cs.videoType).filter(Boolean) as string[])
+  );
+}
+
+/** Find a case study by slug */
+export function getCaseStudyBySlug(slug: string): CaseStudy | undefined {
+  return caseStudies.find((cs) => cs.slug === slug);
+}
+
+export type { CaseStudy } from "@/components/CaseStudyCard";

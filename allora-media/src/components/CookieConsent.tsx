@@ -53,7 +53,7 @@ export function CookieConsent() {
               to use this site, you agree to our{" "}
               <Link
                 href="/website-policies#privacy-policy"
-                className="text-[#65B207] underline hover:text-[#7acc09]"
+                className="text-[#68ccd1] underline hover:text-[#7dd6da]"
               >
                 Privacy Policy
               </Link>
@@ -68,7 +68,7 @@ export function CookieConsent() {
               </button>
               <button
                 onClick={accept}
-                className="rounded-full bg-[#65B207] px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-[#7acc09] hover:shadow-lg hover:shadow-[#65B207]/20"
+                className="rounded-full bg-[#68ccd1] px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-[#7dd6da] hover:shadow-lg hover:shadow-[#68ccd1]/20"
               >
                 Accept
               </button>

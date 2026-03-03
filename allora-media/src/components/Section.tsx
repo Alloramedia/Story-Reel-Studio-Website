@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, type ReactNode } from "react";
 
-type SectionVariant = "dark" | "light" | "green" | "accent";
+type SectionVariant = "dark" | "light" | "cream" | "accent";
 
 interface SectionProps {
   children: ReactNode;
@@ -14,9 +14,9 @@ interface SectionProps {
 
 const variantStyles: Record<SectionVariant, string> = {
   dark: "bg-[#080808] noise-texture",
-  light: "bg-[#d4e4c1] text-[#0f3d15]",
-  green: "bg-[#0f3d15] noise-texture",
-  accent: "bg-[#65B207]",
+  light: "bg-[#f5fafa] text-[#1a1a1a]",
+  cream: "bg-[#eaf6f7] text-[#1a1a1a]",
+  accent: "bg-[#68ccd1] text-[#080808]",
 };
 
 export function Section({ children, className = "", id, variant }: SectionProps) {
@@ -64,9 +64,9 @@ export function SectionHeader({
 
   const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
-  const isLight = variant === "light";
-  const titleColor = isLight ? "text-[#0f3d15]" : "text-white";
-  const descColor = isLight ? "text-[#0f3d15]/60" : "text-white/60";
+  const isLight = variant === "light" || variant === "cream";
+  const titleColor = isLight ? "text-[#1a1a1a]" : "text-white";
+  const descColor = isLight ? "text-[#4a4a4a]" : "text-white/60";
 
   return (
     <motion.div
@@ -75,7 +75,7 @@ export function SectionHeader({
       className={`mb-12 max-w-3xl md:mb-16 ${center ? "mx-auto text-center" : ""}`}
     >
       {eyebrow && (
-        <p className={`mb-3 text-sm font-bold uppercase tracking-[0.2em] ${eyebrowColor ?? "text-[#65B207]"}`}>
+        <p className={`mb-3 text-sm font-bold uppercase tracking-[0.2em] ${eyebrowColor ?? "text-[#68ccd1]"}`}>
           {eyebrow}
         </p>
       )}

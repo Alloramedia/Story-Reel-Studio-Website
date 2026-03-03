@@ -43,11 +43,11 @@ const pillars = [
 export function ApproachSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -67,8 +67,8 @@ export function ApproachSection() {
                 className="h-full"
               >
                 <TiltCard tiltIntensity={5} className="h-full">
-                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-l-4 border-l-[#65B207]">
-                    <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-l-4 border-l-[#68ccd1]">
+                    <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>
                     <h3 className="font-heading text-lg font-bold text-white">
@@ -134,13 +134,13 @@ const contentAdvantages = [
 export function ContentIsKingSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="The Shift Has Already Happened"
-          title={<>Social media and content are king.{' '}<span className="block text-[#65B207]">And it&apos;s not even close.</span></>}
+          title={<>Social media and content are king.{' '}<span className="block text-[#68ccd1]">And it&apos;s not even close.</span></>}
           description="Your customers don't open the Yellow Pages anymore. They scroll Instagram. They watch videos. They check your socials before they ever pick up the phone. The businesses that own social media and content are the ones winning — and the gap is only getting wider."
         />
 
@@ -154,7 +154,7 @@ export function ContentIsKingSection() {
               transition={{ duration: 0.3, delay: i * 0.05 }}
               className="rounded-2xl border border-white/10 bg-[#080808] p-6 text-center h-full flex flex-col hover-lift"
             >
-              <p className="font-heading text-4xl font-black text-[#65B207]">
+              <p className="font-heading text-4xl font-black text-[#68ccd1]">
                 {item.stat}
               </p>
               <p className="mt-2 text-sm font-semibold text-white">
@@ -174,14 +174,14 @@ export function ContentIsKingSection() {
           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
           className="mt-14 mx-auto max-w-4xl"
         >
-          <div className="rounded-2xl border border-[#65B207]/20 bg-[#080808] p-8 md:p-10">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8 md:p-10">
             <h3 className="text-center font-heading text-xl font-bold text-white md:text-2xl mb-6">
               Content isn&apos;t optional anymore. It&apos;s the #1 competitive advantage.
             </h3>
             <div className="grid gap-6 md:grid-cols-3">
               {contentAdvantages.map((item, i) => (
                 <div key={i} className="text-center">
-                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#65B207]/10 text-[#65B207]">
+                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10 text-[#68ccd1]">
                     {item.icon}
                   </div>
                   <h4 className="text-sm font-bold text-white">{item.title}</h4>
@@ -190,7 +190,7 @@ export function ContentIsKingSection() {
               ))}
             </div>
             <div className="mt-8 text-center">
-              <p className="text-sm font-bold text-[#65B207]">
+              <p className="text-sm font-bold text-[#68ccd1]">
                 The bottom line: businesses that invest in social media and content aren&apos;t just marketing — they&apos;re building an unfair advantage that competitors can&apos;t replicate overnight.
               </p>
             </div>

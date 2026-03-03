@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef, useState, useCallback } from "react";
-import { motion } from "framer-motion";
+import { useRef, useState, useCallback, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
 interface HeroBannerProps {
@@ -21,6 +21,8 @@ interface HeroBannerProps {
   cursorSpotlight?: boolean;
   /** Tint overlay opacity — 0-100, default 65 */
   overlayOpacity?: number;
+  /** Enable cinematic wipe-reveal entrance animation */
+  cinematic?: boolean;
 }
 
 export function HeroBanner({
@@ -32,9 +34,21 @@ export function HeroBanner({
   minHeight = "min-h-[70vh]",
   cursorSpotlight = false,
   overlayOpacity = 65,
+  cinematic = false,
 }: HeroBannerProps) {
   const heroRef = useRef<HTMLElement>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [cinematicStage, setCinematicStage] = useState(cinematic ? 0 : 2);
+
+  useEffect(() => {
+    if (!cinematic) return;
+    const t1 = setTimeout(() => setCinematicStage(1), 400);
+    const t2 = setTimeout(() => setCinematicStage(2), 1600);
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
+  }, [cinematic]);
 
   const handleMouseMove = useCallback(
     (e: React.MouseEvent<HTMLElement>) => {
@@ -49,12 +63,26 @@ export function HeroBanner({
     <section
       ref={heroRef}
       onMouseMove={handleMouseMove}
-      className={`relative flex ${minHeight} items-center overflow-hidden noise-texture ${className}`}
+      className={`relative flex ${cinematic ? "min-h-screen" : minHeight} items-center overflow-hidden noise-texture ${className}`}
     >
+      {/* ── Cinematic black cover (wipe reveal) ── */}
+      {cinematic && (
+        <motion.div
+          className="absolute inset-0 z-30 bg-[#080808] origin-top"
+          initial={{ scaleY: 1 }}
+          animate={{ scaleY: cinematicStage >= 1 ? 0 : 1 }}
+          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+        />
+      )}
+
       {/* ── Video background ── */}
-      {/* Zero JS control — pure HTML autoplay. Hidden only for reduced-motion preference. */}
       {videoSrc && (
-        <div className="absolute inset-0 z-1 hidden motion-safe:block">
+        <motion.div
+          className="absolute inset-0 z-1 hidden motion-safe:block"
+          initial={cinematic ? { scale: 1.2 } : undefined}
+          animate={cinematic ? { scale: 1 } : undefined}
+          transition={cinematic ? { duration: 2.5, ease: [0.22, 1, 0.36, 1] } : undefined}
+        >
           <video
             autoPlay
             loop
@@ -67,7 +95,7 @@ export function HeroBanner({
             <source src={videoSrc} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>
+        </motion.div>
       )}
 
       {/* ── Image background (fallback / mobile) ── */}
@@ -111,15 +139,37 @@ export function HeroBanner({
         <div
           className="pointer-events-none absolute inset-0 z-3 opacity-0 transition-opacity duration-500 lg:opacity-100"
           style={{
-            background: `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(101, 178, 7, 0.06), transparent 40%)`,
+            background: `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(104, 204, 209, 0.06), transparent 40%)`,
           }}
         />
       )}
 
       {/* ── Content ── */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32 lg:px-8">
+      <motion.div
+        className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32 lg:px-8"
+        initial={cinematic ? { opacity: 0 } : undefined}
+        animate={cinematic ? { opacity: cinematicStage >= 2 ? 1 : 0 } : undefined}
+        transition={cinematic ? { duration: 0.8 } : undefined}
+      >
         {children}
-      </div>
+      </motion.div>
+
+      {/* ── Scroll indicator ── */}
+      {cinematic && (
+        <motion.div
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: cinematicStage >= 2 ? 0.6 : 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+        >
+          <span className="text-xs font-medium uppercase tracking-[0.2em] text-white/50">Scroll</span>
+          <motion.div
+            className="h-8 w-[1px] bg-white/30"
+            animate={{ scaleY: [0, 1, 0] }}
+            transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
+          />
+        </motion.div>
+      )}
     </section>
   );
 }

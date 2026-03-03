@@ -44,13 +44,13 @@ export default function Error({
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <button
             onClick={reset}
-            className="inline-flex items-center rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all duration-300 hover:bg-[#7acc09] hover:scale-[1.03]"
+            className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
           >
             Try Again
           </button>
           <Link
             href="/"
-            className="inline-flex items-center rounded-full border-2 border-white/20 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:border-[#65B207] hover:bg-[#65B207]/10"
+            className="inline-flex items-center rounded-full border-2 border-white/20 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:border-[#68ccd1] hover:bg-[#68ccd1]/10"
           >
             Back to Home
           </Link>

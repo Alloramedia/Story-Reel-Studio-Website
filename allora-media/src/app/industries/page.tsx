@@ -110,7 +110,7 @@ export default function IndustriesPage() {
       <FAQSchema faqs={industriesFaqs} />
 
       {/* ═══════ HERO ═══════ */}
-      <section className="relative bg-[#131E13] pt-32 pb-20 md:pt-40 md:pb-28 noise-texture overflow-hidden">
+      <section className="relative bg-[#151515] pt-32 pb-20 md:pt-40 md:pb-28 noise-texture overflow-hidden">
         <div
           className="pointer-events-none absolute inset-0"
           style={{
@@ -120,13 +120,13 @@ export default function IndustriesPage() {
           aria-hidden="true"
         />
         <div className="relative mx-auto max-w-4xl px-6 text-center lg:px-8">
-          <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
+          <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
             Industry-Specific Marketing
           </p>
           <h1 className="font-heading text-4xl font-black leading-[1.1] text-white md:text-5xl lg:text-6xl">
             Your industry has rules.
             <br className="hidden sm:block" />
-            <span className="text-[#65B207]"> We know how to break through.</span>
+            <span className="text-[#68ccd1]"> We know how to break through.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/60">
             Every industry has a different buying cycle, different objections, and
@@ -138,7 +138,7 @@ export default function IndustriesPage() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/20 transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
               Book a Free Growth Blueprint Call
               <ArrowRight size={18} />
@@ -171,7 +171,7 @@ export default function IndustriesPage() {
       </section>
 
       {/* ═══════ WHY INDUSTRY-SPECIFIC ═══════ */}
-      <AngleDivider variant="notch" fill="#080808" from="#131E13" />
+      <AngleDivider variant="notch" fill="#080808" from="#151515" />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
@@ -199,9 +199,9 @@ export default function IndustriesPage() {
           ].map((item, i) => (
             <div
               key={i}
-              className="rounded-2xl border border-white/10 bg-[#131E13] p-7 transition-all hover:border-[#65B207]/20 hover-lift gradient-border-card"
+              className="rounded-2xl border border-white/10 bg-[#151515] p-7 transition-all hover:border-[#68ccd1]/20 hover-lift gradient-border-card"
             >
-              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                 {item.icon}
               </div>
               <h3 className="mb-2 text-lg font-bold text-white">{item.title}</h3>
@@ -212,11 +212,11 @@ export default function IndustriesPage() {
       </Section>
 
       {/* ═══════ INDUSTRY CARDS ═══════ */}
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -232,19 +232,19 @@ export default function IndustriesPage() {
                 <Link
                   key={slug}
                   href={`/industries/${slug}`}
-                  className="group block rounded-2xl border border-white/10 bg-[#131E13] p-6 transition-all hover:border-[#65B207]/40 hover:shadow-lg hover:shadow-[#65B207]/5 md:p-8"
+                  className="group block rounded-2xl border border-white/10 bg-[#151515] p-6 transition-all hover:border-[#68ccd1]/40 hover:shadow-lg hover:shadow-[#68ccd1]/5 md:p-8"
                 >
                   <div className="flex flex-col gap-6 md:flex-row md:items-start md:gap-8">
                     {/* icon + name */}
                     <div className="flex shrink-0 items-start gap-4">
-                      <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                         {industryIcons[slug] ?? <Briefcase size={28} />}
                       </div>
                       <div className="md:hidden">
                         <h3 className="font-heading text-xl font-bold text-white">
                           {industry.name}
                         </h3>
-                        <p className="text-sm text-[#65B207]">{industry.headline}</p>
+                        <p className="text-sm text-[#68ccd1]">{industry.headline}</p>
                       </div>
                     </div>
 
@@ -253,7 +253,7 @@ export default function IndustriesPage() {
                       <h3 className="hidden font-heading text-2xl font-bold text-white md:block">
                         {industry.name} Marketing
                       </h3>
-                      <p className="hidden text-sm font-semibold text-[#65B207] md:mt-1 md:block">
+                      <p className="hidden text-sm font-semibold text-[#68ccd1] md:mt-1 md:block">
                         {industry.headline}
                       </p>
                       <p className="mt-3 text-sm leading-relaxed text-white/55 md:max-w-2xl">
@@ -264,7 +264,7 @@ export default function IndustriesPage() {
                       <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-4">
                         {industry.stats.map((stat) => (
                           <div key={stat.label}>
-                            <p className="font-heading text-xl font-black text-[#65B207]">
+                            <p className="font-heading text-xl font-black text-[#68ccd1]">
                               {stat.value}
                             </p>
                             <p className="text-xs text-white/40">{stat.label}</p>
@@ -297,13 +297,13 @@ export default function IndustriesPage() {
                     <div className="hidden md:flex md:items-center">
                       <ArrowRight
                         size={24}
-                        className="text-[#65B207] transition-transform group-hover:translate-x-1"
+                        className="text-[#68ccd1] transition-transform group-hover:translate-x-1"
                       />
                     </div>
                   </div>
 
                   {/* mobile CTA */}
-                  <div className="mt-5 flex items-center gap-2 text-sm font-semibold text-[#65B207] md:hidden">
+                  <div className="mt-5 flex items-center gap-2 text-sm font-semibold text-[#68ccd1] md:hidden">
                     View full {industry.name.toLowerCase()} strategy
                     <ArrowRight
                       size={16}
@@ -318,10 +318,10 @@ export default function IndustriesPage() {
       </Section>
 
       {/* ═══════ CROSS-INDUSTRY RESULTS ═══════ */}
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="Proven Results"
           title="Results across every industry we touch."
@@ -340,7 +340,7 @@ export default function IndustriesPage() {
               key={i}
               className="flex flex-col items-center justify-center px-4 py-8 text-center"
             >
-              <span className="font-heading text-3xl font-black text-[#65B207] md:text-4xl">
+              <span className="font-heading text-3xl font-black text-[#68ccd1] md:text-4xl">
                 {stat.value}
               </span>
               <span className="mt-1 text-xs font-medium uppercase tracking-wider text-white/50">
@@ -359,7 +359,7 @@ export default function IndustriesPage() {
 
       {/* ═══════ HOW IT WORKS ═══════ */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
@@ -392,9 +392,9 @@ export default function IndustriesPage() {
             ].map((item) => (
               <div
                 key={item.step}
-                className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#131E13] p-5 transition-all hover:border-[#65B207]/20 hover:bg-[#65B207]/4"
+                className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#151515] p-5 transition-all hover:border-[#68ccd1]/20 hover:bg-[#68ccd1]/4"
               >
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#65B207] text-xs font-bold text-white">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#68ccd1] text-xs font-bold text-white">
                   {item.step}
                 </span>
                 <div>
@@ -410,7 +410,7 @@ export default function IndustriesPage() {
       </Section>
 
       {/* ═══════ FAQ ═══════ */}
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.02)" to="transparent" direction="to top" />
         <div className="mx-auto max-w-3xl">

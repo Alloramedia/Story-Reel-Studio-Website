@@ -103,7 +103,7 @@ export function OrganicSocialClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase text-balance text-[#68ccd1]"
           >
             Social Media Management
           </motion.p>
@@ -129,7 +129,7 @@ export function OrganicSocialClient() {
       </HeroBanner>
 
       {/* ═══ CREDIBILITY BAR ═══ */}
-      <section className="relative py-5 lg:py-6 bg-[#65B207]">
+      <section className="relative py-5 lg:py-6 bg-[#68ccd1]">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
             {[
@@ -158,7 +158,7 @@ export function OrganicSocialClient() {
         </div>
       </section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#65B207" />
+      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
 
       {/* CLEAR EXPECTATIONS */}
       <Section variant="dark">
@@ -211,13 +211,13 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* WHY SOCIAL MEDIA IS KING */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -250,9 +250,9 @@ export function OrganicSocialClient() {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="rounded-2xl border border-[#65B207]/20 bg-[#131E13] p-6 text-center hover-lift"
+                className="rounded-2xl border border-[#68ccd1]/20 bg-[#151515] p-6 text-center hover-lift"
               >
-                <p className="font-heading text-3xl font-black text-[#65B207]">{item.stat}</p>
+                <p className="font-heading text-3xl font-black text-[#68ccd1]">{item.stat}</p>
                 <p className="mt-2 text-sm font-semibold text-white">{item.label}</p>
                 <p className="mt-2 text-xs leading-relaxed text-white/40">{item.detail}</p>
               </motion.div>
@@ -293,19 +293,19 @@ export function OrganicSocialClient() {
                   desc: "A billboard reaches random drivers. Social media reaches your exact target audience, tracks engagement, and costs a fraction of traditional advertising.",
                 },
               ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4 rounded-xl bg-[#131E13] p-4">
+                <div key={i} className="flex items-start gap-4 rounded-xl bg-[#151515] p-4">
                   <div className="shrink-0">
                     <p className="text-xs font-bold text-red-400/60 line-through">{item.old}</p>
-                    <ArrowRight size={12} className="my-1 text-[#65B207]" />
-                    <p className="text-xs font-bold text-[#65B207]">{item.now}</p>
+                    <ArrowRight size={12} className="my-1 text-[#68ccd1]" />
+                    <p className="text-xs font-bold text-[#68ccd1]">{item.now}</p>
                   </div>
                   <p className="text-xs leading-relaxed text-white/55">{item.desc}</p>
                 </div>
               ))}
             </div>
             <div className="mt-8 text-center">
-              <p className="rounded-xl bg-[#131E13] p-5 text-sm text-white/60">
-                <span className="font-bold text-[#65B207]">The businesses dominating social media today</span> are the same ones dominating their industries. It&apos;s not a coincidence — it&apos;s the single most powerful tool for building brand awareness, trust, and customer loyalty in 2026.
+              <p className="rounded-xl bg-[#151515] p-5 text-sm text-white/60">
+                <span className="font-bold text-[#68ccd1]">The businesses dominating social media today</span> are the same ones dominating their industries. It&apos;s not a coincidence — it&apos;s the single most powerful tool for building brand awareness, trust, and customer loyalty in 2026.
               </p>
             </div>
           </motion.div>
@@ -314,9 +314,9 @@ export function OrganicSocialClient() {
 
       {/* THE FLYWHEEL EFFECT */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
-        <RadialGlow color="#65B207" position="50% 80%" size="800px" opacity={0.035} />
+        <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -360,8 +360,8 @@ export function OrganicSocialClient() {
                 transition={{ duration: 0.4, delay: i * 0.1 }}
                 className="relative h-full rounded-2xl border border-white/10 bg-[#080808] p-6 text-center hover-lift border-glow"
               >
-                <span className="mb-2 block font-heading text-3xl font-black text-[#65B207]/20">{item.step}</span>
-                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-[#65B207]/10 text-[#65B207]">
+                <span className="mb-2 block font-heading text-3xl font-black text-[#68ccd1]/20">{item.step}</span>
+                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-[#68ccd1]/10 text-[#68ccd1]">
                   {item.icon}
                 </div>
                 <h3 className="text-sm font-bold text-white">{item.title}</h3>
@@ -373,7 +373,7 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* PROFILE AUDIT REALITY CHECK */}
       <Section variant="dark">
@@ -386,8 +386,8 @@ export function OrganicSocialClient() {
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl border border-white/10 bg-[#080808] p-8">
             <div className="flex items-center gap-4 mb-6">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#65B207]/10">
-                <Smartphone size={24} className="text-[#65B207]" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                <Smartphone size={24} className="text-[#68ccd1]" />
               </div>
               <div>
                 <p className="font-heading text-lg font-bold text-white">A potential customer sees your ad&hellip;</p>
@@ -415,8 +415,8 @@ export function OrganicSocialClient() {
               </div>
               </SlideIn>
               <SlideIn from="right">
-              <div className="rounded-xl border border-[#65B207]/20 bg-[#65B207]/5 p-5">
-                <p className="mb-3 text-sm font-bold text-[#65B207]">With Allora Managing Social:</p>
+              <div className="rounded-xl border border-[#68ccd1]/20 bg-[#68ccd1]/5 p-5">
+                <p className="mb-3 text-sm font-bold text-[#68ccd1]">With Allora Managing Social:</p>
                 <ul className="space-y-2 text-sm text-white/70">
                   {[
                     "Professional, recent posts showing active business",
@@ -426,7 +426,7 @@ export function OrganicSocialClient() {
                     "They tap the call button or fill out your form",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2">
-                      <CheckCircle size={14} className="mt-0.5 shrink-0 text-[#65B207]" />
+                      <CheckCircle size={14} className="mt-0.5 shrink-0 text-[#68ccd1]" />
                       {item}
                     </li>
                   ))}
@@ -438,7 +438,7 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* WHAT WE MANAGE */}
       <Section variant="light">
@@ -457,7 +457,7 @@ export function OrganicSocialClient() {
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
-              className="h-full rounded-2xl bg-[#131E13] p-6 shadow-sm hover-lift border border-white/10"
+              className="h-full rounded-2xl bg-[#151515] p-6 shadow-sm hover-lift border border-white/10"
             >
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#080808] text-white">
                 {item.icon}
@@ -472,12 +472,12 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* ═══ INDUSTRIES WE SERVE ═══ */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom" />
-        <RadialGlow color="#65B207" position="80% 30%" size="500px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="80% 30%" size="500px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             eyebrow="Industries We Serve"
@@ -510,8 +510,8 @@ export function OrganicSocialClient() {
                 className="h-full"
               >
                 <TiltCard tiltIntensity={5} className="h-full">
-                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-l-4 border-l-[#65B207]">
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-l-4 border-l-[#68ccd1]">
+                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>
                     <h3 className="font-heading text-lg font-bold text-white">
@@ -528,11 +528,11 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* SOCIAL MEDIA TIMELINE */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
         <SectionHeader
           variant="light"
@@ -546,7 +546,7 @@ export function OrganicSocialClient() {
       {/* TESTIMONIALS */}
       <TestimonialSection />
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#0d0d0d" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#0d0d0d" />
 
       {/* FAQ */}
       <Section variant="light">

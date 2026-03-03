@@ -111,7 +111,7 @@ export function ProcessClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-bold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-bold uppercase text-balance text-[#68ccd1]"
           >
             Our Process
           </motion.p>
@@ -154,7 +154,7 @@ export function ProcessClient() {
                     {step.step}
                   </motion.span>
                   <motion.div
-                    className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#131E13] text-white"
+                    className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#151515] text-white"
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
@@ -178,7 +178,7 @@ export function ProcessClient() {
                         className="flex items-start gap-3 text-base text-white/80"
                       >
                         <motion.span
-                          className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#65B207]"
+                          className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#68ccd1]"
                           initial={{ scale: 0 }}
                           whileInView={{ scale: 1 }}
                           viewport={{ once: true }}
@@ -195,18 +195,18 @@ export function ProcessClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* WHAT YOU'LL HAVE AFTER 90 DAYS */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <SectionHeader
           variant="light"
           eyebrow="The Deliverables"
           title="What you'll have after 90 days."
-          description="This isn't vague. Here's the tangible, measurable stuff you walk away with after your first 90 days as an Allora Media client."
+          description="This isn't vague. Here's the tangible, measurable stuff you walk away with after your first 90 days as a Story Real Studios client."
         />
         <div className="mx-auto max-w-4xl">
           <div className="grid gap-4 md:grid-cols-2">
@@ -228,35 +228,35 @@ export function ProcessClient() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: i * 0.03 }}
-                className="flex items-start gap-3 rounded-xl border border-[#0f3d15]/15 bg-white/50 p-4 hover-lift"
+                className="flex items-start gap-3 rounded-xl border border-[#1a1a1a]/15 bg-white/50 p-4 hover-lift"
               >
-                <CheckCircle size={18} className="mt-0.5 shrink-0 text-[#65B207]" />
-                <span className="text-sm text-[#0f3d15]/70">{item}</span>
+                <CheckCircle size={18} className="mt-0.5 shrink-0 text-[#68ccd1]" />
+                <span className="text-sm text-[#1a1a1a]/70">{item}</span>
               </motion.div>
             ))}
           </div>
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* NO-RISK GUARANTEE */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <div className="mx-auto max-w-4xl">
           <ScaleIn>
-          <div className="rounded-2xl border border-[#65B207]/20 bg-[#131E13] p-8 md:p-10 border-glow">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#151515] p-8 md:p-10 border-glow">
             <div className="flex flex-col items-center gap-6 text-center md:flex-row md:items-start md:text-left">
-              <motion.div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#65B207]/10" whileHover={{ rotate: 10, scale: 1.1 }} transition={{ type: "spring" }}>
-                <ShieldCheck size={32} className="text-[#65B207]" />
+              <motion.div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#68ccd1]/10" whileHover={{ rotate: 10, scale: 1.1 }} transition={{ type: "spring" }}>
+                <ShieldCheck size={32} className="text-[#68ccd1]" />
               </motion.div>
               <div>
                 <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                   Zero risk. Zero obligation. Every time.
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-white/60">
-                  We don&apos;t charge setup fees just to get started. And we&apos;ll give you a complete Growth Blueprint — with competitor research, campaign strategy, and budget recommendations — <span className="font-bold text-[#65B207]">before you spend a single dollar</span>. If we don&apos;t believe we can get you results, we&apos;ll tell you straight up. That&apos;s how confident we are in this process.
+                  We don&apos;t charge setup fees just to get started. And we&apos;ll give you a complete Growth Blueprint — with competitor research, campaign strategy, and budget recommendations — <span className="font-bold text-[#68ccd1]">before you spend a single dollar</span>. If we don&apos;t believe we can get you results, we&apos;ll tell you straight up. That&apos;s how confident we are in this process.
                 </p>
                 <div className="mt-6 flex flex-wrap justify-center gap-6 md:justify-start">
                   {[
@@ -265,7 +265,7 @@ export function ProcessClient() {
                     { icon: <Users size={16} />, text: "We’ll tell you if we’re not the right fit" },
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-2 text-sm text-white/70">
-                      <span className="text-[#65B207]">{item.icon}</span>
+                      <span className="text-[#68ccd1]">{item.icon}</span>
                       {item.text}
                     </div>
                   ))}

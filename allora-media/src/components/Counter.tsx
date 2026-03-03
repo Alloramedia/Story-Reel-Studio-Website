@@ -8,7 +8,7 @@ export function Counter({
   suffix = "",
   prefix = "",
   label,
-  numberColor = "text-[#65B207]",
+  numberColor = "text-[#68ccd1]",
   labelColor = "text-white/55",
 }: {
   target: number;

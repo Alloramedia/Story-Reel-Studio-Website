@@ -42,7 +42,7 @@ export default async function CaseStudyPage({ params }: Props) {
         items={[
           { name: "Home", href: "/" },
           { name: "Work", href: "/work" },
-          { name: study.client, href: `/work/${slug}` },
+          { name: study.client || study.clientName, href: `/work/${slug}` },
         ]}
       />
       <CaseStudyClient study={study} />

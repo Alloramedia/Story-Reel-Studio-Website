@@ -42,7 +42,7 @@ export function CaseStudiesClient() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase text-balance text-[#68ccd1]"
           >
             Proof Over Promises
           </motion.p>
@@ -73,7 +73,7 @@ export function CaseStudiesClient() {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
               Get Results Like These
             </Link>
@@ -94,7 +94,7 @@ export function CaseStudiesClient() {
                 transition={{ duration: 0.4, delay: i * 0.1 }}
                 className="text-center"
               >
-                <p className="font-heading text-3xl font-black text-[#65B207] md:text-4xl">
+                <p className="font-heading text-3xl font-black text-[#68ccd1] md:text-4xl">
                   {stat.value}
                 </p>
                 <p className="mt-1 text-sm text-white/55">{stat.label}</p>
@@ -124,7 +124,7 @@ export function CaseStudiesClient() {
               className={cn(
                 "rounded-full px-4 py-2 text-sm font-medium transition-colors",
                 filter === industry
-                  ? "bg-[#65B207] text-white"
+                  ? "bg-[#68ccd1] text-white"
                   : "bg-[#0d0d0d] text-white/60 hover:bg-white/10"
               )}
             >
@@ -139,13 +139,13 @@ export function CaseStudiesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* WHY THESE RESULTS HAPPEN */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-3xl py-6 text-center">
           <SectionHeader
             variant="light"
@@ -176,9 +176,9 @@ export function CaseStudiesClient() {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="flex gap-5 rounded-2xl border border-white/10 bg-[#131E13] p-6"
+                className="flex gap-5 rounded-2xl border border-white/10 bg-[#151515] p-6"
               >
-                <span className="font-heading text-2xl font-black text-[#65B207]">
+                <span className="font-heading text-2xl font-black text-[#68ccd1]">
                   {item.step}
                 </span>
                 <div>
@@ -193,12 +193,12 @@ export function CaseStudiesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* INDUSTRY ROI BENCHMARKS */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="Industry Benchmarks"
           title="What's possible in your industry."
@@ -244,11 +244,11 @@ export function CaseStudiesClient() {
                 <div className="mt-3 flex gap-6">
                   <div>
                     <p className="text-xs text-white/40">Cost Per Lead</p>
-                    <p className="font-heading text-xl font-black text-[#65B207]">{item.cpl}</p>
+                    <p className="font-heading text-xl font-black text-[#68ccd1]">{item.cpl}</p>
                   </div>
                   <div>
                     <p className="text-xs text-white/40">Typical ROAS</p>
-                    <p className="font-heading text-xl font-black text-[#65B207]">{item.roas}</p>
+                    <p className="font-heading text-xl font-black text-[#68ccd1]">{item.roas}</p>
                   </div>
                 </div>
                 <p className="mt-3 text-sm text-white/55">{item.detail}</p>
@@ -258,32 +258,32 @@ export function CaseStudiesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* URGENCY */}
       <Section variant="light">
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-3xl py-6">
           <ScaleIn>
-          <div className="rounded-2xl border border-[#65B207]/20 bg-[#131E13] p-8 text-center md:p-10">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#151515] p-8 text-center md:p-10">
             <motion.div
               initial={{ opacity: 0, y: 24, filter: "blur(4px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
               transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
             >
-              <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#65B207]/10">
-                <Clock size={28} className="text-[#65B207]" />
+              <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#68ccd1]/10">
+                <Clock size={28} className="text-[#68ccd1]" />
               </div>
               <h2 className="font-heading text-2xl font-black text-white md:text-3xl">
                 We only take on a handful of new clients each month.
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/60">
-                We&apos;re a small, focused team — not a factory. Every client gets direct access to the people building and managing their campaigns. To keep that quality, we limit new onboarding to <span className="font-bold text-[#65B207]">3–5 new clients per month</span>. When we&apos;re full, we&apos;re full.
+                We&apos;re a small, focused team — not a factory. Every client gets direct access to the people building and managing their campaigns. To keep that quality, we limit new onboarding to <span className="font-bold text-[#68ccd1]">3–5 new clients per month</span>. When we&apos;re full, we&apos;re full.
               </p>
               <Link
                 href="/contact"
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all hover:bg-[#7acc09] hover:scale-[1.03]"
+                className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all hover:bg-[#7dd6da] hover:scale-[1.03]"
               >
                 Claim Your Spot
                 <ArrowRight size={18} />

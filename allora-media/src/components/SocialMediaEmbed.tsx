@@ -30,7 +30,7 @@ export function InstagramEmbed({
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`overflow-hidden rounded-2xl border border-white/10 bg-[#131E13] ${className}`}
+      className={`overflow-hidden rounded-2xl border border-white/10 bg-[#151515] ${className}`}
     >
       <iframe
         src={embedUrl}
@@ -69,7 +69,7 @@ export function TikTokEmbed({
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`overflow-hidden rounded-2xl border border-white/10 bg-[#131E13] ${className}`}
+      className={`overflow-hidden rounded-2xl border border-white/10 bg-[#151515] ${className}`}
     >
       <iframe
         src={embedUrl}
@@ -110,7 +110,7 @@ export function FacebookEmbed({
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`overflow-hidden rounded-2xl border border-white/10 bg-[#131E13] ${className}`}
+      className={`overflow-hidden rounded-2xl border border-white/10 bg-[#151515] ${className}`}
     >
       <iframe
         src={embedUrl}
@@ -153,16 +153,16 @@ export function SocialMediaShowcase({
   description,
   variant = "dark",
 }: SocialMediaShowcaseProps) {
-  const textColor = variant === "light" ? "text-[#0f3d15]" : "text-white";
+  const textColor = variant === "light" ? "text-[#1a1a1a]" : "text-white";
   const mutedColor =
-    variant === "light" ? "text-[#0f3d15]/60" : "text-white/60";
+    variant === "light" ? "text-[#1a1a1a]/60" : "text-white/60";
 
   return (
     <div>
       {(eyebrow || heading) && (
         <div className="mb-10 text-center">
           {eyebrow && (
-            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
               {eyebrow}
             </p>
           )}
@@ -221,7 +221,7 @@ export function SocialMediaShowcase({
             {post.caption && (
               <p
                 className={`mt-2 px-1 text-xs ${
-                  variant === "light" ? "text-[#0f3d15]/50" : "text-white/40"
+                  variant === "light" ? "text-[#1a1a1a]/50" : "text-white/40"
                 }`}
               >
                 {post.caption}

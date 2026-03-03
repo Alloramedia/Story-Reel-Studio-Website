@@ -26,8 +26,8 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
       {/* ═══ HERO ═══ */}
       <HeroBanner
         videoSrc={study.videoSrc}
-        imageSrc={study.heroImage}
-        imageAlt={`${study.client} — Case Study`}
+        imageSrc={study.heroImage || study.image}
+        imageAlt={`${study.client || study.clientName} — Case Study`}
         overlayOpacity={72}
       >
         <div className="max-w-4xl">
@@ -55,9 +55,11 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
             <span className="inline-flex rounded-full bg-[#68ccd1]/20 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[#68ccd1]">
               {study.industry}
             </span>
-            <span className="inline-flex rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-white/60">
-              {study.videoType}
-            </span>
+            {study.videoType && (
+              <span className="inline-flex rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-white/60">
+                {study.videoType}
+              </span>
+            )}
           </motion.div>
 
           {/* Title */}
@@ -67,7 +69,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
             transition={{ duration: 0.8, delay: 0.15, ease: smoothOut }}
             className="text-4xl font-heading font-black leading-tight tracking-tight text-pretty md:text-5xl lg:text-6xl"
           >
-            {study.client}
+            {study.client || study.clientName}
           </motion.h1>
 
           {/* Outcome */}
@@ -77,7 +79,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
             transition={{ duration: 0.7, delay: 0.28, ease: smoothOut }}
             className="mt-6 max-w-2xl text-xl leading-relaxed text-white/80 md:text-2xl"
           >
-            {study.heroOutcome}
+            {study.heroOutcome || study.summary}
           </motion.p>
 
           {/* Metrics strip */}
@@ -118,9 +120,11 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
             </h2>
           </FadeIn>
           <FadeIn direction="right" delay={0.15}>
-            <p className="text-lg leading-relaxed text-[#4a4a4a]">
-              {study.challenge}
-            </p>
+            <div className="space-y-4 text-lg leading-relaxed text-[#4a4a4a]">
+              {(Array.isArray(study.challenge) ? study.challenge : [study.challenge]).map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
           </FadeIn>
         </div>
       </Section>
@@ -142,36 +146,45 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
               </h2>
             </FadeIn>
             <FadeIn direction="right" delay={0.15}>
-              <p className="text-lg leading-relaxed text-white/70">
-                {study.strategy}
-              </p>
+              <div className="space-y-4 text-lg leading-relaxed text-white/70">
+                {(Array.isArray(study.strategy) ? study.strategy : [study.strategy]).map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
             </FadeIn>
         </div>
       </Section>
 
       {/* ═══ THE PRODUCTION ═══ */}
-      <Section variant="light">
-        <div className="grid items-start gap-12 lg:grid-cols-2">
-          <FadeIn direction="left">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#52b0b6]/15">
-                <Film size={20} className="text-[#52b0b6]" />
+      {(study.production || study.buildingFoundation?.length > 0) && (
+        <Section variant="light">
+          <div className="grid items-start gap-12 lg:grid-cols-2">
+            <FadeIn direction="left">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#52b0b6]/15">
+                  <Film size={20} className="text-[#52b0b6]" />
+                </div>
+                <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#52b0b6]">
+                  The Production
+                </p>
               </div>
-              <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#52b0b6]">
-                The Production
-              </p>
-            </div>
-            <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
-              What we built
-            </h2>
-          </FadeIn>
-          <FadeIn direction="right" delay={0.15}>
-            <p className="text-lg leading-relaxed text-[#4a4a4a]">
-              {study.production}
-            </p>
-          </FadeIn>
-        </div>
-      </Section>
+              <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
+                What we built
+              </h2>
+            </FadeIn>
+            <FadeIn direction="right" delay={0.15}>
+              <div className="space-y-4 text-lg leading-relaxed text-[#4a4a4a]">
+                {(study.production
+                  ? [study.production]
+                  : study.buildingFoundation || []
+                ).map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+            </FadeIn>
+          </div>
+        </Section>
+      )}
 
       {/* ═══ THE RESULTS ═══ */}
       <Section variant="dark">
@@ -190,9 +203,11 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
               </h2>
             </FadeIn>
             <FadeIn direction="right" delay={0.15}>
-              <p className="text-lg leading-relaxed text-white/70">
-                {study.results}
-              </p>
+              <div className="space-y-4 text-lg leading-relaxed text-white/70">
+                {(Array.isArray(study.results) ? study.results : [study.results]).map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
             </FadeIn>
 
           {/* Metrics blocks */}
@@ -214,31 +229,33 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
       </Section>
 
       {/* ═══ DELIVERABLES ═══ */}
-      <Section variant="light">
-        <SectionHeader
-          eyebrow="Deliverables"
-          eyebrowColor="text-[#52b0b6]"
-          title="What we delivered"
-          description="Every asset was designed to serve a specific strategic purpose — not just look impressive on a portfolio page."
-          center
-          variant="light"
-        />
-        <StaggerContainer className="mx-auto mt-12 max-w-3xl grid gap-4 sm:grid-cols-2">
-          {study.deliverables.map((item) => (
-            <StaggerItem key={item}>
-              <div className="flex items-start gap-3 rounded-xl border border-[#e0e0e0] bg-white px-5 py-4 shadow-sm transition-colors duration-300 hover:border-[#52b0b6]/20">
-                <CheckCircle
-                  size={18}
-                  className="mt-0.5 shrink-0 text-[#52b0b6]"
-                />
-                <p className="text-sm font-medium leading-relaxed text-[#4a4a4a]">
-                  {item}
-                </p>
-              </div>
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
-      </Section>
+      {study.deliverables && study.deliverables.length > 0 && (
+        <Section variant="light">
+          <SectionHeader
+            eyebrow="Deliverables"
+            eyebrowColor="text-[#52b0b6]"
+            title="What we delivered"
+            description="Every asset was designed to serve a specific strategic purpose — not just look impressive on a portfolio page."
+            center
+            variant="light"
+          />
+          <StaggerContainer className="mx-auto mt-12 max-w-3xl grid gap-4 sm:grid-cols-2">
+            {study.deliverables.map((item) => (
+              <StaggerItem key={item}>
+                <div className="flex items-start gap-3 rounded-xl border border-[#e0e0e0] bg-white px-5 py-4 shadow-sm transition-colors duration-300 hover:border-[#52b0b6]/20">
+                  <CheckCircle
+                    size={18}
+                    className="mt-0.5 shrink-0 text-[#52b0b6]"
+                  />
+                  <p className="text-sm font-medium leading-relaxed text-[#4a4a4a]">
+                    {item}
+                  </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </Section>
+      )}
 
       {/* ═══ TESTIMONIAL (conditional) ═══ */}
       {study.testimonialQuote && (
@@ -277,17 +294,19 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
               Project Credits
             </p>
             <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
-              {study.client}
+              {study.client || study.clientName}
             </h2>
             <div className="mt-8 flex flex-wrap justify-center gap-x-10 gap-y-4 text-sm text-[#666]">
               <div>
                 <span className="font-bold text-[#4a4a4a]">Industry:</span>{" "}
                 {study.industry}
               </div>
-              <div>
-                <span className="font-bold text-[#4a4a4a]">Video Type:</span>{" "}
-                {study.videoType}
-              </div>
+              {study.videoType && (
+                <div>
+                  <span className="font-bold text-[#4a4a4a]">Video Type:</span>{" "}
+                  {study.videoType}
+                </div>
+              )}
               <div>
                 <span className="font-bold text-[#4a4a4a]">Production:</span>{" "}
                 Story Real Studios

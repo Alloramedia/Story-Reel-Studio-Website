@@ -50,11 +50,11 @@ const processSteps = [
 export function ProcessSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="3%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="3%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom left" />
-        <RadialGlow color="#65B207" position="80% 30%" size="500px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="80% 30%" size="500px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -73,8 +73,8 @@ export function ProcessSection() {
                 className="h-full"
               >
                 <TiltCard tiltIntensity={6} className="h-full">
-                  <div className="relative flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift gradient-border-card border-glow border-l-4 border-l-[#65B207]">
-                    <span className="font-heading text-4xl font-black text-[#65B207]/20">
+                  <div className="relative flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift gradient-border-card border-glow border-l-4 border-l-[#68ccd1]">
+                    <span className="font-heading text-4xl font-black text-[#68ccd1]/20">
                       {step.step}
                     </span>
                     <h3 className="mt-3 font-heading text-lg font-bold text-white">
@@ -92,7 +92,7 @@ export function ProcessSection() {
           <div className="mt-12 text-center">
             <Link
               href="/process"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#65B207] transition-colors hover:text-[#7acc09]"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#68ccd1] transition-colors hover:text-[#7dd6da]"
             >
               See the full process
               <ArrowRight size={16} />
@@ -107,19 +107,19 @@ export function ProcessSection() {
 export function PortalSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.02)" to="transparent" direction="to top" />
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
               Transparency Built In
             </p>
             <h2 className="font-heading text-3xl font-black text-white md:text-4xl">
               You always know where your money is going.
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-white/60">
-              Every client gets access to the Allora Media Hub — your
+              Every client gets access to the Story Real Studios Hub — your
               dedicated portal where you can see campaign performance,
               access all creative assets, track project timelines, and
               review exactly how your marketing investment is performing.
@@ -136,7 +136,7 @@ export function PortalSection() {
                   key={item}
                   className="flex items-center gap-3 text-sm text-white/60"
                 >
-                  <Shield size={16} className="shrink-0 text-[#65B207]" />
+                  <Shield size={16} className="shrink-0 text-[#68ccd1]" />
                   {item}
                 </li>
               ))}
@@ -144,7 +144,7 @@ export function PortalSection() {
             <div className="mt-8">
               <Link
                 href="/client-portal"
-                className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white transition-all hover:border-[#65B207] hover:bg-[#65B207]/10"
+                className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white transition-all hover:border-[#68ccd1] hover:bg-[#68ccd1]/10"
               >
                 <Monitor size={16} />
                 Learn About the Client Portal
@@ -154,7 +154,7 @@ export function PortalSection() {
           <div className="relative rounded-2xl border border-white/10 bg-[#080808] overflow-hidden shadow-2xl shadow-black/50">
             <Image
               src="/images/portal-screenshot.jpg"
-              alt="Allora Media Client Portal"
+              alt="Story Real Studios Client Portal"
               width={1200}
               height={628}
               className="w-full h-auto"
@@ -170,7 +170,7 @@ export function PortalSection() {
 export function GuaranteeSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#65B207" from="#080808" />
+      <AngleDivider variant="notch" fill="#68ccd1" from="#080808" />
       <Section variant="accent" className="py-16! lg:py-20!">
         <GradientOverlay from="rgba(0,0,0,0.08)" to="transparent" direction="to bottom" />
         <div className="mx-auto max-w-4xl py-4">
@@ -216,7 +216,7 @@ export function GuaranteeSection() {
 export function CostOfNothingSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#080808" from="#65B207" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(220,38,38,0.03)" to="transparent" direction="to bottom" />
         <RadialGlow color="#dc2626" position="50% 30%" size="800px" opacity={0.03} />
@@ -274,7 +274,7 @@ export function CostOfNothingSection() {
         <div className="mt-12 text-center">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all hover:bg-[#7acc09] hover:scale-[1.03]"
+            className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all hover:bg-[#7dd6da] hover:scale-[1.03]"
           >
             Stop Losing Customers — Talk to Us
             <ArrowRight size={18} />
@@ -288,12 +288,12 @@ export function CostOfNothingSection() {
 export function FinalCTASection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#0f3d15" from="#080808" />
-      <Section variant="green" className="cta-glow z-2">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
-        <EdgeAccentStripe color="#65B207" side="right" width="4%" />
+      <AngleDivider variant="notch" fill="#1a1a1a" from="#080808" />
+      <Section variant="accent" className="cta-glow z-2">
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="4%" />
         <GradientOverlay from="rgba(0,0,0,0.15)" to="rgba(101,178,7,0.05)" direction="to top" />
-        <RadialGlow color="#65B207" position="50% 50%" size="700px" opacity={0.05} />
+        <RadialGlow color="#68ccd1" position="50% 50%" size="700px" opacity={0.05} />
         <div className="absolute inset-0 opacity-5 z-0">
           <Image
             src="/images/hero-bg.jpg"
@@ -318,14 +318,14 @@ export function FinalCTASection() {
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all duration-300 hover:bg-[#7acc09] hover:scale-[1.03]"
+              className="inline-flex items-center justify-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               Book a Growth Blueprint Call
               <ArrowRight size={18} className="ml-2" />
             </Link>
             <Link
               href="/case-studies"
-              className="inline-flex items-center justify-center rounded-full border-2 border-white/20 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:border-[#65B207] hover:bg-[#65B207]/10"
+              className="inline-flex items-center justify-center rounded-full border-2 border-white/20 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:border-[#68ccd1] hover:bg-[#68ccd1]/10"
             >
               See Our Results
               <ArrowRight size={18} className="ml-2" />

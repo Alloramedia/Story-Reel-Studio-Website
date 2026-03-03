@@ -71,11 +71,11 @@ const servicePillars = [
 export function PillarsSection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
-        <RadialGlow color="#65B207" position="50% 80%" size="800px" opacity={0.035} />
+        <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -95,16 +95,16 @@ export function PillarsSection() {
               >
                 <Link
                   href={pillar.href}
-                  className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-8 transition-all hover:border-[#65B207]/40 hover:shadow-lg hover:shadow-[#65B207]/5"
+                  className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-8 transition-all hover:border-[#68ccd1]/40 hover:shadow-lg hover:shadow-[#68ccd1]/5"
                 >
                   <div className="mb-1 flex items-center justify-between">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207]">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {pillar.icon}
                     </div>
                     <span
                       className={`rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider ${
                         i === 0
-                          ? "bg-[#65B207]/20 text-[#65B207]"
+                          ? "bg-[#68ccd1]/20 text-[#68ccd1]"
                           : "bg-white/5 text-white/40"
                       }`}
                     >
@@ -125,13 +125,13 @@ export function PillarsSection() {
                       >
                         <CheckCircle
                           size={15}
-                          className="mt-0.5 shrink-0 text-[#65B207]"
+                          className="mt-0.5 shrink-0 text-[#68ccd1]"
                         />
                         {item}
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-[#65B207]">
+                  <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-[#68ccd1]">
                     Learn more
                     <ArrowRight
                       size={16}
@@ -151,7 +151,7 @@ export function PillarsSection() {
 export function CaseStudySection() {
   return (
     <>
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom right" />
 
@@ -196,7 +196,7 @@ export function CaseStudySection() {
             >
               <Link
                 href={study.href}
-                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#65B207]/30"
+                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#68ccd1]/30"
               >
                 <div className="relative aspect-video overflow-hidden image-shine">
                   <Image
@@ -207,7 +207,7 @@ export function CaseStudySection() {
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-transparent" />
-                  <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#65B207]/20 px-3 py-1 text-xs font-semibold text-[#65B207]">
+                  <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#68ccd1]/20 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {study.industry}
                   </span>
                 </div>
@@ -218,14 +218,14 @@ export function CaseStudySection() {
                   <p className="mt-2 text-sm text-white/55">{study.result}</p>
                   <div className="mt-4 flex items-center justify-between">
                     <div>
-                      <p className="font-heading text-2xl font-black text-[#65B207]">
+                      <p className="font-heading text-2xl font-black text-[#68ccd1]">
                         {study.metric}
                       </p>
                       <p className="text-xs text-white/50">
                         {study.metricLabel}
                       </p>
                     </div>
-                    <span className="flex items-center gap-1 text-sm font-semibold text-[#65B207] opacity-0 transition-opacity group-hover:opacity-100">
+                    <span className="flex items-center gap-1 text-sm font-semibold text-[#68ccd1] opacity-0 transition-opacity group-hover:opacity-100">
                       View details <ArrowRight size={14} />
                     </span>
                   </div>
@@ -238,7 +238,7 @@ export function CaseStudySection() {
         <div className="mt-12 text-center">
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 rounded-full border-2 border-[#65B207] px-8 py-3.5 font-semibold text-[#65B207] transition-all hover:bg-[#65B207] hover:text-white"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-[#68ccd1] px-8 py-3.5 font-semibold text-[#68ccd1] transition-all hover:bg-[#68ccd1] hover:text-white"
           >
             View All Case Studies
             <ArrowRight size={18} />
@@ -278,7 +278,7 @@ export function CaseStudySection() {
                 </p>
                 <div className="flex items-center justify-between border-t border-white/5 pt-4">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#65B207]/15 text-sm font-bold text-[#65B207]">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#68ccd1]/15 text-sm font-bold text-[#68ccd1]">
                       {review.name.charAt(0)}
                     </div>
                     <div>
@@ -298,7 +298,7 @@ export function CaseStudySection() {
             href={googleReview.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#65B207] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#65B207]/20 transition-all duration-300 hover:shadow-[#65B207]/30 hover:scale-[1.03]"
+            className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#68ccd1] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all duration-300 hover:shadow-[#68ccd1]/30 hover:scale-[1.03]"
           >
             <GoogleLogo className="h-5 w-5" />
             Read All Reviews on Google

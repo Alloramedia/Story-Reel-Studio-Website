@@ -22,6 +22,17 @@ export interface CaseStudy {
   pullQuote: string;
   metrics: { value: string; label: string; benchmark?: string }[];
   image: string;
+  /* Extended fields used by /work pages */
+  videoSrc?: string;
+  heroImage?: string;
+  client?: string;
+  heroOutcome?: string;
+  videoType?: string;
+  production?: string;
+  deliverables?: string[];
+  testimonialQuote?: string;
+  testimonialAuthor?: string;
+  testimonialRole?: string;
 }
 
 export function CaseStudyCard({
@@ -38,7 +49,7 @@ export function CaseStudyCard({
       viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.6, delay: index * 0.12, ease: [0.22, 1, 0.36, 1] }}
       whileHover={{ y: -6, scale: 1.01 }}
-      className="group overflow-hidden rounded-2xl border border-white/10 bg-[#131E13] gradient-border-card transition-all duration-500 hover:shadow-2xl hover:shadow-[#65B207]/8"
+      className="group overflow-hidden rounded-2xl border border-[#1a4a58]/40 bg-[#0e2a35] gradient-border-card transition-all duration-500 hover:border-[#68ccd1]/30 hover:shadow-2xl hover:shadow-[#68ccd1]/8"
     >
       <Link href={`/case-studies/${study.slug}`} className="block">
         <div className="relative aspect-video overflow-hidden image-shine">
@@ -49,8 +60,8 @@ export function CaseStudyCard({
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover transition-transform duration-800 ease-out group-hover:scale-108"
           />
-          <div className="absolute inset-0 bg-linear-to-t from-[#131E13] to-transparent" />
-          <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#65B207]/20 px-3 py-1 text-xs font-semibold text-[#65B207]">
+          <div className="absolute inset-0 bg-linear-to-t from-[#0e2a35] to-transparent" />
+          <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#68ccd1]/20 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
             {study.industry}
           </span>
         </div>
@@ -61,13 +72,13 @@ export function CaseStudyCard({
             <div className="mt-4 grid grid-cols-3 gap-2">
               {study.metrics.map((m) => (
                 <div key={m.label} className="text-center">
-                  <p className="font-heading text-lg font-bold text-[#65B207]">{m.value}</p>
+                  <p className="font-heading text-lg font-bold text-[#68ccd1]">{m.value}</p>
                   <p className="text-xs text-white/60">{m.label}</p>
                 </div>
               ))}
             </div>
           )}
-          <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-[#65B207] transition-all group-hover:translate-x-1">
+          <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-[#68ccd1] transition-all group-hover:translate-x-1">
             Read case study <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
           </div>
         </div>

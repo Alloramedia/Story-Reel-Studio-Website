@@ -39,7 +39,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase text-balance text-[#68ccd1]"
           >
             Insights & Strategy
           </motion.p>
@@ -81,7 +81,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
               Get a Custom Strategy
             </Link>
@@ -105,7 +105,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
               className={cn(
                 "rounded-full px-4 py-2 text-sm font-medium transition-colors",
                 filter === category
-                  ? "bg-[#65B207] text-white"
+                  ? "bg-[#68ccd1] text-white"
                   : "bg-[#0d0d0d] text-white/60 hover:bg-white/10"
               )}
             >
@@ -125,7 +125,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
           >
             <Link
               href={`/blog/${filtered[0].slug}`}
-              className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#0d0d0d] transition-colors hover:border-[#65B207]/30"
+              className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#0d0d0d] transition-colors hover:border-[#68ccd1]/30"
             >
               <div className="grid md:grid-cols-2">
                 <div className="relative aspect-video md:aspect-auto md:min-h-80">
@@ -138,10 +138,10 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
                   />
                 </div>
                 <div className="flex flex-col justify-center p-8 md:p-10">
-                  <span className="mb-3 inline-block w-fit rounded-full bg-[#65B207]/10 px-3 py-1 text-xs font-semibold text-[#65B207]">
+                  <span className="mb-3 inline-block w-fit rounded-full bg-[#68ccd1]/10 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {filtered[0].category}
                   </span>
-                  <h2 className="font-heading text-2xl font-bold text-white transition-colors group-hover:text-[#65B207] md:text-3xl">
+                  <h2 className="font-heading text-2xl font-bold text-white transition-colors group-hover:text-[#68ccd1] md:text-3xl">
                     {filtered[0].title}
                   </h2>
                   <p className="mt-3 line-clamp-3 text-base leading-relaxed text-white/55">
@@ -160,7 +160,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
                       {filtered[0].readTime}
                     </span>
                   </div>
-                  <div className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#65B207]">
+                  <div className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#68ccd1]">
                     Read Article
                     <ArrowRight
                       size={16}
@@ -185,7 +185,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
             >
               <Link
                 href={`/blog/${post.slug}`}
-                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0d0d0d] transition-colors hover:border-[#65B207]/30"
+                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0d0d0d] transition-colors hover:border-[#68ccd1]/30"
               >
                 <div className="relative aspect-video overflow-hidden">
                   <Image
@@ -197,10 +197,10 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <span className="mb-3 inline-block w-fit rounded-full bg-[#65B207]/10 px-3 py-1 text-xs font-semibold text-[#65B207]">
+                  <span className="mb-3 inline-block w-fit rounded-full bg-[#68ccd1]/10 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {post.category}
                   </span>
-                  <h3 className="font-heading text-lg font-bold text-white transition-colors group-hover:text-[#65B207]">
+                  <h3 className="font-heading text-lg font-bold text-white transition-colors group-hover:text-[#68ccd1]">
                     {post.title}
                   </h3>
                   <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-white/50">

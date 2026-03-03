@@ -9,7 +9,7 @@ export function LocalBusinessSchema() {
     url: siteConfig.url,
     telephone: siteConfig.phone,
     email: siteConfig.email,
-    image: `${siteConfig.url}/images/studio.webp`,
+    image: `${siteConfig.url}/images/production/studio-set.jpg`,
     foundingDate: siteConfig.foundingDate,
     address: {
       "@type": "PostalAddress",
@@ -60,7 +60,7 @@ export function OrganizationSchema() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/allora-logo-white.png`,
+    logo: `${siteConfig.url}/images/logos/story-real-logo.png`,
     description: siteConfig.description,
     contactPoint: {
       "@type": "ContactPoint",
@@ -236,7 +236,7 @@ export function ArticleSchema({
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/images/allora-logo-white.png`,
+        url: `${siteConfig.url}/images/logos/story-real-logo.png`,
       },
     },
     mainEntityOfPage: {

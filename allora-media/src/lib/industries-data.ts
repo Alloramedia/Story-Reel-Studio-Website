@@ -309,3 +309,10 @@ export function getIndustryBySlug(slug: string): IndustryData | undefined {
 export function getAllIndustrySlugs(): string[] {
   return Object.keys(industryData);
 }
+
+/** Array of all industries with their data, for listing pages */
+export const industries = Object.entries(industryData).map(([key, data]) => ({
+  ...data,
+  slug: key,
+  title: data.name,
+}));

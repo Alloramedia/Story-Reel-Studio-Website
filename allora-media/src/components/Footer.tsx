@@ -36,35 +36,35 @@ export function Footer() {
           <motion.div variants={staggerItem} className="lg:col-span-2">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/allora-logo-white.png"
-                alt="Allora Media"
+                src="/images/logos/story-real-logo.png"
+                alt="Story Real Studios"
                 width={180}
                 height={50}
                 className="h-12 w-auto"
               />
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">
-              Performance-driven marketing built on paid growth strategy, authority media production, and disciplined execution.
+              Strategy-led video production that builds trust, shortens sales cycles, and drives measurable growth.
             </p>
 
             {/* Contact info */}
             <div className="mt-6 space-y-3">
               <a
                 href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
-                className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-[#65B207]"
+                className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-[#68ccd1]"
               >
-                <Phone size={16} className="text-[#65B207] shrink-0" />
+                <Phone size={16} className="text-[#68ccd1] shrink-0" />
                 {siteConfig.phone}
               </a>
               <a
                 href={`mailto:${siteConfig.email}`}
-                className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-[#65B207]"
+                className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-[#68ccd1]"
               >
-                <Mail size={16} className="text-[#65B207] shrink-0" />
+                <Mail size={16} className="text-[#68ccd1] shrink-0" />
                 {siteConfig.email}
               </a>
               <div className="flex items-center gap-3 text-sm text-white/60">
-                <MapPin size={16} className="text-[#65B207] shrink-0" />
+                <MapPin size={16} className="text-[#68ccd1] shrink-0" />
                 {siteConfig.address.street}, {siteConfig.address.city}, {siteConfig.address.state} {siteConfig.address.zip}
               </div>
             </div>
@@ -75,7 +75,7 @@ export function Footer() {
                 href={siteConfig.socials.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white/60 transition-all duration-400 hover:bg-[#65B207] hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-[#65B207]/20"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white/60 transition-all duration-400 hover:bg-[#68ccd1] hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-[#68ccd1]/20"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
@@ -84,14 +84,14 @@ export function Footer() {
                 href={siteConfig.socials.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white/60 transition-all duration-400 hover:bg-[#65B207] hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-[#65B207]/20"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white/60 transition-all duration-400 hover:bg-[#68ccd1] hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-[#68ccd1]/20"
                 aria-label="Instagram"
               >
                 <Instagram size={18} />
               </a>
               <a
                 href={`mailto:${siteConfig.email}`}
-                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white/60 transition-all duration-400 hover:bg-[#65B207] hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-[#65B207]/20"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white/60 transition-all duration-400 hover:bg-[#68ccd1] hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-[#68ccd1]/20"
                 aria-label="Email"
               >
                 <Mail size={18} />
@@ -101,7 +101,7 @@ export function Footer() {
 
           {/* Services */}
           <motion.div variants={staggerItem}>
-            <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
               Services
             </h3>
             <ul className="space-y-3">
@@ -120,7 +120,7 @@ export function Footer() {
 
           {/* Company */}
           <motion.div variants={staggerItem}>
-            <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
               Company
             </h3>
             <ul className="space-y-3">
@@ -139,7 +139,7 @@ export function Footer() {
 
           {/* Industries & Personal */}
           <motion.div variants={staggerItem}>
-            <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#65B207]">
+            <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
               Industries
             </h3>
             <ul className="space-y-3">
@@ -180,7 +180,7 @@ export function Footer() {
             </div>
             <Link
               href="/contact"
-              className="flex shrink-0 items-center gap-2 rounded-full bg-[#65B207] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#7acc09] hover:shadow-lg hover:shadow-[#65B207]/20"
+              className="flex shrink-0 items-center gap-2 rounded-full bg-[#68ccd1] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#7dd6da] hover:shadow-lg hover:shadow-[#68ccd1]/20"
             >
               <ArrowRight size={14} />
               Book a Call
@@ -197,7 +197,7 @@ export function Footer() {
           className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 md:flex-row"
         >
           <p className="text-xs text-white/55">
-            &copy; {new Date().getFullYear()} Allora Media. All rights reserved.
+            &copy; {new Date().getFullYear()} Story Real Studios. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link

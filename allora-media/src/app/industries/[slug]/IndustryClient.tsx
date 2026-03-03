@@ -92,7 +92,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             initial={{ opacity: 0, y: 24, filter: "blur(4px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-4 text-sm font-semibold uppercase tracking-widest text-balance text-[#65B207]"
+            className="mb-4 text-sm font-semibold uppercase tracking-widest text-balance text-[#68ccd1]"
           >
             {industry.name} Marketing in Connecticut
           </motion.p>
@@ -120,7 +120,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7acc09] shadow-lg shadow-[#65B207]/20"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white transition-all hover:scale-[1.03] hover:bg-[#7dd6da] shadow-lg shadow-[#68ccd1]/20"
             >
               Book a Growth Blueprint Call
             </Link>
@@ -148,7 +148,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
                 key={i}
                 className="flex flex-col items-center justify-center px-4 py-6 text-center md:py-8"
               >
-                <span className="text-3xl font-heading font-black text-[#65B207] md:text-4xl">
+                <span className="text-3xl font-heading font-black text-[#68ccd1] md:text-4xl">
                   {stat.value}
                 </span>
                 <span className="mt-1 text-xs font-medium uppercase tracking-wider text-white/55">
@@ -176,13 +176,13 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ──────────── CHALLENGES ──────────── */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="right" width="5%" />
+        <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
-        <RadialGlow color="#65B207" position="90% 20%" size="600px" opacity={0.04} />
+        <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -198,7 +198,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.05 }}
-              className="flex items-start gap-3 rounded-xl border border-white/10 bg-[#131E13] p-4"
+              className="flex items-start gap-3 rounded-xl border border-white/10 bg-[#151515] p-4"
             >
               <span className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-red-400" />
               <span className="text-base text-white/80">{challenge}</span>
@@ -208,12 +208,12 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* ──────────── SERVICES (Industry-Specific) ──────────── */}
       <Section variant="dark">
         <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
-        <RadialGlow color="#65B207" position="10% 50%" size="500px" opacity={0.03} />
+        <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="What You Get"
           title={`Everything your ${industry.name.toLowerCase()} business needs — one team.`}
@@ -229,9 +229,9 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="group relative h-full rounded-2xl border border-white/10 bg-white/2 p-6 transition-all hover:border-[#65B207]/30 hover:bg-[#65B207]/4"
+                className="group relative h-full rounded-2xl border border-white/10 bg-white/2 p-6 transition-all hover:border-[#68ccd1]/30 hover:bg-[#68ccd1]/4"
               >
-                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#65B207]/10 text-[#65B207] transition-colors group-hover:bg-[#65B207]/20">
+                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1] transition-colors group-hover:bg-[#68ccd1]/20">
                   <IconComponent size={20} />
                 </div>
                 <h3 className="mb-2 text-base font-bold text-white">{service.title}</h3>
@@ -242,11 +242,11 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ──────────── WHY ALLORA ──────────── */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
@@ -262,9 +262,9 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: i * 0.12 }}
-              className="relative h-full rounded-2xl border border-white/10 bg-[#131E13] p-7 hover-lift border-t-4 border-t-[#65B207]"
+              className="relative h-full rounded-2xl border border-white/10 bg-[#151515] p-7 hover-lift border-t-4 border-t-[#68ccd1]"
             >
-              <div className="mb-4 flex h-9 w-9 items-center justify-center rounded-full bg-[#65B207] text-white">
+              <div className="mb-4 flex h-9 w-9 items-center justify-center rounded-full bg-[#68ccd1] text-white">
                 <CheckCircle2 size={18} />
               </div>
               <h3 className="mb-3 text-lg font-bold text-white">{diff.title}</h3>
@@ -275,7 +275,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* ──────────── RESULTS ──────────── */}
       <Section variant="dark">
@@ -295,7 +295,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               transition={{ duration: 0.45, delay: i * 0.1 }}
               className="h-full rounded-2xl border border-white/10 p-6"
             >
-              <div className="mb-3 flex items-center gap-2 text-[#65B207]">
+              <div className="mb-3 flex items-center gap-2 text-[#68ccd1]">
                 <TrendingUp size={18} />
               </div>
               <p className="mb-2 text-xl font-heading font-black text-white">{result.metric}</p>
@@ -305,11 +305,11 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ──────────── OUR APPROACH ──────────── */}
       <Section variant="light">
-        <EdgeAccentStripe color="#65B207" side="left" width="4%" />
+        <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
@@ -326,9 +326,9 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.05 }}
-              className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#131E13] p-5 transition-all hover:border-[#65B207]/20 hover:bg-[#65B207]/4"
+              className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#151515] p-5 transition-all hover:border-[#68ccd1]/20 hover:bg-[#68ccd1]/4"
             >
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#65B207] text-xs font-bold text-white">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#68ccd1] text-xs font-bold text-white">
                 {i + 1}
               </span>
               <span className="text-base leading-relaxed text-white/80">{item}</span>
@@ -338,7 +338,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* ──────────── CASE STUDIES & REVIEWS ──────────── */}
       <Section variant="dark">
@@ -385,7 +385,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             >
               <Link
                 href={study.href}
-                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#65B207]/30"
+                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#68ccd1]/30"
               >
                 <div className="relative aspect-video overflow-hidden image-shine">
                   <Image
@@ -396,7 +396,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-transparent" />
-                  <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#65B207]/20 px-3 py-1 text-xs font-semibold text-[#65B207]">
+                  <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#68ccd1]/20 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {study.industry}
                   </span>
                 </div>
@@ -407,14 +407,14 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
                   <p className="mt-2 text-sm text-white/55">{study.result}</p>
                   <div className="mt-4 flex items-center justify-between">
                     <div>
-                      <p className="font-heading text-2xl font-black text-[#65B207]">
+                      <p className="font-heading text-2xl font-black text-[#68ccd1]">
                         {study.metric}
                       </p>
                       <p className="text-xs text-white/50">
                         {study.metricLabel}
                       </p>
                     </div>
-                    <span className="flex items-center gap-1 text-sm font-semibold text-[#65B207] opacity-0 transition-opacity group-hover:opacity-100">
+                    <span className="flex items-center gap-1 text-sm font-semibold text-[#68ccd1] opacity-0 transition-opacity group-hover:opacity-100">
                       View details <ArrowRight size={14} />
                     </span>
                   </div>
@@ -427,7 +427,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         <div className="mt-12 text-center">
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 rounded-full border-2 border-[#65B207] px-8 py-3.5 font-semibold text-[#65B207] transition-all hover:bg-[#65B207] hover:text-white"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-[#68ccd1] px-8 py-3.5 font-semibold text-[#68ccd1] transition-all hover:bg-[#68ccd1] hover:text-white"
           >
             View All Case Studies
             <ArrowRight size={18} />
@@ -467,7 +467,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
                 </p>
                 <div className="flex items-center justify-between border-t border-white/5 pt-4">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#65B207]/15 text-sm font-bold text-[#65B207]">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#68ccd1]/15 text-sm font-bold text-[#68ccd1]">
                       {review.name.charAt(0)}
                     </div>
                     <div>
@@ -487,7 +487,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             href={googleReview.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#65B207] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#65B207]/20 transition-all duration-300 hover:shadow-[#65B207]/30 hover:scale-[1.03]"
+            className="group inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#68ccd1] to-[#4a8a05] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all duration-300 hover:shadow-[#68ccd1]/30 hover:scale-[1.03]"
           >
             <GoogleLogo className="h-5 w-5" />
             Read All Reviews on Google
@@ -496,7 +496,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#d4e4c1" from="#080808" />
+      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
       {/* ──────────── FAQ ──────────── */}
       <Section variant="light">
@@ -513,7 +513,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#d4e4c1" flip />
+      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
 
       {/* ──────────── INLINE CTA ──────────── */}
       <Section variant="dark">
@@ -523,7 +523,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mx-auto max-w-4xl rounded-3xl border border-[#65B207]/20 bg-linear-to-br from-[#65B207]/10 via-[#131E13] to-[#131E13] p-10 text-center md:p-14"
+          className="mx-auto max-w-4xl rounded-3xl border border-[#68ccd1]/20 bg-linear-to-br from-[#68ccd1]/10 via-[#151515] to-[#151515] p-10 text-center md:p-14"
         >
           <h2 className="font-heading text-2xl font-black text-white md:text-3xl lg:text-4xl">
             Ready to see what this looks like for your {industry.name.toLowerCase()} business?
@@ -534,14 +534,14 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/20 transition-all hover:scale-[1.03] hover:bg-[#7acc09]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/20 transition-all hover:scale-[1.03] hover:bg-[#7dd6da]"
             >
               Book a Growth Blueprint Call
               <ArrowRight size={18} />
             </Link>
             <Link
               href="/case-studies"
-              className="inline-flex items-center gap-2 rounded-full border border-white/20 px-8 py-4 text-base font-bold text-white transition-all hover:border-[#65B207]"
+              className="inline-flex items-center gap-2 rounded-full border border-white/20 px-8 py-4 text-base font-bold text-white transition-all hover:border-[#68ccd1]"
             >
               See Case Studies
             </Link>

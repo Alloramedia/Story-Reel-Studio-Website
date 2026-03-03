@@ -29,6 +29,7 @@ export default function WorkClient() {
         activeIndustry === "All" || cs.industry === activeIndustry;
       const matchType =
         activeVideoType === "All" || cs.videoType === activeVideoType;
+      return matchIndustry && (videoTypes.length === 0 || matchType);
       return matchIndustry && matchType;
     });
   }, [activeIndustry, activeVideoType]);
@@ -137,24 +138,26 @@ export default function WorkClient() {
             </div>
 
             {/* Video type filter */}
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="mr-1 flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#888]">
-                <Filter size={14} /> Type
-              </span>
-              {["All", ...videoTypes].map((type) => (
-                <button
-                  key={type}
-                  onClick={() => setActiveVideoType(type)}
-                  className={`rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-300 ${
-                    activeVideoType === type
-                      ? "bg-[#68ccd1] text-[#080808] shadow-md shadow-[#68ccd1]/20"
-                      : "border border-[#e0e0e0] text-[#4a4a4a] hover:border-[#52b0b6]/40 hover:text-[#1a1a1a]"
-                  }`}
-                >
-                  {type}
-                </button>
-              ))}
-            </div>
+            {videoTypes.length > 0 && (
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="mr-1 flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#888]">
+                  <Filter size={14} /> Type
+                </span>
+                {["All", ...videoTypes].map((type) => (
+                  <button
+                    key={type}
+                    onClick={() => setActiveVideoType(type)}
+                    className={`rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-300 ${
+                      activeVideoType === type
+                        ? "bg-[#68ccd1] text-[#080808] shadow-md shadow-[#68ccd1]/20"
+                        : "border border-[#e0e0e0] text-[#4a4a4a] hover:border-[#52b0b6]/40 hover:text-[#1a1a1a]"
+                    }`}
+                  >
+                    {type}
+                  </button>
+                ))}
+              </div>
+            )}
 
             {/* Clear filters */}
             {hasActiveFilters && (
@@ -233,7 +236,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
         {/* Hero image */}
         <div className="relative aspect-video overflow-hidden">
           <Image
-            src={study.heroImage}
+            src={study.heroImage || study.image}
             alt={study.title}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -244,16 +247,18 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
             <span className="inline-flex rounded-full bg-[#52b0b6]/20 px-3 py-1 text-xs font-semibold text-[#52b0b6]">
               {study.industry}
             </span>
-            <span className="inline-flex rounded-full bg-[#1a1a1a]/10 px-3 py-1 text-xs font-semibold text-[#4a4a4a]">
-              {study.videoType}
-            </span>
+            {study.videoType && (
+              <span className="inline-flex rounded-full bg-[#1a1a1a]/10 px-3 py-1 text-xs font-semibold text-[#4a4a4a]">
+                {study.videoType}
+              </span>
+            )}
           </div>
         </div>
 
         {/* Content */}
         <div className="p-6">
           <h3 className="font-heading text-xl font-bold text-[#1a1a1a]">
-            {study.client}
+            {study.client || study.clientName}
           </h3>
 
           {/* Problem → Approach → Outcome */}
@@ -263,7 +268,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
                 Problem
               </p>
               <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-[#666]">
-                {study.challenge}
+                {Array.isArray(study.challenge) ? study.challenge[0] : study.challenge}
               </p>
             </div>
             <div>
@@ -271,7 +276,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
                 Approach
               </p>
               <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-[#666]">
-                {study.strategy}
+                {Array.isArray(study.strategy) ? study.strategy[0] : study.strategy}
               </p>
             </div>
             <div>
@@ -279,7 +284,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
                 Outcome
               </p>
               <p className="mt-1 text-sm font-semibold leading-relaxed text-[#1a1a1a]">
-                {study.heroOutcome}
+                {study.heroOutcome || study.summary}
               </p>
             </div>
           </div>

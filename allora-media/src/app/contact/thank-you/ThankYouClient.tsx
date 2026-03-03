@@ -27,7 +27,7 @@ export function ThankYouClient() {
             animate={{ scale: 1 }}
             transition={{ type: "spring", duration: 0.5 }}
           >
-            <CheckCircle size={56} className="mx-auto mb-6 text-[#65B207]" />
+            <CheckCircle size={56} className="mx-auto mb-6 text-[#68ccd1]" />
           </motion.div>
           <h1 className="font-heading text-3xl font-black text-white md:text-4xl lg:text-5xl">
             Thank you for contacting us.
@@ -66,7 +66,7 @@ export function ThankYouClient() {
                 },
               ].map((item) => (
                 <div key={item.step} className="flex items-start gap-4">
-                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#65B207]/10 text-sm font-bold text-[#65B207]">
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#68ccd1]/10 text-sm font-bold text-[#68ccd1]">
                     {item.step}
                   </div>
                   <p className="pt-1 text-sm text-white/60">{item.text}</p>
@@ -83,7 +83,7 @@ export function ThankYouClient() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-12 text-center"
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-[#65B207]/10 px-4 py-2 text-sm font-semibold text-[#65B207]">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-[#68ccd1]/10 px-4 py-2 text-sm font-semibold text-[#68ccd1]">
             <Calendar size={16} />
             Skip the Wait — Book a Call Now
           </div>
@@ -135,7 +135,7 @@ export function ThankYouClient() {
             Need to talk now? Call us at{" "}
             <a
               href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
-              className="inline-flex items-center gap-1 font-medium text-[#65B207] hover:underline"
+              className="inline-flex items-center gap-1 font-medium text-[#68ccd1] hover:underline"
             >
               <Phone size={14} />
               {siteConfig.phone}

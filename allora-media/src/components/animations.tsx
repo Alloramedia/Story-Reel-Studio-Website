@@ -321,7 +321,7 @@ export function GlowCard({
       transition={{ type: "spring", stiffness: 260, damping: 18, mass: 0.7 }}
       className={`relative group ${className}`}
     >
-      <div className="absolute -inset-0.5 rounded-2xl bg-linear-to-r from-[#65B207]/0 via-[#65B207]/0 to-[#65B207]/0 group-hover:from-[#65B207]/25 group-hover:via-[#65B207]/15 group-hover:to-[#65B207]/0 transition-all duration-600 blur-md opacity-0 group-hover:opacity-100" />
+      <div className="absolute -inset-0.5 rounded-2xl bg-linear-to-r from-[#68ccd1]/0 via-[#68ccd1]/0 to-[#68ccd1]/0 group-hover:from-[#68ccd1]/25 group-hover:via-[#68ccd1]/15 group-hover:to-[#68ccd1]/0 transition-all duration-600 blur-md opacity-0 group-hover:opacity-100" />
       <div className="relative">
         {children}
       </div>
@@ -339,7 +339,7 @@ export function RevealLine({ className = "" }: { className?: string }) {
       whileInView={{ scaleX: 1, opacity: 1 }}
       viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.8, ease: smoothOut }}
-      className={`h-px origin-left bg-linear-to-r from-[#65B207] to-[#65B207]/0 ${className}`}
+      className={`h-px origin-left bg-linear-to-r from-[#68ccd1] to-[#68ccd1]/0 ${className}`}
     />
   );
 }
@@ -516,7 +516,7 @@ export function AnimatedProgressBar({
           whileInView={{ width: `${value}%` }}
           viewport={{ once: true }}
           transition={{ duration: 1.2, delay, ease: smoothOut }}
-          className="h-full rounded-full bg-linear-to-r from-[#65B207] to-[#7acc09]"
+          className="h-full rounded-full bg-linear-to-r from-[#68ccd1] to-[#7dd6da]"
         />
       </div>
     </div>

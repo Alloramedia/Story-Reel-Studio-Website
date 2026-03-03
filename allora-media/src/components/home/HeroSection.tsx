@@ -51,17 +51,17 @@ export function HeroSection() {
 
       {/* Floating decorative elements */}
       <FloatingElement amplitude={15} duration={7} className="absolute right-[15%] top-[20%] hidden lg:block">
-        <div className="h-24 w-24 rounded-full bg-[#65B207]/5 blur-xl" />
+        <div className="h-24 w-24 rounded-full bg-[#68ccd1]/5 blur-xl" />
       </FloatingElement>
       <FloatingElement amplitude={10} duration={9} className="absolute left-[10%] bottom-[25%] hidden lg:block">
-        <div className="h-16 w-16 rounded-full bg-[#65B207]/8 blur-lg" />
+        <div className="h-16 w-16 rounded-full bg-[#68ccd1]/8 blur-lg" />
       </FloatingElement>
 
       {/* Aurora gradient blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-1">
-        <div className="absolute -top-1/4 -right-1/4 w-150 h-150 rounded-full bg-[#65B207]/4 blur-[120px] animate-aurora-1" />
-        <div className="absolute -bottom-1/4 -left-1/4 w-125 h-125 rounded-full bg-[#65B207]/3 blur-[100px] animate-aurora-2" />
-        <div className="absolute top-1/3 left-1/3 w-100 h-100 rounded-full bg-[#65B207]/2 blur-[80px] animate-aurora-3" />
+        <div className="absolute -top-1/4 -right-1/4 w-150 h-150 rounded-full bg-[#68ccd1]/4 blur-[120px] animate-aurora-1" />
+        <div className="absolute -bottom-1/4 -left-1/4 w-125 h-125 rounded-full bg-[#68ccd1]/3 blur-[100px] animate-aurora-2" />
+        <div className="absolute top-1/3 left-1/3 w-100 h-100 rounded-full bg-[#68ccd1]/2 blur-[80px] animate-aurora-3" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32 lg:px-8">
@@ -70,7 +70,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 16, letterSpacing: "0.3em" }}
             animate={{ opacity: 1, y: 0, letterSpacing: "0.2em" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="text-sm font-bold uppercase text-[#65B207] text-balance md:text-base"
+            className="text-sm font-bold uppercase text-[#68ccd1] text-balance md:text-base"
           >
             Performance-Driven Marketing Agency in Connecticut
           </motion.p>
@@ -102,14 +102,14 @@ export function HeroSection() {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center rounded-full bg-[#65B207] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#65B207]/25 transition-all duration-300 hover:bg-[#7acc09] hover:scale-[1.03]"
+              className="inline-flex items-center justify-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               Book a Growth Blueprint Call
               <ArrowRight size={18} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
             <Link
               href="/paid-media"
-              className="inline-flex items-center justify-center rounded-full border-2 border-white/20 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:border-[#65B207] hover:bg-[#65B207]/10"
+              className="inline-flex items-center justify-center rounded-full border-2 border-white/20 px-8 py-4 text-base font-bold text-white transition-all duration-300 hover:border-[#68ccd1] hover:bg-[#68ccd1]/10"
             >
               How It Works
               <ChevronRight size={18} className="ml-1" />
