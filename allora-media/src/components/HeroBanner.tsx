@@ -78,7 +78,7 @@ export function HeroBanner({
       {/* ── Video background ── */}
       {videoSrc && (
         <motion.div
-          className="absolute inset-0 z-1 hidden motion-safe:block"
+          className="absolute inset-0 z-1"
           initial={cinematic ? { scale: 1.2 } : undefined}
           animate={cinematic ? { scale: 1 } : undefined}
           transition={cinematic ? { duration: 2.5, ease: [0.22, 1, 0.36, 1] } : undefined}
@@ -88,12 +88,11 @@ export function HeroBanner({
             loop
             muted
             playsInline
-            preload="metadata"
+            preload="auto"
             aria-hidden="true"
             className="h-full w-full object-cover"
           >
             <source src={videoSrc} type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
         </motion.div>
       )}
