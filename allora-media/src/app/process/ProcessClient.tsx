@@ -154,7 +154,7 @@ export function ProcessClient() {
                     {step.step}
                   </motion.span>
                   <motion.div
-                    className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#151515] text-white"
+                    className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#0a2029] text-white"
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
@@ -195,7 +195,7 @@ export function ProcessClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* WHAT YOU'LL HAVE AFTER 90 DAYS */}
       <Section variant="light">
@@ -228,17 +228,17 @@ export function ProcessClient() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: i * 0.03 }}
-                className="flex items-start gap-3 rounded-xl border border-[#1a1a1a]/15 bg-white/50 p-4 hover-lift"
+                className="flex items-start gap-3 rounded-xl border border-[#0a1a1f]/15 bg-white/50 p-4 hover-lift"
               >
                 <CheckCircle size={18} className="mt-0.5 shrink-0 text-[#68ccd1]" />
-                <span className="text-sm text-[#1a1a1a]/70">{item}</span>
+                <span className="text-sm text-[#0a1a1f]/70">{item}</span>
               </motion.div>
             ))}
           </div>
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* NO-RISK GUARANTEE */}
       <Section variant="dark">
@@ -246,7 +246,7 @@ export function ProcessClient() {
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <div className="mx-auto max-w-4xl">
           <ScaleIn>
-          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#151515] p-8 md:p-10 border-glow">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#0a2029] p-8 md:p-10 border-glow">
             <div className="flex flex-col items-center gap-6 text-center md:flex-row md:items-start md:text-left">
               <motion.div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#68ccd1]/10" whileHover={{ rotate: 10, scale: 1.1 }} transition={{ type: "spring" }}>
                 <ShieldCheck size={32} className="text-[#68ccd1]" />

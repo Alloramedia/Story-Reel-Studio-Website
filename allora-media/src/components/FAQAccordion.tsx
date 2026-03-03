@@ -19,7 +19,7 @@ export function FAQAccordion({ items, variant = "dark" }: { items: FAQItem[]; va
     <div className={cn(
       "divide-y rounded-2xl border overflow-hidden",
       isLight
-        ? "divide-white/10 border-white/10 bg-[#080808]"
+        ? "divide-white/10 border-white/10 bg-[#0e2a35]"
         : "divide-white/10 border-white/10 gradient-border-card"
     )}>
       {items.map((item, i) => {

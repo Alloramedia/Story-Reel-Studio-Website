@@ -152,7 +152,7 @@ export function MediaProductionClient() {
         <div className="mx-auto grid max-w-6xl gap-6 md:grid-cols-2 lg:grid-cols-3">
           {capabilities.map((cap, i) => (
             <SlideIn key={cap.title} from="bottom" delay={i * 0.06}>
-              <TiltCard className="h-full rounded-2xl border border-white/5 bg-[#151515] p-6 hover-lift">
+              <TiltCard className="h-full rounded-2xl border border-white/5 bg-[#0a2029] p-6 hover-lift">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                   {cap.icon}
                 </div>
@@ -164,7 +164,7 @@ export function MediaProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ONE SHOOT = ENTIRE LIBRARY */}
       <Section variant="light">
@@ -182,9 +182,9 @@ export function MediaProductionClient() {
               <div className="rounded-2xl border border-red-200/30 bg-white p-6">
                 <div className="mb-4 flex items-center gap-2">
                   <XCircle size={20} className="text-red-400" />
-                  <h3 className="text-lg font-bold text-[#1a1a1a]">Stock Content & DIY</h3>
+                  <h3 className="text-lg font-bold text-[#0a1a1f]">Stock Content & DIY</h3>
                 </div>
-                <ul className="space-y-3 text-sm text-[#1a1a1a]/60">
+                <ul className="space-y-3 text-sm text-[#0a1a1f]/60">
                   {[
                     "Generic stock footage that looks like everyone else",
                     "Phone videos with poor lighting and audio",
@@ -204,9 +204,9 @@ export function MediaProductionClient() {
               <div className="rounded-2xl border border-[#68ccd1]/30 bg-white p-6 shadow-lg shadow-[#68ccd1]/5">
                 <div className="mb-4 flex items-center gap-2">
                   <CheckCircle size={20} className="text-[#68ccd1]" />
-                  <h3 className="text-lg font-bold text-[#1a1a1a]">Story Real Production</h3>
+                  <h3 className="text-lg font-bold text-[#0a1a1f]">Story Real Production</h3>
                 </div>
-                <ul className="space-y-3 text-sm text-[#1a1a1a]/60">
+                <ul className="space-y-3 text-sm text-[#0a1a1f]/60">
                   {[
                     "Cinematic footage that looks and feels premium",
                     "Professional crew with cinema-grade equipment",
@@ -226,12 +226,12 @@ export function MediaProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* TESTIMONIALS */}
       <TestimonialSection />
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* FAQ */}
       <Section variant="light">

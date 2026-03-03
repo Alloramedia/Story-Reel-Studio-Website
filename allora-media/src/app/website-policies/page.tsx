@@ -28,7 +28,7 @@ export default function WebsitePoliciesPage() {
           { name: "Website Policies", href: "/website-policies" },
         ]}
       />
-      <section className="bg-[#151515] pt-32 pb-16 md:pt-40 md:pb-20">
+      <section className="bg-[#0a2029] pt-32 pb-16 md:pt-40 md:pb-20">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
             Legal
@@ -42,7 +42,7 @@ export default function WebsitePoliciesPage() {
         </div>
       </section>
 
-      <section className="bg-[#080808] py-16 md:py-20">
+      <section className="bg-[#0e2a35] py-16 md:py-20">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <div className="prose prose-invert max-w-none space-y-12 text-white/70 [&_h2]:font-heading [&_h2]:text-2xl [&_h2]:font-black [&_h2]:text-white [&_h2]:mt-12 [&_h2]:mb-4 [&_h3]:font-heading [&_h3]:text-lg [&_h3]:font-bold [&_h3]:text-white [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:leading-relaxed [&_ul]:space-y-2 [&_li]:text-white/70">
             {/* PRIVACY POLICY */}

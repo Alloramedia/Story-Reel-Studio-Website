@@ -176,7 +176,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ──────────── CHALLENGES ──────────── */}
       <Section variant="light">
@@ -198,7 +198,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.05 }}
-              className="flex items-start gap-3 rounded-xl border border-white/10 bg-[#151515] p-4"
+              className="flex items-start gap-3 rounded-xl border border-white/10 bg-[#0a2029] p-4"
             >
               <span className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-red-400" />
               <span className="text-base text-white/80">{challenge}</span>
@@ -208,7 +208,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* ──────────── SERVICES (Industry-Specific) ──────────── */}
       <Section variant="dark">
@@ -242,7 +242,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ──────────── WHY STORY REAL ──────────── */}
       <Section variant="light">
@@ -262,7 +262,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: i * 0.12 }}
-              className="relative h-full rounded-2xl border border-white/10 bg-[#151515] p-7 hover-lift border-t-4 border-t-[#68ccd1]"
+              className="relative h-full rounded-2xl border border-white/10 bg-[#0a2029] p-7 hover-lift border-t-4 border-t-[#68ccd1]"
             >
               <div className="mb-4 flex h-9 w-9 items-center justify-center rounded-full bg-[#68ccd1] text-white">
                 <CheckCircle2 size={18} />
@@ -275,7 +275,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* ──────────── RESULTS ──────────── */}
       <Section variant="dark">
@@ -305,7 +305,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ──────────── OUR APPROACH ──────────── */}
       <Section variant="light">
@@ -326,7 +326,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.05 }}
-              className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#151515] p-5 transition-all hover:border-[#68ccd1]/20 hover:bg-[#68ccd1]/4"
+              className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#0a2029] p-5 transition-all hover:border-[#68ccd1]/20 hover:bg-[#68ccd1]/4"
             >
               <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#68ccd1] text-xs font-bold text-white">
                 {i + 1}
@@ -338,7 +338,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* ──────────── CASE STUDIES & REVIEWS ──────────── */}
       <Section variant="dark">
@@ -385,7 +385,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             >
               <Link
                 href={study.href}
-                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#68ccd1]/30"
+                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#0e2a35] transition-all hover:border-[#68ccd1]/30"
               >
                 <div className="relative aspect-video overflow-hidden image-shine">
                   <Image
@@ -395,7 +395,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
                     sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
-                  <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0e2a35] via-transparent to-transparent" />
                   <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#68ccd1]/20 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {study.industry}
                   </span>
@@ -456,7 +456,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
               transition={{ duration: 0.3, delay: i * 0.05 }}
               className="h-full"
             >
-              <div className="flex h-full flex-col rounded-2xl border border-white/8 bg-[#080808]/80 p-6">
+              <div className="flex h-full flex-col rounded-2xl border border-white/8 bg-[#0e2a35]/80 p-6">
                 <div className="mb-3 flex items-center gap-1">
                   {[...Array(5)].map((_, j) => (
                     <Star key={j} size={14} className="fill-[#FBBC05] text-[#FBBC05]" />
@@ -496,7 +496,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ──────────── FAQ ──────────── */}
       <Section variant="light">
@@ -513,7 +513,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* ──────────── INLINE CTA ──────────── */}
       <Section variant="dark">
@@ -523,7 +523,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mx-auto max-w-4xl rounded-3xl border border-[#68ccd1]/20 bg-linear-to-br from-[#68ccd1]/10 via-[#151515] to-[#151515] p-10 text-center md:p-14"
+          className="mx-auto max-w-4xl rounded-3xl border border-[#68ccd1]/20 bg-linear-to-br from-[#68ccd1]/10 via-[#0a2029] to-[#0a2029] p-10 text-center md:p-14"
         >
           <h2 className="font-heading text-2xl font-black text-white md:text-3xl lg:text-4xl">
             Ready to see what this looks like for your {industry.name.toLowerCase()} business?

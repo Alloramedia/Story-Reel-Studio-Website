@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/constants";
 export function MeetingClient() {
 
   return (
-    <section className="min-h-screen bg-[#080808] pt-32 pb-20">
+    <section className="min-h-screen bg-[#0e2a35] pt-32 pb-20">
       <div className="mx-auto max-w-4xl px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,7 @@ export function MeetingClient() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
-          className="mt-12 rounded-2xl border border-white/10 bg-[#111111] p-4 md:p-8"
+          className="mt-12 rounded-2xl border border-white/10 bg-[#0a2029] p-4 md:p-8"
         >
           <iframe
             src={siteConfig.ghl.bookingUrl}

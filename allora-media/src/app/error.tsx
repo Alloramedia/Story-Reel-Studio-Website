@@ -15,7 +15,7 @@ export default function Error({
   }, [error]);
 
   return (
-    <section className="flex min-h-screen items-center justify-center bg-[#080808]">
+    <section className="flex min-h-screen items-center justify-center bg-[#0e2a35]">
       <div className="mx-auto max-w-lg px-6 text-center">
         <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-red-500/10">
           <svg

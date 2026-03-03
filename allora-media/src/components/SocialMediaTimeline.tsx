@@ -148,14 +148,14 @@ export function SocialMediaTimeline() {
               className="relative mb-3 flex items-start"
             >
               {/* Year dot */}
-              <div className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#68ccd1] bg-[#151515] md:h-12 md:w-12">
+              <div className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#68ccd1] bg-[#0a2029] md:h-12 md:w-12">
                 <span className="text-[10px] font-black text-[#68ccd1]">{item.year}</span>
               </div>
 
               {/* Content card */}
               <div className="ml-4 flex-1">
                 <div
-                  className={`w-full rounded-2xl border bg-[#080808] px-5 py-4 text-left transition-colors ${
+                  className={`w-full rounded-2xl border bg-[#0e2a35] px-5 py-4 text-left transition-colors ${
                     isOpen
                       ? "border-[#68ccd1]/40"
                       : "border-white/10 hover:border-[#68ccd1]/20"
@@ -208,7 +208,7 @@ export function SocialMediaTimeline() {
                             </li>
                           ))}
                         </ul>
-                        <div className="mt-4 rounded-xl bg-[#151515] p-4">
+                        <div className="mt-4 rounded-xl bg-[#0a2029] p-4">
                           <p className="text-xs font-semibold uppercase tracking-widest text-[#68ccd1]/60">
                             Key Takeaway
                           </p>

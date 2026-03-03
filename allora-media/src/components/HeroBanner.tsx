@@ -63,12 +63,12 @@ export function HeroBanner({
     <section
       ref={heroRef}
       onMouseMove={handleMouseMove}
-      className={`relative flex ${cinematic ? "min-h-screen" : minHeight} items-center overflow-hidden noise-texture ${className}`}
+      className={`relative flex ${cinematic ? "min-h-screen" : minHeight} items-center overflow-hidden noise-texture ${cinematic ? "mx-3 mt-3 rounded-2xl" : ""} ${className}`}
     >
       {/* ── Cinematic black cover (wipe reveal) ── */}
       {cinematic && (
         <motion.div
-          className="absolute inset-0 z-30 bg-[#080808] origin-top"
+          className="absolute inset-0 z-30 bg-[#0e2a35] origin-top"
           initial={{ scaleY: 1 }}
           animate={{ scaleY: cinematicStage >= 1 ? 0 : 1 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
@@ -120,7 +120,7 @@ export function HeroBanner({
       <div
         className="absolute inset-0 z-2"
         style={{
-          background: `linear-gradient(to bottom, rgba(8,8,8,${overlayOpacity / 100}) 0%, rgba(8,8,8,${(overlayOpacity - 15) / 100}) 50%, rgba(8,8,8,${(overlayOpacity + 10) / 100}) 100%)`,
+          background: `linear-gradient(to bottom, rgba(14,42,53,${overlayOpacity / 100}) 0%, rgba(14,42,53,${(overlayOpacity - 15) / 100}) 50%, rgba(14,42,53,${(overlayOpacity + 10) / 100}) 100%)`,
         }}
       />
 

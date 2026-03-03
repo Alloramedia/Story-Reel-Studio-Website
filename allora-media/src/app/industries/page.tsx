@@ -112,7 +112,7 @@ export default function IndustriesPage() {
       <FAQSchema faqs={industriesFaqs} />
 
       {/* ═══════ HERO ═══════ */}
-      <section className="relative bg-[#151515] pt-32 pb-20 md:pt-40 md:pb-28 noise-texture overflow-hidden">
+      <section className="relative bg-[#0a2029] pt-32 pb-20 md:pt-40 md:pb-28 noise-texture overflow-hidden">
         <div
           className="pointer-events-none absolute inset-0"
           style={{
@@ -172,7 +172,7 @@ export default function IndustriesPage() {
       </section>
 
       {/* ═══════ WHY INDUSTRY-SPECIFIC ═══════ */}
-      <AngleDivider variant="notch" fill="#080808" from="#151515" />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#0a2029" />
       <Section variant="dark">
         <GradientOverlay from="rgba(104,204,209,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
@@ -200,7 +200,7 @@ export default function IndustriesPage() {
           ].map((item, i) => (
             <div
               key={i}
-              className="rounded-2xl border border-white/10 bg-[#151515] p-7 transition-all hover:border-[#68ccd1]/20 hover-lift gradient-border-card"
+              className="rounded-2xl border border-white/10 bg-[#0a2029] p-7 transition-all hover:border-[#68ccd1]/20 hover-lift gradient-border-card"
             >
               <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                 {item.icon}
@@ -213,7 +213,7 @@ export default function IndustriesPage() {
       </Section>
 
       {/* ═══════ INDUSTRY CARDS ═══════ */}
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
         <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
@@ -233,7 +233,7 @@ export default function IndustriesPage() {
                 <Link
                   key={slug}
                   href={`/industries/${slug}`}
-                  className="group block rounded-2xl border border-white/10 bg-[#151515] p-6 transition-all hover:border-[#68ccd1]/40 hover:shadow-lg hover:shadow-[#68ccd1]/5 md:p-8"
+                  className="group block rounded-2xl border border-white/10 bg-[#0a2029] p-6 transition-all hover:border-[#68ccd1]/40 hover:shadow-lg hover:shadow-[#68ccd1]/5 md:p-8"
                 >
                   <div className="flex flex-col gap-6 md:flex-row md:items-start md:gap-8">
                     {/* icon + name */}
@@ -319,7 +319,7 @@ export default function IndustriesPage() {
       </Section>
 
       {/* ═══════ CROSS-INDUSTRY RESULTS ═══════ */}
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
@@ -390,7 +390,7 @@ export default function IndustriesPage() {
             ].map((item) => (
               <div
                 key={item.step}
-                className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#151515] p-5 transition-all hover:border-[#68ccd1]/20 hover:bg-[#68ccd1]/4"
+                className="group flex items-start gap-4 rounded-xl border border-white/10 bg-[#0a2029] p-5 transition-all hover:border-[#68ccd1]/20 hover:bg-[#68ccd1]/4"
               >
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#68ccd1] text-xs font-bold text-white">
                   {item.step}
@@ -408,7 +408,7 @@ export default function IndustriesPage() {
       </Section>
 
       {/* ═══════ FAQ ═══════ */}
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
       <Section variant="dark">
         <GradientOverlay from="rgba(104,204,209,0.02)" to="transparent" direction="to top" />
         <div className="mx-auto max-w-3xl">

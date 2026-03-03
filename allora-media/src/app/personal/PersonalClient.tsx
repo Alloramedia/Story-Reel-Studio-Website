@@ -668,7 +668,7 @@ export function PersonalClient() {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="mx-auto max-w-3xl rounded-2xl border border-white/10 bg-[#080808] p-8 md:p-10"
+            className="mx-auto max-w-3xl rounded-2xl border border-white/10 bg-[#0e2a35] p-8 md:p-10"
           >
             <p className="text-base leading-relaxed text-white/70">
               &ldquo;What started as a favor to a friend ended up turning into
@@ -840,7 +840,7 @@ export function PersonalClient() {
               {addOns.map((addon) => (
                 <div
                   key={addon.label}
-                  className="flex items-center justify-between rounded-xl bg-[#080808] px-4 py-3"
+                  className="flex items-center justify-between rounded-xl bg-[#0e2a35] px-4 py-3"
                 >
                   <span className="text-sm text-white/60">{addon.label}</span>
                   <span

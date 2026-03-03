@@ -162,7 +162,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         </div>
       </section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#68ccd1" />
 
       {/* ═══ DESCRIPTION + WHY CARDS ═══ */}
       <Section variant="dark">
@@ -206,7 +206,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         )}
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ═══ THE NUMBERS ═══ */}
       {service.stats && service.stats.length > 0 && (
@@ -238,7 +238,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.3, delay: i * 0.05 }}
-                    className="rounded-xl border border-[#68ccd1]/20 bg-[#151515] p-5 text-center hover-lift"
+                    className="rounded-xl border border-[#68ccd1]/20 bg-[#0a2029] p-5 text-center hover-lift"
                   >
                     <p className="font-heading text-3xl font-black text-[#68ccd1]">
                       {item.stat}
@@ -254,7 +254,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-                className="rounded-2xl border border-white/10 bg-[#151515] p-8 md:p-10"
+                className="rounded-2xl border border-white/10 bg-[#0a2029] p-8 md:p-10"
               >
                 <h3 className="mb-4 text-center font-heading text-xl font-bold text-white">
                   The bottom line
@@ -266,7 +266,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+          <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
         </>
       )}
 
@@ -290,7 +290,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             description="Every project includes a clear scope, timeline, and deliverable list. No surprise charges. No mystery fees."
           />
           <div className="mx-auto max-w-4xl">
-            <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8 md:p-10">
+            <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#0e2a35] p-8 md:p-10">
               <div className="grid gap-4 md:grid-cols-2">
                 {service.whatWeDeliver.map((item, i) => (
                   <motion.div
@@ -299,7 +299,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.3, delay: i * 0.05 }}
-                    className="flex items-start gap-3 rounded-xl bg-[#151515] p-4"
+                    className="flex items-start gap-3 rounded-xl bg-[#0a2029] p-4"
                   >
                     <CheckCircle
                       size={18}
@@ -316,7 +316,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ═══ OUR PROCESS ═══ */}
       {service.process && service.process.length > 0 && (
@@ -350,12 +350,12 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                         transition={{ duration: 0.4, delay: i * 0.1 }}
                         className="relative flex items-start gap-5"
                       >
-                        <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-[#68ccd1] bg-[#151515] md:h-14 md:w-14">
+                        <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-[#68ccd1] bg-[#0a2029] md:h-14 md:w-14">
                           <span className="font-heading text-sm font-black text-[#68ccd1]">
                             {step.step}
                           </span>
                         </div>
-                        <div className="rounded-xl border border-white/10 bg-[#151515] p-5 flex-1">
+                        <div className="rounded-xl border border-white/10 bg-[#0a2029] p-5 flex-1">
                           <h3 className="font-heading text-base font-bold text-white md:text-lg">
                             {step.title}
                           </h3>
@@ -371,7 +371,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+          <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
         </>
       )}
 
@@ -438,7 +438,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+          <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
         </>
       )}
 
@@ -474,7 +474,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     className="h-full"
                   >
                     <TiltCard tiltIntensity={5} className="h-full">
-                      <div className="flex h-full flex-col rounded-2xl border border-[#68ccd1]/15 bg-[#151515] p-7 hover-lift">
+                      <div className="flex h-full flex-col rounded-2xl border border-[#68ccd1]/15 bg-[#0a2029] p-7 hover-lift">
                         <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                           <Target size={20} />
                         </div>
@@ -492,7 +492,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
             </div>
           </Section>
 
-          <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+          <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
         </>
       )}
 
@@ -525,7 +525,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                 className="h-full"
               >
                 <TiltCard tiltIntensity={5} className="h-full">
-                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-glow">
+                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#0e2a35] p-7 hover-lift border-glow">
                     <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>

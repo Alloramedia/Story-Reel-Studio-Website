@@ -80,7 +80,7 @@ export function TestimonialSection() {
             >
               <Link
                 href={study.href}
-                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#080808] transition-all hover:border-[#68ccd1]/30"
+                className="group block overflow-hidden rounded-2xl border border-white/10 bg-[#0e2a35] transition-all hover:border-[#68ccd1]/30"
               >
                 <div className="relative aspect-video overflow-hidden">
                   <Image
@@ -90,7 +90,7 @@ export function TestimonialSection() {
                     sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
-                  <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0e2a35] via-transparent to-transparent" />
                   <span className="absolute bottom-3 left-4 inline-flex rounded-full bg-[#68ccd1]/20 px-3 py-1 text-xs font-semibold text-[#68ccd1]">
                     {study.industry}
                   </span>
@@ -164,7 +164,7 @@ export function TestimonialSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.1 * i }}
-              className="flex h-full flex-col rounded-2xl border border-white/8 bg-[#080808]/80 p-6"
+              className="flex h-full flex-col rounded-2xl border border-white/8 bg-[#0e2a35]/80 p-6"
             >
               <div className="mb-3 flex items-center gap-1">
                 {[...Array(5)].map((_, j) => (

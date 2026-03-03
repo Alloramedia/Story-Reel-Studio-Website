@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/constants";
 
 export function ThankYouClient() {
   return (
-    <section className="min-h-screen bg-[#080808] pt-32 pb-20">
+    <section className="min-h-screen bg-[#0e2a35] pt-32 pb-20">
       {/* GoHighLevel form embed script */}
       <Script
         src={siteConfig.ghl.formEmbedScript}
@@ -46,7 +46,7 @@ export function ThankYouClient() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mx-auto mt-10 max-w-2xl"
         >
-          <div className="rounded-2xl border border-white/10 bg-[#111111] p-6 md:p-8">
+          <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-6 md:p-8">
             <h2 className="mb-4 text-center text-lg font-bold text-white">
               What happens next?
             </h2>
@@ -93,7 +93,7 @@ export function ThankYouClient() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="rounded-2xl border border-white/10 bg-[#111111] p-4 md:p-8"
+          className="rounded-2xl border border-white/10 bg-[#0a2029] p-4 md:p-8"
         >
           <iframe
             src={siteConfig.ghl.bookingUrl}

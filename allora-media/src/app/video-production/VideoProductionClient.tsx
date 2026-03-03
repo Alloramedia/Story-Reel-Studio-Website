@@ -197,7 +197,7 @@ export function VideoProductionClient() {
         </div>
       </section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#68ccd1" />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#68ccd1" />
 
       {/* WHY STORY-LED VIDEO */}
       <Section variant="dark">
@@ -243,7 +243,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* THE NUMBERS */}
       <Section variant="light">
@@ -284,7 +284,7 @@ export function VideoProductionClient() {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: i * 0.05 }}
-                className="rounded-xl border border-[#68ccd1]/20 bg-[#151515] p-5 text-center hover-lift"
+                className="rounded-xl border border-[#68ccd1]/20 bg-[#0a2029] p-5 text-center hover-lift"
               >
                 <p className="font-heading text-3xl font-black text-[#68ccd1]">
                   {item.stat}
@@ -299,7 +299,7 @@ export function VideoProductionClient() {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-            className="rounded-2xl border border-white/10 bg-[#151515] p-8 md:p-10"
+            className="rounded-2xl border border-white/10 bg-[#0a2029] p-8 md:p-10"
           >
             <h3 className="mb-6 text-center font-heading text-xl font-bold text-white">
               What strategy-led video production does for your organization
@@ -342,7 +342,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* WHAT YOU GET */}
       <Section variant="dark">
@@ -354,7 +354,7 @@ export function VideoProductionClient() {
           description="A single Story Real production doesn't get you one video. It gets you a full library of strategic content built to serve your organization across every channel."
         />
         <div className="mx-auto max-w-4xl">
-          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#0e2a35] p-8">
             <div className="mb-6 text-center">
               <p className="text-sm font-bold uppercase tracking-wider text-[#68ccd1]">
                 From a single production engagement:
@@ -390,7 +390,7 @@ export function VideoProductionClient() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: i * 0.05 }}
-                  className="flex items-center gap-4 rounded-xl bg-[#151515] p-4"
+                  className="flex items-center gap-4 rounded-xl bg-[#0a2029] p-4"
                 >
                   <span className="font-heading text-2xl font-black text-[#68ccd1]">
                     {item.count}
@@ -406,7 +406,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* HIRING A PRO VS DIY */}
       <Section variant="light">
@@ -475,7 +475,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* VIDEO SERVICES */}
       <Section variant="dark">
@@ -494,7 +494,7 @@ export function VideoProductionClient() {
               transition={{ duration: 0.4, delay: i * 0.05 }}
               className="group h-full rounded-2xl bg-[#0e1e25] p-6 shadow-sm hover-lift border-glow"
             >
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#151515] text-white">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0a2029] text-white">
                 {item.icon}
               </div>
               <h3 className="mb-2 text-lg font-bold">{item.title}</h3>
@@ -518,14 +518,14 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ALSO NEED PHOTOGRAPHY? */}
       <Section variant="light">
         <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-3xl py-6 text-center">
           <ScaleIn>
-            <div className="rounded-2xl border border-white/10 bg-[#151515] p-8 md:p-10">
+            <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-8 md:p-10">
               <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-[#68ccd1]">
                 Beyond Video
               </p>
@@ -549,7 +549,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" />
 
       {/* ═══ WHY STORY-DRIVEN MATTERS ═══ */}
       <Section variant="dark">
@@ -590,7 +590,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ═══ INDUSTRIES WE SERVE ═══ */}
       <Section variant="light">
@@ -646,7 +646,7 @@ export function VideoProductionClient() {
                 className="h-full"
               >
                 <TiltCard tiltIntensity={5} className="h-full">
-                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#080808] p-7 hover-lift border-glow">
+                  <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#0e2a35] p-7 hover-lift border-glow">
                     <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                       {item.icon}
                     </div>
@@ -664,7 +664,7 @@ export function VideoProductionClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#080808" />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#0e2a35" />
 
       {/* TESTIMONIALS */}
       <TestimonialSection />

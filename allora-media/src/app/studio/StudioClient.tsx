@@ -176,7 +176,7 @@ export function StudioClient() {
               href={siteConfig.studioBookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#080808] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
+              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               <Star size={18} className="mr-2" />
               Book the Studio
@@ -229,7 +229,7 @@ export function StudioClient() {
                 <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#52b0b6]/10 text-[#52b0b6] transition-colors group-hover:bg-[#52b0b6]/20">
                   {feature.icon}
                 </div>
-                <p className="text-sm font-semibold tracking-wide text-[#1a1a1a]">
+                <p className="text-sm font-semibold tracking-wide text-[#0a1a1f]">
                   {feature.label}
                 </p>
               </div>
@@ -258,7 +258,7 @@ export function StudioClient() {
                 }`}
               >
                 {pkg.featured && (
-                  <span className="absolute -top-3 right-6 rounded-full bg-[#68ccd1] px-4 py-1 text-xs font-bold uppercase tracking-widest text-[#080808]">
+                  <span className="absolute -top-3 right-6 rounded-full bg-[#68ccd1] px-4 py-1 text-xs font-bold uppercase tracking-widest text-[#0e2a35]">
                     Most Popular
                   </span>
                 )}
@@ -296,7 +296,7 @@ export function StudioClient() {
                   rel="noopener noreferrer"
                   className={`mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm font-bold transition-all duration-300 ${
                     pkg.featured
-                      ? "bg-[#68ccd1] text-[#080808] shadow-lg shadow-[#68ccd1]/25 hover:bg-[#7dd6da]"
+                      ? "bg-[#68ccd1] text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 hover:bg-[#7dd6da]"
                       : "border-2 border-white/20 text-white hover:border-[#68ccd1] hover:bg-[#68ccd1]/10"
                   }`}
                 >
@@ -325,7 +325,7 @@ export function StudioClient() {
                 key={tier.name}
                 className="flex items-center justify-between px-6 py-5 transition-colors hover:bg-gray-50 md:px-8"
               >
-                <span className="flex items-center gap-3 text-base font-medium text-[#1a1a1a]">
+                <span className="flex items-center gap-3 text-base font-medium text-[#0a1a1f]">
                   <Scissors size={16} className="text-[#52b0b6]" />
                   {tier.name}
                 </span>

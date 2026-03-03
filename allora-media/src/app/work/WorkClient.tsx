@@ -97,7 +97,7 @@ export default function WorkClient() {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#080808] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
+              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               Start Your Project
             </Link>
@@ -128,8 +128,8 @@ export default function WorkClient() {
                   onClick={() => setActiveIndustry(industry)}
                   className={`rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-300 ${
                     activeIndustry === industry
-                      ? "bg-[#68ccd1] text-[#080808] shadow-md shadow-[#68ccd1]/20"
-                      : "border border-[#e0e0e0] text-[#4a4a4a] hover:border-[#52b0b6]/40 hover:text-[#1a1a1a]"
+                      ? "bg-[#68ccd1] text-[#0e2a35] shadow-md shadow-[#68ccd1]/20"
+                      : "border border-[#e0e0e0] text-[#4a4a4a] hover:border-[#52b0b6]/40 hover:text-[#0a1a1f]"
                   }`}
                 >
                   {industry}
@@ -149,8 +149,8 @@ export default function WorkClient() {
                     onClick={() => setActiveVideoType(type)}
                     className={`rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-300 ${
                       activeVideoType === type
-                        ? "bg-[#68ccd1] text-[#080808] shadow-md shadow-[#68ccd1]/20"
-                        : "border border-[#e0e0e0] text-[#4a4a4a] hover:border-[#52b0b6]/40 hover:text-[#1a1a1a]"
+                        ? "bg-[#68ccd1] text-[#0e2a35] shadow-md shadow-[#68ccd1]/20"
+                        : "border border-[#e0e0e0] text-[#4a4a4a] hover:border-[#52b0b6]/40 hover:text-[#0a1a1f]"
                     }`}
                   >
                     {type}
@@ -163,7 +163,7 @@ export default function WorkClient() {
             {hasActiveFilters && (
               <button
                 onClick={clearFilters}
-                className="inline-flex items-center gap-1 text-sm font-semibold text-[#52b0b6] transition-colors hover:text-[#1a1a1a]"
+                className="inline-flex items-center gap-1 text-sm font-semibold text-[#52b0b6] transition-colors hover:text-[#0a1a1f]"
               >
                 <X size={14} /> Clear
               </button>
@@ -194,7 +194,7 @@ export default function WorkClient() {
             </p>
             <button
               onClick={clearFilters}
-              className="mt-4 text-sm font-semibold text-[#52b0b6] underline underline-offset-4 transition-colors hover:text-[#1a1a1a]"
+              className="mt-4 text-sm font-semibold text-[#52b0b6] underline underline-offset-4 transition-colors hover:text-[#0a1a1f]"
             >
               Clear all filters
             </button>
@@ -248,7 +248,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
               {study.industry}
             </span>
             {study.videoType && (
-              <span className="inline-flex rounded-full bg-[#1a1a1a]/10 px-3 py-1 text-xs font-semibold text-[#4a4a4a]">
+              <span className="inline-flex rounded-full bg-[#0a1a1f]/10 px-3 py-1 text-xs font-semibold text-[#4a4a4a]">
                 {study.videoType}
               </span>
             )}
@@ -257,7 +257,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
 
         {/* Content */}
         <div className="p-6">
-          <h3 className="font-heading text-xl font-bold text-[#1a1a1a]">
+          <h3 className="font-heading text-xl font-bold text-[#0a1a1f]">
             {study.client || study.clientName}
           </h3>
 
@@ -283,7 +283,7 @@ function WorkCard({ study, index }: { study: CaseStudy; index: number }) {
               <p className="text-xs font-bold uppercase tracking-widest text-[#52b0b6]">
                 Outcome
               </p>
-              <p className="mt-1 text-sm font-semibold leading-relaxed text-[#1a1a1a]">
+              <p className="mt-1 text-sm font-semibold leading-relaxed text-[#0a1a1f]">
                 {study.heroOutcome || study.summary}
               </p>
             </div>

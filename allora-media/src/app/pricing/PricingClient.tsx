@@ -183,7 +183,7 @@ export function PricingClient() {
                 }`}
               >
                 {tier.featured && (
-                  <div className="absolute -top-3 left-6 rounded-full bg-[#68ccd1] px-4 py-1 text-xs font-bold uppercase tracking-widest text-[#080808]">
+                  <div className="absolute -top-3 left-6 rounded-full bg-[#68ccd1] px-4 py-1 text-xs font-bold uppercase tracking-widest text-[#0e2a35]">
                     Most Popular
                   </div>
                 )}
@@ -192,7 +192,7 @@ export function PricingClient() {
                 <div className="mb-4 inline-flex rounded-xl bg-[#52b0b6]/10 p-3 text-[#52b0b6]">
                   {tier.icon}
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-[#1a1a1a]">
+                <h3 className="font-heading text-2xl font-bold text-[#0a1a1f]">
                   {tier.name}
                 </h3>
                 <p className="mt-1 text-sm font-medium text-[#52b0b6]">
@@ -201,7 +201,7 @@ export function PricingClient() {
 
                 {/* Price Range */}
                 <div className="mt-6 border-t border-[#e0e0e0] pt-6">
-                  <p className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
+                  <p className="font-heading text-3xl font-black text-[#0a1a1f] md:text-4xl">
                     {tier.range}
                   </p>
                   <p className="mt-1 text-xs text-[#888]">
@@ -257,8 +257,8 @@ export function PricingClient() {
                   href="/contact"
                   className={`mt-6 inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-bold transition-all duration-300 ${
                     tier.featured
-                      ? "bg-[#68ccd1] text-[#080808] shadow-lg shadow-[#68ccd1]/25 hover:bg-[#7dd6da] hover:scale-[1.03]"
-                      : "border-2 border-[#e0e0e0] text-[#1a1a1a] hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
+                      ? "bg-[#68ccd1] text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 hover:bg-[#7dd6da] hover:scale-[1.03]"
+                      : "border-2 border-[#e0e0e0] text-[#0a1a1f] hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
                   }`}
                 >
                   {tier.featured ? (
@@ -319,7 +319,7 @@ export function PricingClient() {
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#52b0b6]">
               Studio Rental
             </p>
-            <h2 className="font-heading text-2xl font-black text-[#1a1a1a] md:text-3xl">
+            <h2 className="font-heading text-2xl font-black text-[#0a1a1f] md:text-3xl">
               Need the space without the full production?
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-[#4a4a4a]">
@@ -330,7 +330,7 @@ export function PricingClient() {
             </p>
             <Link
               href="/studio"
-              className="mt-8 inline-flex items-center rounded-full border-2 border-[#e0e0e0] px-8 py-4 text-base font-bold text-[#1a1a1a] transition-all duration-300 hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
+              className="mt-8 inline-flex items-center rounded-full border-2 border-[#e0e0e0] px-8 py-4 text-base font-bold text-[#0a1a1f] transition-all duration-300 hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
             >
               View Studio Details
               <ArrowRight size={18} className="ml-2" />

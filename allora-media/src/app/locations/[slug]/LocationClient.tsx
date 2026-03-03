@@ -93,7 +93,7 @@ export function LocationClient({ location }: { location: LocationData }) {
           >
             <Link
               href={siteConfig.bookingUrl}
-              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#080808] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
+              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               Book a Strategy Call
             </Link>
@@ -120,7 +120,7 @@ export function LocationClient({ location }: { location: LocationData }) {
         <StaggerContainer className="flex flex-wrap justify-center gap-3">
           {location.areas.map((area) => (
             <StaggerItem key={area}>
-              <span className="inline-flex items-center rounded-full border border-[#52b0b6]/30 bg-white px-5 py-2.5 text-sm font-medium text-[#1a1a1a] shadow-sm transition-colors hover:border-[#52b0b6] hover:bg-[#52b0b6]/10">
+              <span className="inline-flex items-center rounded-full border border-[#52b0b6]/30 bg-white px-5 py-2.5 text-sm font-medium text-[#0a1a1f] shadow-sm transition-colors hover:border-[#52b0b6] hover:bg-[#52b0b6]/10">
                 <MapPin size={14} className="mr-2 text-[#52b0b6]" />
                 {area}
               </span>
@@ -141,7 +141,7 @@ export function LocationClient({ location }: { location: LocationData }) {
           {services.map((service) => (
             <StaggerItem key={service.title}>
               <Link href={service.href} className="group block h-full">
-                <div className="h-full rounded-2xl border border-white/10 bg-[#111] p-6 transition-all duration-300 hover:border-[#68ccd1]/30 hover:bg-[#151515]">
+                <div className="h-full rounded-2xl border border-white/10 bg-[#0a2029] p-6 transition-all duration-300 hover:border-[#68ccd1]/30 hover:bg-[#0a2029]">
                   <service.icon size={28} className="mb-4 text-[#68ccd1]" />
                   <h3 className="mb-2 text-lg font-bold text-white group-hover:text-[#68ccd1] transition-colors">
                     {service.title}
@@ -177,7 +177,7 @@ export function LocationClient({ location }: { location: LocationData }) {
                     <item.icon size={26} className="text-[#52b0b6]" />
                   </div>
                   <div>
-                    <h3 className="mb-2 text-lg font-bold text-[#1a1a1a]">{item.title}</h3>
+                    <h3 className="mb-2 text-lg font-bold text-[#0a1a1f]">{item.title}</h3>
                     <p className="text-sm leading-relaxed text-[#4a4a4a]">{item.description}</p>
                   </div>
                 </div>

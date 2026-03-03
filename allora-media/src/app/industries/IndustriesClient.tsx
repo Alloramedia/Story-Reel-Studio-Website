@@ -77,7 +77,7 @@ export default function IndustriesClient() {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#080808] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
+              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               Book a Strategy Call
             </Link>
@@ -91,7 +91,7 @@ export default function IndustriesClient() {
         </div>
       </HeroBanner>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* ═══ WHY INDUSTRY MATTERS ═══ */}
       <Section variant="light">
@@ -146,7 +146,7 @@ export default function IndustriesClient() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.08 }}
-                    className="rounded-xl border border-[#1a1a1a]/10 bg-[#f5fafa] p-5"
+                    className="rounded-xl border border-[#0a1a1f]/10 bg-[#fafcfd] p-5"
                   >
                     <p className="text-sm font-bold text-[#52b0b6]">{item.label}</p>
                     <p className="mt-2 text-sm leading-relaxed text-[#4a4a4a]">
@@ -160,10 +160,10 @@ export default function IndustriesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#151515" from="#f5fafa" />
+      <AngleDivider variant="notch" fill="#0a2029" from="#fafcfd" />
 
       {/* ═══ INDUSTRIES GRID ═══ */}
-      <Section className="bg-[#151515] noise-texture">
+      <Section className="bg-[#0a2029] noise-texture">
         <RadialGlow
           color="#68ccd1"
           position="50% 20%"
@@ -195,7 +195,7 @@ export default function IndustriesClient() {
                     href={`/industries/${industry.slug}`}
                     className="group block h-full"
                   >
-                    <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#111] p-8 transition-all duration-300 hover:border-[#68ccd1]/30 hover:bg-[#1a1a1a]">
+                    <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#0a2029] p-8 transition-all duration-300 hover:border-[#68ccd1]/30 hover:bg-[#0a1a1f]">
                       <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1] transition-transform duration-300 group-hover:scale-110">
                         <Icon size={24} />
                       </div>
@@ -217,7 +217,7 @@ export default function IndustriesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#151515" flip />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0a2029" flip />
 
       {/* ═══ PROCESS OVERVIEW ═══ */}
       <Section variant="light">
@@ -266,7 +266,7 @@ export default function IndustriesClient() {
                     <span className="mb-3 text-3xl font-heading font-black text-[#52b0b6]/30">
                       {item.step}
                     </span>
-                    <h3 className="text-lg font-heading font-black text-[#1a1a1a]">
+                    <h3 className="text-lg font-heading font-black text-[#0a1a1f]">
                       {item.title}
                     </h3>
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-[#4a4a4a]">

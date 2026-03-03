@@ -13,10 +13,10 @@ interface SectionProps {
 }
 
 const variantStyles: Record<SectionVariant, string> = {
-  dark: "bg-[#080808] noise-texture",
-  light: "bg-[#f5fafa] text-[#1a1a1a]",
-  cream: "bg-[#eaf6f7] text-[#1a1a1a]",
-  accent: "bg-[#68ccd1] text-[#080808]",
+  dark: "bg-[#0e2a35] noise-texture text-white",
+  light: "bg-[#fafcfd] text-[#0a1a1f]",
+  cream: "bg-[#e8f4f5] text-[#0a1a1f]",
+  accent: "bg-[#68ccd1] text-[#0e2a35]",
 };
 
 export function Section({ children, className = "", id, variant }: SectionProps) {
@@ -65,7 +65,7 @@ export function SectionHeader({
   const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
   const isLight = variant === "light" || variant === "cream";
-  const titleColor = isLight ? "text-[#1a1a1a]" : "text-white";
+  const titleColor = isLight ? "text-[#0a1a1f]" : "text-white";
   const descColor = isLight ? "text-[#4a4a4a]" : "text-white/60";
 
   return (

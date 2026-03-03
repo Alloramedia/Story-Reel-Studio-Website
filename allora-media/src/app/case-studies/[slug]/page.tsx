@@ -77,7 +77,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       />
 
       {/* ═══════ HERO — IMMERSIVE IMAGE ═══════ */}
-      <section className="relative min-h-[60vh] bg-[#151515] text-white overflow-hidden noise-texture">
+      <section className="relative min-h-[60vh] bg-[#0a2029] text-white overflow-hidden noise-texture">
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
@@ -88,8 +88,8 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-[#080808]/80 to-[#080808]/40" />
-          <div className="absolute inset-0 bg-linear-to-r from-[#080808]/60 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-[#0e2a35] via-[#0e2a35]/80 to-[#0e2a35]/40" />
+          <div className="absolute inset-0 bg-linear-to-r from-[#0e2a35]/60 to-transparent" />
         </div>
 
         {/* Content */}
@@ -137,12 +137,12 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       </section>
 
       {/* ═══════ CLIENT OVERVIEW SIDEBAR + CHALLENGE ═══════ */}
-      <section className="bg-[#080808] py-20 md:py-28 noise-texture">
+      <section className="bg-[#0e2a35] py-20 md:py-28 noise-texture">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[280px_1fr] lg:gap-16">
             {/* Sticky sidebar */}
             <aside className="lg:sticky lg:top-28 lg:self-start">
-              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6">
+              <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-6">
                 {/* Client Logo */}
                 {study.logo && (
                   <div className="mb-5 flex justify-center">
@@ -262,7 +262,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       </section>
 
       {/* ═══════ THE STRATEGY ═══════ */}
-      <section className="bg-[#080808] py-20 md:py-28 noise-texture">
+      <section className="bg-[#0e2a35] py-20 md:py-28 noise-texture">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
             <div className="mb-3 flex items-center gap-3">
@@ -338,7 +338,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       </section>
 
       {/* ═══════ THE RESULTS ═══════ */}
-      <section className="bg-[#151515] py-20 md:py-28 relative overflow-hidden noise-texture">
+      <section className="bg-[#0a2029] py-20 md:py-28 relative overflow-hidden noise-texture">
         <div className="pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 h-96 w-96 rounded-full bg-[#68ccd1]/5 blur-3xl" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
@@ -383,7 +383,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       </section>
 
       {/* ═══════ SERVICES DELIVERED ═══════ */}
-      <section className="border-t border-white/10 bg-[#080808] py-16 md:py-20">
+      <section className="border-t border-white/10 bg-[#0e2a35] py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl lg:ml-86">
             <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1] mb-6">

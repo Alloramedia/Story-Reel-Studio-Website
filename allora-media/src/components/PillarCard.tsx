@@ -24,7 +24,7 @@ export function PillarCard({ title, description, href, icon, index = 0 }: Pillar
       <TiltCard tiltIntensity={6}>
         <Link
           href={href}
-          className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#151515] p-8 transition-all duration-500 hover:border-[#68ccd1]/50 hover:shadow-2xl hover:shadow-[#68ccd1]/12 md:p-10 gradient-border-card"
+          className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#0a2029] p-8 transition-all duration-500 hover:border-[#68ccd1]/50 hover:shadow-2xl hover:shadow-[#68ccd1]/12 md:p-10 gradient-border-card"
         >
           <motion.div
             className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]"

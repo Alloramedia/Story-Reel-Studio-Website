@@ -213,7 +213,7 @@ export default function StrategyClient() {
           >
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#080808] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
+              className="inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03]"
             >
               Book a Strategy Call
             </Link>
@@ -264,7 +264,7 @@ export default function StrategyClient() {
                   <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#52b0b6]/10 text-[#52b0b6] transition-transform duration-300 group-hover:scale-110">
                     {pillar.icon}
                   </div>
-                  <h3 className="text-xl font-heading font-black text-[#1a1a1a]">
+                  <h3 className="text-xl font-heading font-black text-[#0a1a1f]">
                     {pillar.title}
                   </h3>
                   <p className="mt-3 text-base leading-relaxed text-[#4a4a4a]">
@@ -277,10 +277,10 @@ export default function StrategyClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#151515" from="#f5fafa" />
+      <AngleDivider variant="notch" fill="#0a2029" from="#fafcfd" />
 
       {/* ── THE MEDIA BLUEPRINT ── */}
-      <Section className="bg-[#151515] noise-texture">
+      <Section className="bg-[#0a2029] noise-texture">
         <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <RadialGlow
           color="#68ccd1"
@@ -334,7 +334,7 @@ export default function StrategyClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#151515" flip />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0a2029" flip />
 
       {/* ── PROCESS: CONCEPTING → SCRIPTING → ALIGNMENT ── */}
       <Section variant="light">
@@ -380,7 +380,7 @@ export default function StrategyClient() {
                   {step.step}
                 </motion.span>
                 <div>
-                  <h3 className="text-2xl font-heading font-black text-[#1a1a1a] md:text-3xl">
+                  <h3 className="text-2xl font-heading font-black text-[#0a1a1f] md:text-3xl">
                     {step.title}
                   </h3>
                   <div className="my-3 h-px w-16 bg-[#52b0b6]/30" />
@@ -394,10 +394,10 @@ export default function StrategyClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#111" from="#f5fafa" />
+      <AngleDivider variant="notch" fill="#111" from="#fafcfd" />
 
       {/* ── WHAT SUCCESS LOOKS LIKE ── */}
-      <Section className="bg-[#111] noise-texture">
+      <Section className="bg-[#0a2029] noise-texture">
         <RadialGlow
           color="#68ccd1"
           position="80% 40%"
@@ -439,7 +439,7 @@ export default function StrategyClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#111" flip />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#111" flip />
 
       {/* ── FAQs ── */}
       <Section variant="light">

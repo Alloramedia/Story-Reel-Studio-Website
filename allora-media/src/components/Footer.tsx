@@ -21,7 +21,7 @@ const staggerItem = {
 export function Footer() {
 
   return (
-    <footer className="relative bg-[#080808] border-t border-white/5 noise-texture">
+    <footer className="relative bg-[#0e2a35] border-t border-white/10 noise-texture">
       {/* Top glow divider */}
       <div className="absolute top-0 left-0 right-0 section-glow-divider" />
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">

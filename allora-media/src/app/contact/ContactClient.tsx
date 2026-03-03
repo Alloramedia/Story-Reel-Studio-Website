@@ -264,7 +264,7 @@ export function ContactClient() {
             {/* SIDEBAR — TRUST SIGNALS */}
             <SlideIn from="right" className="space-y-6">
               {/* What Happens Next */}
-              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6 hover-lift">
+              <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-6 hover-lift">
                 <h3 className="mb-4 font-heading text-lg font-bold text-white">
                   What happens next?
                 </h3>
@@ -298,7 +298,7 @@ export function ContactClient() {
               </div>
 
               {/* Trust Badges */}
-              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6 hover-lift">
+              <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-6 hover-lift">
                 <StaggerContainer className="space-y-4">
                   {[
                     { icon: <Star size={16} />, text: "5.0 Google Rating" },
@@ -317,7 +317,7 @@ export function ContactClient() {
               </div>
 
               {/* Quick Quote */}
-              <div className="rounded-2xl border border-white/10 bg-[#151515] p-6 hover-lift">
+              <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-6 hover-lift">
                 <div className="flex gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} size={14} className="fill-[#68ccd1] text-[#68ccd1]" />

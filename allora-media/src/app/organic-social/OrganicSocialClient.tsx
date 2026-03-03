@@ -153,7 +153,7 @@ export function OrganicSocialClient() {
         <div className="mx-auto grid max-w-6xl gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((item, i) => (
             <SlideIn key={item.title} from="bottom" delay={i * 0.06}>
-              <TiltCard className="h-full rounded-2xl border border-white/5 bg-[#151515] p-6 hover-lift">
+              <TiltCard className="h-full rounded-2xl border border-white/5 bg-[#0a2029] p-6 hover-lift">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 text-[#68ccd1]">
                   {item.icon}
                 </div>
@@ -165,7 +165,7 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* COMPARISON */}
       <Section variant="light">
@@ -181,9 +181,9 @@ export function OrganicSocialClient() {
               <div className="rounded-2xl border border-red-200/30 bg-white p-6">
                 <div className="mb-4 flex items-center gap-2">
                   <XCircle size={20} className="text-red-400" />
-                  <p className="text-lg font-bold text-[#1a1a1a]">Without Professional Content</p>
+                  <p className="text-lg font-bold text-[#0a1a1f]">Without Professional Content</p>
                 </div>
-                <ul className="space-y-3 text-sm text-[#1a1a1a]/60">
+                <ul className="space-y-3 text-sm text-[#0a1a1f]/60">
                   {[
                     "iPhone photos and quick selfies as your brand presence",
                     "Posting inconsistently with no strategic calendar",
@@ -203,9 +203,9 @@ export function OrganicSocialClient() {
               <div className="rounded-2xl border border-[#68ccd1]/30 bg-white p-6 shadow-lg shadow-[#68ccd1]/5">
                 <div className="mb-4 flex items-center gap-2">
                   <CheckCircle size={20} className="text-[#68ccd1]" />
-                  <p className="text-lg font-bold text-[#1a1a1a]">With Story Real Managing Social</p>
+                  <p className="text-lg font-bold text-[#0a1a1f]">With Story Real Managing Social</p>
                 </div>
-                <ul className="space-y-3 text-sm text-[#1a1a1a]/60">
+                <ul className="space-y-3 text-sm text-[#0a1a1f]/60">
                   {[
                     "Cinematic video and professional photography on every post",
                     "Strategic content calendar aligned with business objectives",
@@ -225,12 +225,12 @@ export function OrganicSocialClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* TESTIMONIALS */}
       <TestimonialSection />
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* FAQ */}
       <Section variant="light">

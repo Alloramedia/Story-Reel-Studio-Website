@@ -29,8 +29,8 @@ export function CTASection({
     <section
       className={`relative py-20 lg:py-28 overflow-hidden ${
         isDark
-          ? "bg-[#151515] noise-texture cta-glow animated-border"
-          : "bg-[#f5fafa]"
+          ? "bg-[#0e2a35] noise-texture cta-glow animated-border"
+          : "bg-[#fafcfd]"
       }`}
     >
       {isDark && (
@@ -48,7 +48,7 @@ export function CTASection({
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className={`font-heading text-3xl font-black md:text-4xl lg:text-5xl ${
-            isDark ? "text-white text-shadow-hero" : "text-[#1a1a1a]"
+            isDark ? "text-white text-shadow-hero" : "text-[#0a1a1f]"
           }`}
         >
           {headline}
@@ -75,7 +75,7 @@ export function CTASection({
             href={primaryHref}
             className={`inline-flex items-center rounded-full px-8 py-4 text-base font-bold shadow-lg transition-all duration-300 hover:scale-[1.03] ${
               isDark
-                ? "bg-[#68ccd1] text-[#080808] shadow-[#68ccd1]/25 hover:bg-[#7dd6da]"
+                ? "bg-[#68ccd1] text-[#0e2a35] shadow-[#68ccd1]/25 hover:bg-[#7dd6da]"
                 : "bg-[#52b0b6] text-white shadow-[#52b0b6]/25 hover:bg-[#68ccd1]"
             }`}
           >
@@ -88,7 +88,7 @@ export function CTASection({
               className={`inline-flex items-center rounded-full border-2 px-8 py-4 text-base font-bold transition-all duration-300 ${
                 isDark
                   ? "border-white/20 text-white hover:border-[#68ccd1] hover:bg-[#68ccd1]/10"
-                  : "border-[#52b0b6]/30 text-[#1a1a1a] hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
+                  : "border-[#52b0b6]/30 text-[#0a1a1f] hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
               }`}
             >
               {secondaryLabel}

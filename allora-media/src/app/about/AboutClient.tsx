@@ -150,7 +150,7 @@ export function AboutClient() {
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#52b0b6]">
               Our Story
             </p>
-            <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
+            <h2 className="font-heading text-3xl font-black text-[#0a1a1f] md:text-4xl">
               Founded in {siteConfig.foundingDate}. Built on conviction.
             </h2>
             <div className="mt-8 space-y-6 text-lg leading-relaxed text-[#4a4a4a]">
@@ -273,7 +273,7 @@ export function AboutClient() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#52b0b6]/10">
                   <Users size={28} className="text-[#52b0b6]" />
                 </div>
-                <h3 className="font-heading text-lg font-bold text-[#1a1a1a]">
+                <h3 className="font-heading text-lg font-bold text-[#0a1a1f]">
                   {member.role}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-[#4a4a4a]">

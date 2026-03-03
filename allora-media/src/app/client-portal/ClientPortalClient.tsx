@@ -140,7 +140,7 @@ export function ClientPortalClient() {
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="h-full rounded-2xl border border-white/10 p-8 hover-lift border-glow"
             >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#151515] text-white">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#0a2029] text-white">
                 {feature.icon}
               </div>
               <h3 className="mb-2 text-xl font-bold">{feature.title}</h3>
@@ -152,7 +152,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* HOW IT WORKS */}
       <Section variant="light">
@@ -172,7 +172,7 @@ export function ClientPortalClient() {
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.15 }}
-              className="h-full rounded-2xl border border-white/10 bg-[#080808] p-7 text-center hover-lift border-t-4 border-t-[#68ccd1]"
+              className="h-full rounded-2xl border border-white/10 bg-[#0e2a35] p-7 text-center hover-lift border-t-4 border-t-[#68ccd1]"
             >
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#68ccd1]/10 text-[#68ccd1]">
                 {item.icon}
@@ -185,7 +185,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* PORTAL SCREENSHOT */}
       <Section variant="dark">
@@ -204,7 +204,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* WHAT OTHER AGENCIES GIVE YOU */}
       <Section variant="light">
@@ -218,13 +218,13 @@ export function ClientPortalClient() {
           title="What most production companies give you vs. what we give you."
         />
         <div className="mx-auto max-w-4xl">
-          <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#080808]">
-            <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center bg-[#151515] px-6 py-4">
+          <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#0e2a35]">
+            <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center bg-[#0a2029] px-6 py-4">
               <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Production Co.</span>
               <span className="text-white/20">vs</span>
               <span className="text-right text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Story Real Studios</span>
             </div>
-            <div className="flex md:hidden items-center justify-between bg-[#151515] px-6 py-4">
+            <div className="flex md:hidden items-center justify-between bg-[#0a2029] px-6 py-4">
               <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Production Co.</span>
               <span className="text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Story Real Studios</span>
             </div>
@@ -239,7 +239,7 @@ export function ClientPortalClient() {
               <div
                 key={i}
                 className={`grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center gap-3 md:gap-4 px-6 py-4 ${
-                  i % 2 === 0 ? "bg-[#0a0a0a]" : "bg-[#080808]"
+                  i % 2 === 0 ? "bg-[#0a0a0a]" : "bg-[#0e2a35]"
                 }`}
               >
                 <div className="flex items-start gap-2 text-sm text-white/40">
@@ -258,7 +258,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* RED FLAGS */}
       <Section variant="dark">
@@ -296,7 +296,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* TRANSPARENCY CALLOUT */}
       <Section variant="light">
@@ -306,7 +306,7 @@ export function ClientPortalClient() {
             eyebrow="Our Philosophy"
             title="Transparency isn't a feature. It's the standard."
           />
-          <p className="text-lg leading-relaxed text-[#1a1a1a]/60">
+          <p className="text-lg leading-relaxed text-[#0a1a1f]/60">
             Every Story Real Studios client gets portal access from day one — at no
             extra cost. We don&apos;t scatter your files across email threads or
             hide behind vague status updates. You see your content library, your
@@ -316,7 +316,7 @@ export function ClientPortalClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" />
 
       {/* NOT A CLIENT YET */}
       <Section variant="dark">

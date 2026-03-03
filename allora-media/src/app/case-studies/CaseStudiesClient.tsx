@@ -136,7 +136,7 @@ export function CaseStudiesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* WHY THESE RESULTS HAPPEN */}
       <Section variant="light">
@@ -173,7 +173,7 @@ export function CaseStudiesClient() {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="flex gap-5 rounded-2xl border border-white/10 bg-[#151515] p-6"
+                className="flex gap-5 rounded-2xl border border-white/10 bg-[#0a2029] p-6"
               >
                 <span className="font-heading text-2xl font-black text-[#68ccd1]">
                   {item.step}
@@ -190,7 +190,7 @@ export function CaseStudiesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
+      <AngleDivider variant="notch" fill="#0e2a35" from="#fafcfd" flip />
 
       {/* INDUSTRY ROI BENCHMARKS */}
       <Section variant="dark">
@@ -235,7 +235,7 @@ export function CaseStudiesClient() {
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="h-full rounded-2xl border border-white/10 bg-[#080808] p-6 hover-lift border-glow"
+                className="h-full rounded-2xl border border-white/10 bg-[#0e2a35] p-6 hover-lift border-glow"
               >
                 <h3 className="font-heading text-lg font-bold text-white">{item.industry}</h3>
                 <div className="mt-3 flex gap-6">
@@ -255,14 +255,14 @@ export function CaseStudiesClient() {
         </div>
       </Section>
 
-      <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
+      <AngleDivider variant="notch" fill="#fafcfd" from="#0e2a35" />
 
       {/* URGENCY */}
       <Section variant="light">
         <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-3xl py-6">
           <ScaleIn>
-          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#151515] p-8 text-center md:p-10">
+          <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#0a2029] p-8 text-center md:p-10">
             <motion.div
               initial={{ opacity: 0, y: 24, filter: "blur(4px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}

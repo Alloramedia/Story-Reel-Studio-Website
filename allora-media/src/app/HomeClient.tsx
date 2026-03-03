@@ -93,7 +93,7 @@ export default function HomeClient() {
               href={siteConfig.bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#080808] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03] hover:shadow-xl hover:shadow-[#68ccd1]/30"
+              className="group inline-flex items-center rounded-full bg-[#68ccd1] px-8 py-4 text-base font-bold text-[#0e2a35] shadow-lg shadow-[#68ccd1]/25 transition-all duration-300 hover:bg-[#7dd6da] hover:scale-[1.03] hover:shadow-xl hover:shadow-[#68ccd1]/30"
             >
               Book a Strategy Call
               <ArrowRight size={18} className="ml-2 transition-transform group-hover:translate-x-1" />
@@ -110,7 +110,7 @@ export default function HomeClient() {
       </HeroBanner>
 
       {/* ═══════ CREDIBILITY BAR ═══════ */}
-      <section className="relative bg-[#f5fafa] py-10 border-y border-[#68ccd1]/10">
+      <section className="relative bg-[#e8f4f5] py-10 border-y border-[#68ccd1]/10">
         <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
             {[
@@ -133,7 +133,7 @@ export default function HomeClient() {
         <div className="mx-auto max-w-4xl text-center">
           <FadeIn>
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#52b0b6]">The Problem</p>
-            <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl lg:text-5xl">
+            <h2 className="font-heading text-3xl font-black text-[#0a1a1f] md:text-4xl lg:text-5xl">
               Random Videos Don&apos;t Build Trust or Pipeline —
               <span className="text-[#52b0b6]"> Systems Do.</span>
             </h2>
@@ -183,7 +183,7 @@ export default function HomeClient() {
             },
           ].map((pillar) => (
             <StaggerItem key={pillar.step}>
-              <div className="group relative rounded-2xl border border-[#1a4a58]/40 bg-[#0e2a35] p-8 transition-all duration-500 hover:border-[#68ccd1]/30 hover:bg-[#123642] gradient-border-card">
+              <div className="group relative rounded-2xl border border-white/10 bg-[#0a2029] p-8 transition-all duration-500 hover:border-[#68ccd1]/30 hover:bg-[#123642] gradient-border-card">
                 <div className="mb-6 flex items-center gap-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10">
                     <pillar.icon size={24} className="text-[#68ccd1]" />
@@ -266,7 +266,7 @@ export default function HomeClient() {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#080808]/60 via-[#080808]/40 to-[#080808]/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0e2a35]/60 via-[#0e2a35]/40 to-[#0e2a35]/70" />
         {/* Content */}
         <div className="relative z-10 flex h-full items-center justify-center px-6">
           <FadeIn>
@@ -303,7 +303,7 @@ export default function HomeClient() {
             <FadeIn key={industry.href}>
               <Link
                 href={industry.href}
-                className="group flex items-center justify-between rounded-xl border border-[#1a4a58]/40 bg-[#0e2a35] p-6 transition-all duration-300 hover:border-[#68ccd1]/30 hover:bg-[#123642]"
+                className="group flex items-center justify-between rounded-xl border border-white/10 bg-[#0a2029] p-6 transition-all duration-300 hover:border-[#68ccd1]/30 hover:bg-[#123642]"
               >
                 <div>
                   <h3 className="font-heading text-base font-bold text-white group-hover:text-[#68ccd1] transition-colors">{industry.title}</h3>
@@ -351,7 +351,7 @@ export default function HomeClient() {
             <FadeIn key={phase.step}>
               <div className="text-center md:text-left">
                 <span className="font-heading text-3xl font-black text-[#68ccd1]/30">{phase.step}</span>
-                <h3 className="mt-2 font-heading text-base font-bold text-[#1a1a1a]">{phase.title}</h3>
+                <h3 className="mt-2 font-heading text-base font-bold text-[#0a1a1f]">{phase.title}</h3>
                 <p className="mt-2 text-sm text-[#4a4a4a]">{phase.desc}</p>
               </div>
             </FadeIn>

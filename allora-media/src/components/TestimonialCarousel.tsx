@@ -39,7 +39,7 @@ export function TestimonialCarousel() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -50 }}
           transition={{ duration: 0.4 }}
-          className="relative rounded-2xl border border-white/10 bg-[#151515] p-8 text-center md:p-12 quote-decoration overflow-hidden glass-card"
+          className="relative rounded-2xl border border-white/10 bg-[#0a2029] p-8 text-center md:p-12 quote-decoration overflow-hidden glass-card"
           role="group"
           aria-roledescription="slide"
           aria-label={`Testimonial ${index + 1} of ${testimonials.length}`}

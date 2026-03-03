@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Red_Hat_Display, Red_Hat_Text } from "next/font/google";
+import { Playfair_Display, IBM_Plex_Sans } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LocalBusinessSchema, OrganizationSchema } from "@/components/StructuredData";
@@ -8,13 +8,13 @@ import { BackToTop } from "@/components/BackToTop";
 import { ConsentGoogleAnalytics } from "@/components/ConsentGoogleAnalytics";
 import "./globals.css";
 
-const redHatDisplay = Red_Hat_Display({
+const playfairDisplay = Playfair_Display({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
 });
 
-const redHatText = Red_Hat_Text({
+const ibmPlexSans = IBM_Plex_Sans({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${redHatDisplay.variable} ${redHatText.variable} antialiased`}
+        className={`${playfairDisplay.variable} ${ibmPlexSans.variable} antialiased`}
         // Suppress body-level hydration warnings caused by browser extensions
         // injecting attributes (e.g. Grammarly, password managers, dark-mode).
         suppressHydrationWarning

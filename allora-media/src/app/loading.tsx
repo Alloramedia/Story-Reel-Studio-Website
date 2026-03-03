@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Loading() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#080808]" role="status" aria-label="Loading">
+    <div className="flex min-h-screen items-center justify-center bg-[#0e2a35]" role="status" aria-label="Loading">
       <div className="flex flex-col items-center gap-6">
         <div className="relative">
           {/* Pulse ring */}

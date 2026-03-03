@@ -14,7 +14,7 @@
    Uses negative margins + shape-rendering to eliminate seams. */
 export function AngleDivider({
   variant = "steep",
-  fill = "#1a1a1a",
+  fill = "#0a1a1f",
   from = "transparent",
   className = "",
   flip = false,

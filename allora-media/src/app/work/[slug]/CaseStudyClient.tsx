@@ -115,7 +115,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
                 The Challenge
               </p>
             </div>
-            <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
+            <h2 className="font-heading text-3xl font-black text-[#0a1a1f] md:text-4xl">
               Where they were stuck
             </h2>
           </FadeIn>
@@ -168,7 +168,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
                   The Production
                 </p>
               </div>
-              <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
+              <h2 className="font-heading text-3xl font-black text-[#0a1a1f] md:text-4xl">
                 What we built
               </h2>
             </FadeIn>
@@ -214,7 +214,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
           <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:col-span-2">
             {study.metrics.map((m) => (
               <StaggerItem key={m.label}>
-                <div className="rounded-2xl border border-white/10 bg-[#111] p-8 text-center transition-colors duration-300 hover:border-[#68ccd1]/30">
+                <div className="rounded-2xl border border-white/10 bg-[#0a2029] p-8 text-center transition-colors duration-300 hover:border-[#68ccd1]/30">
                   <p className="font-heading text-4xl font-black text-[#68ccd1] md:text-5xl">
                     {m.value}
                   </p>
@@ -293,7 +293,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#52b0b6]">
               Project Credits
             </p>
-            <h2 className="font-heading text-3xl font-black text-[#1a1a1a] md:text-4xl">
+            <h2 className="font-heading text-3xl font-black text-[#0a1a1f] md:text-4xl">
               {study.client || study.clientName}
             </h2>
             <div className="mt-8 flex flex-wrap justify-center gap-x-10 gap-y-4 text-sm text-[#666]">
@@ -319,7 +319,7 @@ export function CaseStudyClient({ study }: { study: CaseStudy }) {
             <div className="mt-12">
               <Link
                 href="/work"
-                className="inline-flex items-center gap-2 rounded-full border-2 border-[#1a1a1a]/20 px-8 py-4 text-base font-bold text-[#1a1a1a] transition-all duration-300 hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
+                className="inline-flex items-center gap-2 rounded-full border-2 border-[#0a1a1f]/20 px-8 py-4 text-base font-bold text-[#0a1a1f] transition-all duration-300 hover:border-[#52b0b6] hover:bg-[#52b0b6]/10"
               >
                 View More Case Studies
                 <ArrowRight size={18} />

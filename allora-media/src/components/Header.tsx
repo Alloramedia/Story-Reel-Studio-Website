@@ -93,7 +93,7 @@ export function Header() {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
           scrolled
-            ? "bg-[#080808]/90 backdrop-blur-xl shadow-lg shadow-black/30"
+            ? "top-3 left-4 right-4 rounded-full bg-[#0e2a35]/85 backdrop-blur-xl shadow-xl shadow-black/20 border border-white/10"
             : "bg-transparent"
         )}
       >
@@ -159,7 +159,7 @@ export function Header() {
             {/* Right: CTA */}
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-full bg-[#68ccd1] px-6 py-2.5 text-sm font-semibold text-[#080808] transition-all hover:bg-[#7dd6da] hover:scale-105 shadow-lg shadow-[#68ccd1]/20 whitespace-nowrap"
+              className="inline-flex items-center rounded-full bg-[#68ccd1] px-6 py-2.5 text-sm font-semibold text-[#0e2a35] transition-all hover:bg-[#7dd6da] hover:scale-105 shadow-lg shadow-[#68ccd1]/20 whitespace-nowrap"
             >
               Book a Call
             </Link>
@@ -176,7 +176,7 @@ export function Header() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             ref={mobileNavRef}
-            className="fixed inset-0 top-20 bg-[#080808]/98 backdrop-blur-xl lg:hidden z-40 overflow-y-auto"
+            className="fixed inset-0 top-20 bg-[#0e2a35]/98 backdrop-blur-xl lg:hidden z-40 overflow-y-auto"
             role="dialog"
             aria-modal="true"
             aria-label="Navigation menu"
@@ -232,7 +232,7 @@ export function Header() {
               <Link
                 href="/contact"
                 onClick={() => setMobileOpen(false)}
-                className="mt-6 rounded-full bg-[#68ccd1] px-6 py-4 text-center text-base font-semibold text-[#080808] transition-colors hover:bg-[#7dd6da]"
+                className="mt-6 rounded-full bg-[#68ccd1] px-6 py-4 text-center text-base font-semibold text-[#0e2a35] transition-colors hover:bg-[#7dd6da]"
               >
                 Book a Call
               </Link>
@@ -325,7 +325,7 @@ function NavItem({
             className="absolute top-full left-1/2 -translate-x-1/2 pt-3 z-50"
             role="menu"
           >
-            <div className="min-w-60 rounded-xl border border-white/10 bg-[#111111]/95 backdrop-blur-xl shadow-2xl shadow-black/40 py-2">
+            <div className="min-w-60 rounded-xl border border-white/10 bg-[#0e2a35]/95 backdrop-blur-xl shadow-2xl shadow-black/40 py-2">
               {link.children.map((child) => (
                 <Link
                   key={child.href}

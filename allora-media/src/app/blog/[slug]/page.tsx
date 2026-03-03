@@ -192,7 +192,7 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       {/* HERO */}
-      <section className="relative bg-[#151515] pt-32 pb-20 text-white md:pt-40 md:pb-28 overflow-hidden noise-texture">
+      <section className="relative bg-[#0a2029] pt-32 pb-20 text-white md:pt-40 md:pb-28 overflow-hidden noise-texture">
         <div className="pointer-events-none absolute -right-40 -top-40 h-125 w-125 rounded-full bg-[#68ccd1]/5 blur-3xl" />
         <div className="pointer-events-none absolute -left-20 bottom-0 h-80 w-80 rounded-full bg-[#68ccd1]/3 blur-3xl" />
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
@@ -288,7 +288,7 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* RELATED SERVICES / PAGES */}
           {post.relatedPages && post.relatedPages.length > 0 && (
-            <div className="mt-10 rounded-2xl border border-white/10 bg-[#151515] p-6">
+            <div className="mt-10 rounded-2xl border border-white/10 bg-[#0a2029] p-6">
               <h3 className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
                 Related Services & Resources
               </h3>
@@ -355,7 +355,7 @@ export default async function BlogPostPage({ params }: Props) {
       )}
 
       {/* PREV / NEXT NAV */}
-      <section className="border-t border-white/10 bg-[#151515] py-12">
+      <section className="border-t border-white/10 bg-[#0a2029] py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {prevPost ? (

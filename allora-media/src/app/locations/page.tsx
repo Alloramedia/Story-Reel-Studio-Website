@@ -49,7 +49,7 @@ export default function LocationsPage() {
         ]}
       />
 
-      <section className="relative bg-[#080808] noise-texture py-28 md:py-36">
+      <section className="relative bg-[#0e2a35] noise-texture py-28 md:py-36">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <p className="mb-3 text-center text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
             Where We Work
@@ -68,7 +68,7 @@ export default function LocationsPage() {
                 href={`/locations/${loc.slug}`}
                 className="group block"
               >
-                <div className="h-full rounded-2xl border border-white/10 bg-[#151515] p-8 transition-all duration-300 hover:border-[#68ccd1]/40 hover:shadow-lg hover:shadow-[#68ccd1]/5">
+                <div className="h-full rounded-2xl border border-white/10 bg-[#0a2029] p-8 transition-all duration-300 hover:border-[#68ccd1]/40 hover:shadow-lg hover:shadow-[#68ccd1]/5">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#68ccd1]/10 border border-[#68ccd1]/20">
                     <MapPin size={24} className="text-[#68ccd1]" />
                   </div>
