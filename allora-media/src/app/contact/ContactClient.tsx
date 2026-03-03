@@ -13,8 +13,8 @@ import { credibilityStats } from "@/lib/constants";
 const helpOptions = [
   "Facebook & Instagram Advertising",
   "Video & Photo Production",
-  "Social Media Management",
-  "Full Marketing System (All Services)",
+  "Content Systems & Deployment",
+  "Full Production System (All Services)",
   "Not sure — I need guidance",
 ];
 
@@ -235,7 +235,7 @@ export function ContactClient() {
                     name="message"
                     rows={4}
                     className={inputClasses}
-                    placeholder="What's your biggest frustration with marketing right now? What have you tried? What are you hoping to achieve?"
+                    placeholder="What's your biggest frustration with your content right now? What have you tried? What are you hoping to achieve?"
                   />
                 </div>
 
@@ -324,7 +324,7 @@ export function ContactClient() {
                   ))}
                 </div>
                 <p className="text-sm italic leading-relaxed text-white/60">
-                  &ldquo;Before Allora, we were running on referrals and hoping
+                  &ldquo;Before Story Real, we were running on referrals and hoping
                   the phone would ring. Now we have a real pipeline. Total game
                   changer.&rdquo;
                 </p>

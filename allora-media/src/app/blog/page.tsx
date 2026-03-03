@@ -4,16 +4,16 @@ import { BreadcrumbSchema } from "@/components/StructuredData";
 import { getBlogPostsMeta, blogCategories } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
-  title: "Blog — Marketing Strategies, Paid Ads & Content Tips for Local Businesses",
+  title: "Blog — Video Production Strategies, Content Systems & Growth Tips",
   description:
-    "Actionable marketing strategies for contractors, restaurants, salons, and local businesses in Connecticut. Real campaign data, step-by-step guides, and proven playbooks from 150+ managed campaigns.",
+    "Actionable video production strategies and content system playbooks for purpose-led organizations. Real project data, step-by-step guides, and proven approaches from 200+ productions.",
   alternates: {
-    canonical: "https://www.alloramedia.us/blog",
+    canonical: "https://www.storyreal.co/blog",
   },
   openGraph: {
-    title: "Allora Media Blog — Marketing Strategies That Drive Real Revenue",
+    title: "Story Real Studios Blog — Video & Content Strategies That Drive Real Growth",
     description:
-      "No fluff, no theory. Actionable marketing strategies from real campaigns across Connecticut — with practical examples and step-by-step breakdowns.",
+      "No fluff, no theory. Actionable video production and content strategies from real projects — with practical examples and step-by-step breakdowns.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };

@@ -54,8 +54,8 @@ export async function POST(request: NextRequest) {
     // ── Origin validation (CSRF protection) ──
     const origin = request.headers.get("origin");
     const allowedOrigins = [
-      "https://www.alloramedia.us",
-      "https://alloramedia.us",
+      "https://www.storyreal.co",
+      "https://storyreal.co",
       ...(process.env.NODE_ENV === "development" ? ["http://localhost:3000"] : []),
     ];
     if (!origin || !allowedOrigins.includes(origin)) {

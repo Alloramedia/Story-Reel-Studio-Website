@@ -191,7 +191,7 @@ export function ContentIsKingSection() {
             </div>
             <div className="mt-8 text-center">
               <p className="text-sm font-bold text-[#68ccd1]">
-                The bottom line: businesses that invest in social media and content aren&apos;t just marketing — they&apos;re building an unfair advantage that competitors can&apos;t replicate overnight.
+                The bottom line: businesses that invest in social media and content aren&apos;t just producing content — they&apos;re building an unfair advantage that competitors can&apos;t replicate overnight.
               </p>
             </div>
           </div>

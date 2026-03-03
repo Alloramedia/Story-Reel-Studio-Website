@@ -122,7 +122,7 @@ export function PortalSection() {
               Every client gets access to the Story Real Studios Hub — your
               dedicated portal where you can see campaign performance,
               access all creative assets, track project timelines, and
-              review exactly how your marketing investment is performing.
+              review exactly how your content investment is performing.
               No more wondering. No more vague reports.
             </p>
             <ul className="mt-6 space-y-3">
@@ -184,7 +184,7 @@ export function GuaranteeSection() {
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-white/85">
                 Book a Growth Blueprint Call with us and we&apos;ll audit your
-                current marketing, research your competitors, and deliver a
+                current content strategy, research your competitors, and deliver a
                 clear, actionable plan for growth —{" "}
                 <span className="font-bold text-white underline">
                   whether you hire us or not.
@@ -312,7 +312,7 @@ export function FinalCTASection() {
           </h2>
           <p className="mx-auto mt-6 max-w-lg text-lg text-white/60">
             Book a free Growth Blueprint Call. We&apos;ll audit your current
-            marketing, show you where the biggest opportunities are, and
+            content strategy, show you where the biggest opportunities are, and
             give you a clear plan — whether you work with us or not.
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

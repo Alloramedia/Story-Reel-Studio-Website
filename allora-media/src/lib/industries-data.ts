@@ -19,8 +19,8 @@ export const industryData: Record<string, IndustryData> = {
     slug: "construction",
     name: "Construction",
     headline: "More jobs. Better clients. Less relying on referrals.",
-    subhead: "Marketing for general contractors, specialty trades, and construction companies in Connecticut — built to win better contracts and fill your pipeline.",
-    description: "Your work speaks for itself — the problem is, not enough people are seeing it. Referrals are great, but they cap your growth. We build a marketing system that puts your best projects in front of property managers, developers, and homeowners who are actively looking for a contractor they can trust.",
+    subhead: "Content production for general contractors, specialty trades, and construction companies in Connecticut — built to win better contracts and fill your pipeline.",
+    description: "Your work speaks for itself — the problem is, not enough people are seeing it. Referrals are great, but they cap your growth. We build a content system that puts your best projects in front of property managers, developers, and homeowners who are actively looking for a contractor they can trust.",
     stats: [
       { value: "3.8x", label: "Average Return on Ad Spend", benchmark: "Industry Avg: 1.5–2x" },
       { value: "52%", label: "Reduction in Cost Per Lead" },
@@ -46,7 +46,7 @@ export const industryData: Record<string, IndustryData> = {
       { metric: "22 Qualified Leads/Month", description: "Built a consistent flow of qualified inbound leads for a residential renovation company that previously relied 100% on referrals." },
     ],
     testimonial: {
-      quote: "We went from hoping the phone would ring to having to hire another estimator. Allora completely changed how we get new business.",
+      quote: "We went from hoping the phone would ring to having to hire another estimator. Story Real completely changed how we get new business.",
       name: "Mike R.",
       role: "General Contractor, Fairfield County",
     },
@@ -68,7 +68,7 @@ export const industryData: Record<string, IndustryData> = {
       { question: "Do you work with both commercial and residential contractors?", answer: "Yes. Our system works for general contractors, specialty trades, renovation companies, and commercial builders. The targeting and messaging adapt to your specific market." },
       { question: "What kind of results should I expect?", answer: "Most construction clients see their first digital leads within 30-60 days. The quality of leads typically improves over 90 days as we refine targeting and build retargeting audiences." },
       { question: "Do you handle the photography and video too?", answer: "Yes. We produce all media in-house — drone footage, project documentation, team profiles, and testimonial videos. Everything is built to perform in ads and on your website." },
-      { question: "How much should I budget for marketing?", answer: "Most construction clients invest $2,000-$5,000 per month in ad spend plus management fees. The right budget depends on your market size and growth goals." },
+      { question: "How much should I budget for content production?", answer: "Most construction clients invest $2,000-$5,000 per month in ad spend plus management fees. The right budget depends on your market size and growth goals." },
       { question: "Can you work with us if we serve a specific region?", answer: "Absolutely. Geo-targeting is one of the strongest features of Meta campaigns. We target the exact service area you want to reach." },
     ],
   },
@@ -76,8 +76,8 @@ export const industryData: Record<string, IndustryData> = {
     slug: "home-services",
     name: "Home Services",
     headline: "Fill your schedule with the calls you actually want.",
-    subhead: "Marketing for HVAC, plumbing, electrical, landscaping, and home service companies — built to generate consistent, quality leads every month.",
-    description: "Your business grows when the phone rings with quality calls. When it stops, you're scrambling. We build the marketing system that makes your lead flow predictable instead of hopeful — exclusive leads that come directly to you, not shared with five other companies.",
+    subhead: "Content production for HVAC, plumbing, electrical, landscaping, and home service companies — built to generate consistent, quality leads every month.",
+    description: "Your business grows when the phone rings with quality calls. When it stops, you're scrambling. We build the content system that makes your lead flow predictable instead of hopeful — exclusive leads that come directly to you, not shared with five other companies.",
     stats: [
       { value: "3.2x", label: "Average Return on Ad Spend", benchmark: "Industry Avg: 1.5–2x" },
       { value: "$48", label: "Average Cost Per Lead", benchmark: "Industry Avg: $75–$120" },
@@ -103,7 +103,7 @@ export const industryData: Record<string, IndustryData> = {
       { metric: "Fully Booked in 60 Days", description: "A landscaping company went from open availability to a 3-week waitlist within 2 months of campaign launch." },
     ],
     testimonial: {
-      quote: "I cancelled Angi and HomeAdvisor within two months. The leads from Allora are better quality, exclusive, and cost me way less.",
+      quote: "I cancelled Angi and HomeAdvisor within two months. The leads from Story Real are better quality, exclusive, and cost me way less.",
       name: "Jason T.",
       role: "Owner, HVAC Company — New Haven County",
     },
@@ -133,7 +133,7 @@ export const industryData: Record<string, IndustryData> = {
     slug: "food-beverage",
     name: "Food & Beverage",
     headline: "Fill tables, drive orders, and become the go-to spot.",
-    subhead: "Marketing for restaurants, cafes, bars, and food brands in Connecticut — built to turn local attention into consistent foot traffic and revenue.",
+    subhead: "Content production for restaurants, cafes, bars, and food brands in Connecticut — built to turn local attention into consistent foot traffic and revenue.",
     description: "Beautiful food photos and a decent Instagram aren't enough anymore — every restaurant has those. What separates the places that are always packed from the ones struggling to fill seats is a system that turns local attention into consistent foot traffic, online orders, and repeat customers.",
     stats: [
       { value: "4.2x", label: "Average Return on Ad Spend", benchmark: "Industry Avg: 2–3x" },
@@ -190,8 +190,8 @@ export const industryData: Record<string, IndustryData> = {
     slug: "beauty-retail",
     name: "Beauty & Retail",
     headline: "Book more appointments. Build a brand people love.",
-    subhead: "Marketing for salons, med spas, boutiques, and beauty businesses — built to drive bookings, foot traffic, and repeat clients.",
-    description: "A strong Instagram following feels good, but it doesn't pay the bills by itself. We build a paid marketing system that puts your brand in front of the right local audience and drives them to actually book, buy, or walk through the door.",
+    subhead: "Content production for salons, med spas, boutiques, and beauty businesses — built to drive bookings, foot traffic, and repeat clients.",
+    description: "A strong Instagram following feels good, but it doesn't pay the bills by itself. We build a paid content system that puts your brand in front of the right local audience and drives them to actually book, buy, or walk through the door.",
     stats: [
       { value: "4.8x", label: "Average Return on Ad Spend", benchmark: "Industry Avg: 2–3x" },
       { value: "$14", label: "Average Cost Per Booking", benchmark: "Industry Avg: $35–$50" },
@@ -207,7 +207,7 @@ export const industryData: Record<string, IndustryData> = {
       { title: "Lookalike Audience Targeting", description: "We build audiences that mirror your best existing clients — same demographics, interests, and spending habits.", icon: "Users" },
     ],
     differentiators: [
-      { title: "We Understand Beauty Marketing", description: "From med spas to barbershops, we know the visual standards, booking flows, and seasonal trends that drive results in the beauty industry." },
+      { title: "We Understand the Beauty Industry", description: "From med spas to barbershops, we know the visual standards, booking flows, and seasonal trends that drive results in the beauty industry." },
       { title: "Content That Converts, Not Just Impresses", description: "Beautiful content is the baseline. Ours is strategically designed to stop the scroll, build desire, and drive the booking. Every asset has a job to do." },
       { title: "Booking System Integration", description: "We connect your ads directly to your booking platform. No friction, no lost leads. Prospects go from ad to appointment in seconds." },
     ],
@@ -247,7 +247,7 @@ export const industryData: Record<string, IndustryData> = {
     slug: "professional-services",
     name: "Professional Services",
     headline: "Get in front of the clients who need you most.",
-    subhead: "Marketing for law firms, accounting practices, consultants, and advisors — built to establish authority and generate quality inquiries.",
+    subhead: "Content production for law firms, accounting practices, consultants, and advisors — built to establish authority and generate quality inquiries.",
     description: "Your potential clients research you long before they ever reach out. If your online presence doesn't reflect the caliber of your work, you're losing business to firms that look better online — even if they're not better at the work. We build a system that establishes your authority, puts you in front of decision-makers, and generates inquiries from people who are ready to hire.",
     stats: [
       { value: "4.1x", label: "Average Return on Ad Spend", benchmark: "Industry Avg: 1.5–2x" },
@@ -297,7 +297,7 @@ export const industryData: Record<string, IndustryData> = {
       { question: "How do you handle the longer sales cycle?", answer: "We build retargeting systems that keep your firm visible throughout the decision-making process. When a prospect is ready to commit, you are the firm they have been seeing consistently." },
       { question: "What kind of content do you produce?", answer: "Team portraits, client testimonial videos, case study content, and authority-building media. Everything is designed to position you as the credible choice before the first conversation." },
       { question: "How do you measure success in professional services?", answer: "We track inquiry volume, inquiry quality (assessed by your team), cost per inquiry, and pipeline contribution. The goal is quality conversations with the right people, not volume for its own sake." },
-      { question: "What is a typical budget for professional services marketing?", answer: "Most professional service clients invest $3,000-$8,000 per month in ad spend plus management. Higher-value clients and longer sales cycles typically justify higher investment." },
+      { question: "What is a typical budget for professional services content production?", answer: "Most professional service clients invest $3,000-$8,000 per month in ad spend plus management. Higher-value clients and longer sales cycles typically justify higher investment." },
     ],
   },
 };

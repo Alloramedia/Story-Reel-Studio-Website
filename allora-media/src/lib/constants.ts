@@ -4,8 +4,8 @@ export const siteConfig = {
     "Story Real Studios builds strategy-led video campaigns and content systems for purpose-led organizations — combining strategy, cinematic production, and deployment into measurable growth.",
   url: "https://www.storyreal.co",
   ogImage: "/og-image.jpg",
-  portalUrl: "https://app.alloramedia.us",
-  email: "jared@alloramedia.us",
+  portalUrl: "https://app.storyreal.co",
+  email: "info@storyreal.co",
   phone: "(860) 321-8646",
   address: {
     street: "168 Center St, Suite 203",
@@ -14,13 +14,13 @@ export const siteConfig = {
     zip: "06489",
   },
   socials: {
-    facebook: "https://facebook.com/alloramedia.us",
-    instagram: "https://instagram.com/alloramedia",
-    linkedin: "https://linkedin.com/company/alloramedia",
-    youtube: "https://youtube.com/@AlloraMedia",
-    tiktok: "https://www.tiktok.com/@alloramedia",
+    facebook: "https://facebook.com/storyreal.co",
+    instagram: "https://instagram.com/storyrealstudios",
+    linkedin: "https://linkedin.com/company/storyrealstudios",
+    youtube: "https://youtube.com/@StoryRealStudios",
+    tiktok: "https://www.tiktok.com/@storyrealstudios",
   },
-  gmb: "https://www.google.com/maps/place/Allora+Media/@41.6007921,-72.8844525,17z/data=!3m1!4b1!4m6!3m5!1s0x89e7ebd7f6ae62d9:0x14627aa02fc07cff!8m2!3d41.6007881!4d-72.8818776!16s%2Fg%2F11mw6yt3vq",
+  gmb: "https://www.google.com/maps/place/Story+Real+Studios",
   foundingDate: "2018",
   ghl: {
     bookingUrl: "https://api.leadconnectorhq.com/widget/booking/iIpMe9Rgoxo9BY0mGUF8",
@@ -39,7 +39,7 @@ export const siteConfig = {
 export const googleReview = {
   rating: 5.0,
   count: 27,
-  url: "https://www.google.com/maps/place/Allora+Media/@41.6007921,-72.8844525,17z/data=!3m1!4b1!4m6!3m5!1s0x89e7ebd7f6ae62d9:0x14627aa02fc07cff!8m2!3d41.6007881!4d-72.8818776!16s%2Fg%2F11mw6yt3vq",
+  url: "https://www.google.com/maps/place/Story+Real+Studios",
 } as const;
 
 /* ------------------------------------------------------------------ */

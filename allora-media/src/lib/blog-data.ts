@@ -664,11 +664,11 @@ export const blogPosts: BlogPost[] = [
   },
 
   /* ================================================================ */
-  /*  5. Professional Photography & Drone Content for Marketing       */
+  /*  5. Professional Photography & Drone Content for Content Strategy */
   /* ================================================================ */
   {
     slug: "professional-photography-drone-content-marketing",
-    title: "Why Professional Photography and Drone Content Transform Your Marketing",
+    title: "Why Professional Photography and Drone Content Transform Your Content Strategy",
     description:
       "How investing in professional photography and drone content elevates your brand, builds trust, and generates more leads — especially for home service and construction businesses.",
     category: "Video & Content",
@@ -776,7 +776,7 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        heading: "How Professional Media Feeds Your Entire Marketing",
+        heading: "How Professional Media Feeds Your Entire Content Strategy",
         blocks: [
           {
             type: "paragraph",
@@ -2181,7 +2181,7 @@ export const blogPosts: BlogPost[] = [
               "You're not hosting a talk show — you're having a conversation. A skilled production team uses conversational interview techniques that make even the most camera-shy professionals look and sound polished.",
               "Preparation eliminates anxiety. We send you questions in advance, do a run-through before filming, and edit out any stumbles. The final product is always smoother than you expect.",
               "Authenticity outperforms polish. Prospects don't want a slick infomercial — they want to hear a real person explain things clearly. Your natural speaking style IS your competitive advantage.",
-              "One shoot covers months of content. We typically film for 2–3 hours and walk away with enough footage for 8–15 finished pieces. It's one afternoon of discomfort for months of marketing leverage.",
+              "One shoot covers months of content. We typically film for 2–3 hours and walk away with enough footage for 8–15 finished pieces. It's one afternoon of discomfort for months of content leverage.",
             ],
           },
           {
@@ -2445,7 +2445,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             type: "paragraph",
-            text: "This is why content production isn't just a 'creative' expense — it's a strategic investment in your ability to show up everywhere. A single production day with Allora creates enough material to feed your omnipresence strategy for months:",
+            text: "This is why content production isn't just a 'creative' expense — it's a strategic investment in your ability to show up everywhere. A single production day with Story Real creates enough material to feed your omnipresence strategy for months:",
           },
           {
             type: "bullets",

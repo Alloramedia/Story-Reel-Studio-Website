@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.description,
     alternates: {
-      canonical: `https://www.alloramedia.us/blog/${slug}`,
+      canonical: `https://www.storyreal.co/blog/${slug}`,
     },
     openGraph: {
       title: post.title,
@@ -278,9 +278,9 @@ export default async function BlogPostPage({ params }: Props) {
                   {post.author}
                 </p>
                 <p className="mt-1 text-sm text-white/50">
-                  Founder & Creative Director at Allora Media. Running
-                  paid advertising campaigns and producing professional media
-                  content for Connecticut businesses.
+                  Founder & Creative Director at Story Real Studios. Building
+                  strategy-led video campaigns and content systems for
+                  purpose-led organizations in Connecticut.
                 </p>
               </div>
             </div>
@@ -407,7 +407,7 @@ export default async function BlogPostPage({ params }: Props) {
       {/* CTA */}
       <CTASection
         headline="Ready to apply these strategies to your business?"
-        subhead="Book a free Growth Blueprint Call. We'll audit your current marketing, show you the biggest opportunities, and give you a clear plan — whether you work with us or not."
+        subhead="Book a free Growth Blueprint Call. We'll audit your current content strategy, show you the biggest opportunities, and give you a clear plan — whether you work with us or not."
         primaryLabel="Book a Growth Blueprint Call"
         primaryHref="/contact"
         secondaryLabel="See Our Results"

@@ -224,7 +224,7 @@ export function PaidMediaClient() {
             </SlideIn>
             <SlideIn from="right">
             <div className="rounded-2xl border border-white/10 bg-[#080808] p-6 border-l-4 border-l-[#68ccd1]">
-              <h3 className="mb-4 text-lg font-bold text-white">The Allora Approach</h3>
+              <h3 className="mb-4 text-lg font-bold text-white">The Story Real Approach</h3>
               <ul className="space-y-3 text-sm text-white/80">
                 {[
                   "Campaigns built in layers — cold, warm, and ready-to-buy audiences",
@@ -466,7 +466,7 @@ export function PaidMediaClient() {
         <SectionHeader
           variant="light"
           eyebrow="What to Expect"
-          title="Your first 90 days with Allora Media."
+          title="Your first 90 days with Story Real Studios."
           description="Results don't happen overnight, but they happen fast. Here's the typical trajectory for new paid media clients."
         />
         <div className="mx-auto max-w-3xl">

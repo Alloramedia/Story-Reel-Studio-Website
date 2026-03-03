@@ -166,7 +166,7 @@ export function OrganicSocialClient() {
         <SectionHeader
           eyebrow="Real Talk"
           title="Social media works best when it's part of a bigger plan."
-          description="On its own, organic social won't fill your pipeline overnight. We're honest about that. But when paired with paid advertising and great content, it serves a critical role: it builds the trust and visibility that makes your entire marketing system more effective."
+          description="On its own, organic social won't fill your pipeline overnight. We're honest about that. But when paired with paid advertising and great content, it serves a critical role: it builds the trust and visibility that makes your entire content system more effective."
         />
         <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
           <SlideIn from="left">
@@ -397,7 +397,7 @@ export function OrganicSocialClient() {
             <div className="grid gap-4 md:grid-cols-2">
               <SlideIn from="left">
               <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-5">
-                <p className="mb-3 text-sm font-bold text-red-400">Without Allora Managing Social:</p>
+                <p className="mb-3 text-sm font-bold text-red-400">Without Story Real Managing Social:</p>
                 <ul className="space-y-2 text-sm text-white/55">
                   {[
                     "Last post was 3 months ago",
@@ -416,7 +416,7 @@ export function OrganicSocialClient() {
               </SlideIn>
               <SlideIn from="right">
               <div className="rounded-xl border border-[#68ccd1]/20 bg-[#68ccd1]/5 p-5">
-                <p className="mb-3 text-sm font-bold text-[#68ccd1]">With Allora Managing Social:</p>
+                <p className="mb-3 text-sm font-bold text-[#68ccd1]">With Story Real Managing Social:</p>
                 <ul className="space-y-2 text-sm text-white/70">
                   {[
                     "Professional, recent posts showing active business",
@@ -565,7 +565,7 @@ export function OrganicSocialClient() {
 
       {/* CTA */}
       <CTASection
-        headline="Want social media that actually works with your marketing?"
+        headline="Want social media that actually works with your content strategy?"
         subhead="Let's talk about how social media management fits into your overall growth plan. Most of our clients pair it with paid advertising for the best results."
         primaryLabel="Book a Strategy Call"
         primaryHref="/contact"

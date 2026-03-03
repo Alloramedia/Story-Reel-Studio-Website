@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Professional social media management for Instagram, Facebook, and LinkedIn. We keep your brand active, build trust with your audience, and grow retargeting audiences that improve your ad performance.",
   alternates: {
-    canonical: "https://www.alloramedia.us/organic-social",
+    canonical: "https://www.storyreal.co/organic-social",
   },
   openGraph: {
     title: "Social Media Management — Instagram, Facebook & LinkedIn",

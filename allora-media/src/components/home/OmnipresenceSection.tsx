@@ -57,7 +57,7 @@ export function OmnipresenceSection() {
         <SectionHeader
           eyebrow="The Omnipresence Advantage"
           title={<>Show up everywhere.{' '}<span className="text-[#68ccd1]">Get chosen every time.</span></>}
-          description="The most successful brands don't rely on a single channel. They show up on every platform their customers use — consistently, professionally, and with a unified message. That's omnipresence marketing, and it's the single biggest competitive edge a business can build."
+          description="The most successful brands don't rely on a single channel. They show up on every platform their customers use — consistently, professionally, and with a unified message. That's an omnipresence content strategy, and it's the single biggest competitive edge a business can build."
         />
 
         <div className="mb-10 grid gap-6 md:grid-cols-3">

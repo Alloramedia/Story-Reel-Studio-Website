@@ -72,7 +72,7 @@ export function HeroSection() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm font-bold uppercase text-[#68ccd1] text-balance md:text-base"
           >
-            Performance-Driven Marketing Agency in Connecticut
+            Strategy-Led Video Production Studio in Connecticut
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 28, filter: "blur(6px)" }}
@@ -80,7 +80,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
             className="mt-5 font-heading text-4xl font-black leading-[1.05] text-pretty text-white md:text-6xl lg:text-7xl text-shadow-hero"
           >
-            Your marketing should{' '}
+            Your content should{' '}
             <span className="block animate-text-gradient">pay for itself.</span>
           </motion.h1>
           <motion.p

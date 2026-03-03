@@ -94,7 +94,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
             className="mb-4 text-sm font-semibold uppercase tracking-widest text-balance text-[#68ccd1]"
           >
-            {industry.name} Marketing in Connecticut
+            {industry.name} Video Production in Connecticut
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 24, filter: "blur(4px)" }}
@@ -244,14 +244,14 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
 
-      {/* ──────────── WHY ALLORA ──────────── */}
+      {/* ──────────── WHY STORY REAL ──────────── */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
         <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
-          eyebrow="Why Allora"
+          eyebrow="Why Story Real"
           title={`What makes us different for ${industry.name.toLowerCase()} businesses.`}
         />
         <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
@@ -283,7 +283,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         <SectionHeader
           eyebrow="Real Results"
           title="Numbers that speak for themselves."
-          description={`Here's what our ${industry.name.toLowerCase()} clients have achieved with Allora.`}
+          description={`Here's what our ${industry.name.toLowerCase()} clients have achieved with Story Real.`}
         />
         <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
           {industry.results.map((result, i) => (
@@ -315,7 +315,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         <SectionHeader
           variant="light"
           eyebrow={`Our ${industry.name} Playbook`}
-          title="How we build your marketing system."
+          title="How we build your content system."
           description="Every step is designed specifically for your industry — not a generic template."
         />
         <div className="mx-auto max-w-3xl space-y-4">
@@ -370,7 +370,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
         <SectionHeader
           eyebrow="Proven Results"
           title="Don't take our word for it."
-          description="Here are businesses like yours that went from guessing to growing with a real marketing strategy behind them."
+          description="Here are businesses like yours that went from guessing to growing with a real content strategy behind them."
         />
 
         <div className="grid gap-6 md:grid-cols-3">
@@ -529,7 +529,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
             Ready to see what this looks like for your {industry.name.toLowerCase()} business?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/55">
-            Book a free Growth Blueprint Call. We&apos;ll audit your current marketing, show you what&apos;s working in your market, and map out a clear plan — no obligation.
+            Book a free Growth Blueprint Call. We&apos;ll audit your current content strategy, show you what&apos;s working in your market, and map out a clear plan — no obligation.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
@@ -551,8 +551,8 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── BOTTOM CTA ──────────── */}
       <CTASection
-        headline={`Let\u2019s build a marketing system for your ${industry.name.toLowerCase()} business.`}
-        subhead="Book a free Growth Blueprint Call. We\u2019ll review your current marketing, identify the biggest opportunities in your market, and give you a clear plan \u2014 whether you work with us or not."
+        headline={`Let\u2019s build a content system for your ${industry.name.toLowerCase()} business.`}
+        subhead="Book a free Growth Blueprint Call. We\u2019ll review your current content strategy, identify the biggest opportunities in your market, and give you a clear plan \u2014 whether you work with us or not."
         primaryLabel="Book a Growth Blueprint Call"
         primaryHref="/contact"
         secondaryLabel="See Case Studies"

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Cheli Photography — professional photography & video for weddings, events, family portraits, engagement photos, senior photos, and maternity sessions in Connecticut. Book a free consultation today!",
   alternates: {
-    canonical: "https://www.alloramedia.us/personal",
+    canonical: "https://www.storyreal.co/personal",
   },
   openGraph: {
     title: "Cheli Photography | Personal Photographer in CT",

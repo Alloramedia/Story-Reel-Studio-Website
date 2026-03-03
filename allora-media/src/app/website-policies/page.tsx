@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Privacy policy and terms of service for Story Real Studios. Learn how we collect, use, and protect your information.",
   alternates: {
-    canonical: "https://www.alloramedia.us/website-policies",
+    canonical: "https://www.storyreal.co/website-policies",
   },
   openGraph: {
     title: "Website Policies | Story Real Studios",
     description:
       "Privacy policy and terms of service for Story Real Studios. Learn how we collect, use, and protect your information.",
-    url: "https://www.alloramedia.us/website-policies",
+    url: "https://www.storyreal.co/website-policies",
     siteName: "Story Real Studios",
     type: "website",
   },
@@ -88,7 +88,7 @@ export default function WebsitePoliciesPage() {
               <h3>How We Use Your Information</h3>
               <ul>
                 <li>To respond to your inquiries and provide requested services</li>
-                <li>To improve our website and marketing efforts</li>
+                <li>To improve our website and production services</li>
                 <li>To send you information related to our services (only if you&apos;ve opted in)</li>
                 <li>To comply with legal obligations</li>
               </ul>
@@ -135,7 +135,7 @@ export default function WebsitePoliciesPage() {
               <h3>Use of Website</h3>
               <p>
                 This website is provided for informational purposes and to
-                facilitate inquiries about our marketing services. You agree to
+                facilitate inquiries about our production services. You agree to
                 use this website only for lawful purposes and in a manner that
                 does not infringe upon the rights of others.
               </p>

@@ -33,7 +33,7 @@ import {
 } from "@/components/SectionTextures";
 import { VideoShowcase } from "@/components/YouTubeEmbed";
 
-const whyAllora = [
+const whyStoryReal = [
   {
     icon: <Camera size={20} />,
     title: "All production in-house",
@@ -418,7 +418,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                   <SlideIn from="right">
                     <div className="h-full rounded-2xl border border-[#68ccd1]/20 bg-[#1a2a1a] p-6">
                       <h3 className="mb-4 text-lg font-bold text-white">
-                        Allora Media {service.name}
+                        Story Real Studios {service.name}
                       </h3>
                       <ul className="space-y-3 text-sm text-white/80">
                         {service.diyVsPro.pro.map((item, i) => (
@@ -496,7 +496,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         </>
       )}
 
-      {/* ═══ WHY ALLORA MEDIA ═══ */}
+      {/* ═══ WHY STORY REAL STUDIOS ═══ */}
       <Section variant="dark">
         <GradientOverlay
           from="rgba(101,178,7,0.03)"
@@ -512,10 +512,10 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             eyebrow="Why Work With Us"
-            title="What makes Allora Media different."
+            title="What makes Story Real Studios different."
           />
           <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {whyAllora.map((item, i) => (
+            {whyStoryReal.map((item, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 24, filter: "blur(4px)" }}
@@ -577,19 +577,19 @@ export function ServiceClient({ service }: { service: ServiceData }) {
               {
                 videoId: "8fg8B7arsPI",
                 title: "Client Testimonial Video — Business Growth Story",
-                client: "Allora Media Production",
+                client: "Story Real Studios Production",
                 description: "A testimonial video we produced capturing a business owner's story — authentic interview style with professional audio, lighting, and editing.",
               },
               {
                 videoId: "yXrwTtRcMjo",
                 title: "Client Testimonial Video — Marketing Results",
-                client: "Allora Media Production",
+                client: "Story Real Studios Production",
                 description: "Real results captured on camera — we use conversational interview techniques that draw out genuine stories prospects connect with.",
               },
               {
                 videoId: "DJw4b6dxjlM",
                 title: "Client Testimonial Video — Brand Perception",
-                client: "Allora Media Production",
+                client: "Story Real Studios Production",
                 description: "A client discusses the difference professional production made for their brand — the kind of testimonial that shortens sales cycles.",
               },
             ]}

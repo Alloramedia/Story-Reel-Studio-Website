@@ -41,7 +41,7 @@ export function TestimonialSection() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-white/55">
             Here are businesses like yours that went from guessing to growing
-            with a real marketing strategy behind them.
+            with a real content strategy behind them.
           </p>
         </motion.div>
 

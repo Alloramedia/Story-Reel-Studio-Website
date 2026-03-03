@@ -74,7 +74,7 @@ const tiers = [
       "Monthly performance review and strategy refinement",
       "Priority scheduling and dedicated team access",
     ],
-    ideal: "Organizations with active marketing operations that need a consistent flow of cinematic content across multiple channels — without managing freelancers or building an in-house team.",
+    ideal: "Organizations with active content operations that need a consistent flow of cinematic content across multiple channels — without managing freelancers or building an in-house team.",
     scopeNote: "Monthly investment depends on production frequency, deliverable volume, number of platforms served, and whether the engagement includes paid media creative.",
   },
 ];

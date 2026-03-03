@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Get more leads from Facebook and Instagram ads. We build, manage, and optimize paid advertising campaigns for Connecticut businesses — with full tracking and monthly reporting.",
   alternates: {
-    canonical: "https://www.alloramedia.us/paid-media",
+    canonical: "https://www.storyreal.co/paid-media",
   },
   openGraph: {
     title: "Paid Media — Facebook & Instagram Ads That Bring in Customers",

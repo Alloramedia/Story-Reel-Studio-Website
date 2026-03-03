@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   description:
     "Professional video production for businesses in Connecticut. TV commercials, testimonial videos, brand stories, drone content, and social media video — all produced in-house and built to perform.",
   alternates: {
-    canonical: "https://www.alloramedia.us/video-production",
+    canonical: "https://www.storyreal.co/video-production",
   },
   openGraph: {
-    title: "Video Production Services in Connecticut | Allora Media",
+    title: "Video Production Services in Connecticut | Story Real Studios",
     description:
       "TV commercials, testimonial videos, brand stories, drone content, and social media video — professionally produced for businesses ready to stand out and convert more customers.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],

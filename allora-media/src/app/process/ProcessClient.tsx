@@ -14,7 +14,7 @@ const steps = [
     step: "01",
     title: "Discovery",
     description:
-      "We start by learning everything about your business — who your customers are, what you've tried before, what's working, and where the biggest growth opportunities are. We look at your current marketing, your competitors, and your analytics to figure out the smartest path forward.",
+      "We start by learning everything about your business — who your customers are, what you've tried before, what's working, and where the biggest growth opportunities are. We look at your current content strategy, your competitors, and your analytics to figure out the smartest path forward.",
     details: [
       "Deep dive into your business, customers, and goals",
       "Audit of your current ads, website, and social media",
@@ -84,7 +84,7 @@ const steps = [
     step: "06",
     title: "Monthly Review",
     description:
-      "Every month we sit down with you, walk through the results, explain what worked, address what didn't, and plan the next month's strategy together. You always know exactly what your marketing is doing for your business.",
+      "Every month we sit down with you, walk through the results, explain what worked, address what didn't, and plan the next month's strategy together. You always know exactly what your content is doing for your business.",
     details: [
       "Clear monthly performance report",
       "Live review call to discuss results together",
@@ -102,7 +102,7 @@ export function ProcessClient() {
       <HeroBanner
         videoSrc="/videos/hero-drone.mp4"
         imageSrc="/images/process-hero.jpg"
-        imageAlt="Our marketing process"
+        imageAlt="Our production process"
         overlayOpacity={65}
         cursorSpotlight
       >
@@ -280,7 +280,7 @@ export function ProcessClient() {
       {/* CTA */}
       <CTASection
         headline="Ready to get started?"
-        subhead="Book a free Growth Blueprint Call. We'll walk you through this process, audit your current marketing, and show you exactly what we'd build for your business."
+        subhead="Book a free Growth Blueprint Call. We'll walk you through this process, audit your current content strategy, and show you exactly what we'd build for your business."
         primaryLabel="Book a Free Growth Blueprint Call"
         primaryHref="/contact"
         secondaryLabel="See Client Results"

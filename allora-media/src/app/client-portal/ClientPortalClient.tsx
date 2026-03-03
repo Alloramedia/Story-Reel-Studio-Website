@@ -99,10 +99,10 @@ export function ClientPortalClient() {
             className="mt-6 max-w-xl text-lg leading-relaxed text-white/70"
           >
             Most agencies send you a PDF once a month and hope you don&apos;t
-            ask too many questions. The Allora Media Hub gives you 24/7
+            ask too many questions. The Story Real Studios Hub gives you 24/7
             access to your campaign performance, all your creative content,
             project timelines, and monthly reports — all organized in one
-            dashboard. No more wondering what your marketing agency is doing.
+            dashboard. No more wondering what your production studio is doing.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 18 }}
@@ -129,7 +129,7 @@ export function ClientPortalClient() {
         <SectionHeader
           eyebrow="What's Inside"
           title="No more wondering. No more chasing updates."
-          description="We built the client portal because we believe you should never have to ask your marketing agency what's going on. Everything you need to see is right here, updated in real time."
+          description="We built the client portal because we believe you should never have to ask your production studio what's going on. Everything you need to see is right here, updated in real time."
         />
         <div className="grid gap-6 md:grid-cols-2">
           {features.map((feature, i) => (
@@ -195,7 +195,7 @@ export function ClientPortalClient() {
           <div className="overflow-hidden rounded-2xl border border-white/10 shadow-lg">
             <Image
               src="/images/portal-screenshot.jpg"
-              alt="Allora Media Client Portal Dashboard"
+              alt="Story Real Studios Client Portal Dashboard"
               width={1200}
               height={628}
               className="block w-full h-auto"
@@ -223,11 +223,11 @@ export function ClientPortalClient() {
             <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center bg-[#151515] px-6 py-4">
               <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Agency</span>
               <span className="text-white/20">vs</span>
-              <span className="text-right text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Allora Media</span>
+              <span className="text-right text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Story Real Studios</span>
             </div>
             <div className="flex md:hidden items-center justify-between bg-[#151515] px-6 py-4">
               <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Agency</span>
-              <span className="text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Allora Media</span>
+              <span className="text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Story Real Studios</span>
             </div>
             {[
               ["Monthly PDF emailed 2 weeks late", "Real-time dashboard accessible 24/7"],
@@ -292,7 +292,7 @@ export function ClientPortalClient() {
             ))}
           </div>
           <p className="mt-8 text-center text-base text-white/55">
-            If any of these sound familiar, it&apos;s time for a change. Every Allora Media client gets complete transparency from day one.
+            If any of these sound familiar, it&apos;s time for a change. Every Story Real Studios client gets complete transparency from day one.
           </p>
         </div>
       </Section>
@@ -308,7 +308,7 @@ export function ClientPortalClient() {
             title="Transparency isn't a feature. It's the standard."
           />
           <p className="text-lg leading-relaxed text-[#1a1a1a]/60">
-            Every Allora Media client gets portal access from day one — at no
+            Every Story Real Studios client gets portal access from day one — at no
             extra cost. We don&apos;t hide data behind vague reports or unclear
             jargon. You see the same numbers we see. If your current agency
             doesn&apos;t give you this level of visibility, that should tell you
@@ -327,9 +327,9 @@ export function ClientPortalClient() {
             Not a client yet? See what you&apos;re missing.
           </h2>
           <p className="mt-4 text-lg text-white/60">
-            The client portal is available to every active Allora Media client at
+            The client portal is available to every active Story Real Studios client at
             no extra cost. If you want to see what it&apos;s like working with a
-            marketing team that gives you this level of transparency, let&apos;s
+            production studio that gives you this level of transparency, let&apos;s
             talk.
           </p>
           <Link

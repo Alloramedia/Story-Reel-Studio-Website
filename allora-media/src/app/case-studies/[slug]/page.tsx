@@ -44,10 +44,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: study.title,
     description: study.summary,
     alternates: {
-      canonical: `https://www.alloramedia.us/case-studies/${slug}`,
+      canonical: `https://www.storyreal.co/case-studies/${slug}`,
     },
     openGraph: {
-      title: `${study.title} | Allora Media`,
+      title: `${study.title} | Story Real Studios`,
       description: study.summary,
       type: "article",
       images: [{ url: study.image }],
@@ -450,7 +450,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
       {/* ═══════ CTA ═══════ */}
       <CTASection
         headline="Want results like these for your business?"
-        subhead="Book a free Growth Blueprint Call. We'll audit your current marketing, show you the gaps, and give you a clear plan — whether you work with us or not."
+        subhead="Book a free Growth Blueprint Call. We'll audit your current content strategy, show you the gaps, and give you a clear plan — whether you work with us or not."
         primaryLabel="Book a Growth Blueprint Call"
         primaryHref="/contact"
       />

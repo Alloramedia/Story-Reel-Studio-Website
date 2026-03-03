@@ -29,27 +29,27 @@ import { googleReview, credibilityStats } from "@/lib/constants";
 
 /* ── SEO-rich metadata ── */
 export const metadata: Metadata = {
-  title: "Industry-Specific Marketing in Connecticut — Allora Media",
+  title: "Industry-Specific Video Production in Connecticut — Story Real Studios",
   description:
-    "Allora Media delivers industry-specific paid advertising and media production for construction, home services, restaurants, beauty & retail, and professional services in Connecticut. Explore strategies built for how your customers actually buy.",
+    "Story Real Studios delivers industry-specific video production and content systems for construction, home services, restaurants, beauty & retail, and professional services in Connecticut. Explore strategies built for how your customers actually buy.",
   alternates: {
-    canonical: "https://www.alloramedia.us/industries",
+    canonical: "https://www.storyreal.co/industries",
   },
   openGraph: {
-    title: "Industry-Specific Marketing in Connecticut — Allora Media",
+    title: "Industry-Specific Video Production in Connecticut — Story Real Studios",
     description:
-      "Paid social advertising & professional media production tailored to construction, home services, restaurants, beauty, and professional services across Connecticut.",
+      "Strategy-led video production & content systems tailored to construction, home services, restaurants, beauty, and professional services across Connecticut.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   keywords: [
-    "Connecticut marketing agency",
-    "industry marketing CT",
-    "construction marketing Connecticut",
-    "home services advertising CT",
-    "restaurant marketing agency",
-    "beauty salon marketing",
-    "professional services marketing",
-    "paid social ads Connecticut",
+    "Connecticut video production studio",
+    "industry video production CT",
+    "construction video production Connecticut",
+    "home services video CT",
+    "restaurant video production studio",
+    "beauty salon video production",
+    "professional services video production",
+    "video production Connecticut",
   ],
 };
 
@@ -65,12 +65,12 @@ const industryIcons: Record<string, React.ReactNode> = {
 /* ── cross-industry FAQs for SEO ── */
 const industriesFaqs = [
   {
-    question: "What industries does Allora Media work with?",
+    question: "What industries does Story Real Studios work with?",
     answer:
       "We specialize in five core industries: construction & general contracting, home services (HVAC, plumbing, electrical, landscaping), food & beverage (restaurants, cafes, bars), beauty & retail (salons, med spas, boutiques), and professional services (law firms, accounting, financial advisors). Each industry gets a custom strategy — not a recycled template.",
   },
   {
-    question: "How does industry-specific marketing differ from generic marketing?",
+    question: "How does industry-specific video production differ from generic content?",
     answer:
       "Generic agencies apply the same playbook to every client. We build campaigns around how YOUR customers actually search, evaluate, and buy. A homeowner choosing an HVAC company behaves completely differently from someone picking a restaurant or hiring a lawyer. Our targeting, creative, and conversion strategy change for each.",
   },
@@ -87,7 +87,7 @@ const industriesFaqs = [
   {
     question: "What does a typical engagement look like?",
     answer:
-      "We start with a free Growth Blueprint Call where we audit your current marketing, research your local market, and present a clear plan. From there, we handle everything — media production, ad creation, campaign management, and monthly performance reviews. No long-term contracts required.",
+      "We start with a free Growth Blueprint Call where we audit your current content strategy, research your local market, and present a clear plan. From there, we handle everything — video production, content creation, campaign deployment, and monthly performance reviews. No long-term contracts required.",
   },
   {
     question: "How much does it cost?",
@@ -121,7 +121,7 @@ export default function IndustriesPage() {
         />
         <div className="relative mx-auto max-w-4xl px-6 text-center lg:px-8">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-[#68ccd1]">
-            Industry-Specific Marketing
+            Industry-Specific Video Production
           </p>
           <h1 className="font-heading text-4xl font-black leading-[1.1] text-white md:text-5xl lg:text-6xl">
             Your industry has rules.
@@ -130,8 +130,8 @@ export default function IndustriesPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/60">
             Every industry has a different buying cycle, different objections, and
-            different competition. Generic marketing ignores that — we don&apos;t. Allora
-            Media builds paid advertising and media production strategies tailored
+            different competition. Generic content ignores that — we don&apos;t. Story Real
+            Studios builds video production and content system strategies tailored
             to how <em>your</em> customers actually discover, evaluate, and choose
             businesses like yours in Connecticut.
           </p>
@@ -176,7 +176,7 @@ export default function IndustriesPage() {
         <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
           eyebrow="Why It Matters"
-          title={<>Generic marketing wastes your money.<br className="hidden md:block" /> Industry expertise multiplies it.</>}
+          title={<>Generic content wastes your money.<br className="hidden md:block" /> Industry expertise multiplies it.</>}
           description="A homeowner hiring a roofer, a couple booking a restaurant, and a CEO choosing a law firm all make decisions completely differently. We build campaigns around those differences — not despite them."
         />
         <div className="grid gap-6 md:grid-cols-3">
@@ -251,7 +251,7 @@ export default function IndustriesPage() {
                     {/* content */}
                     <div className="flex-1">
                       <h3 className="hidden font-heading text-2xl font-bold text-white md:block">
-                        {industry.name} Marketing
+                        {industry.name} Video & Content
                       </h3>
                       <p className="hidden text-sm font-semibold text-[#68ccd1] md:mt-1 md:block">
                         {industry.headline}
@@ -325,7 +325,7 @@ export default function IndustriesPage() {
         <SectionHeader
           eyebrow="Proven Results"
           title="Results across every industry we touch."
-          description="These aren't projections — they're real outcomes from real Connecticut businesses that partnered with Allora Media."
+          description="These aren't projections — they're real outcomes from real Connecticut businesses that partnered with Story Real Studios."
         />
 
         {/* highlight metrics strip */}
@@ -372,7 +372,7 @@ export default function IndustriesPage() {
               {
                 step: "1",
                 title: "Free Growth Blueprint Call",
-                desc: "We audit your current marketing, research your local market and competitors, and present a clear, actionable plan — no obligation, no pressure.",
+                desc: "We audit your current content strategy, research your local market and competitors, and present a clear, actionable plan — no obligation, no pressure.",
               },
               {
                 step: "2",
@@ -416,7 +416,7 @@ export default function IndustriesPage() {
         <div className="mx-auto max-w-3xl">
           <SectionHeader
             eyebrow="Questions & Answers"
-            title="Common questions about industry marketing."
+            title="Common questions about industry video production."
           />
           <FAQAccordion items={industriesFaqs} />
         </div>

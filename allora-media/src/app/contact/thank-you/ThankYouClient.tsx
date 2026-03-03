@@ -100,7 +100,7 @@ export function ThankYouClient() {
             style={{ width: "100%", border: "none", overflow: "hidden" }}
             scrolling="no"
             id="ghl-booking-calendar-thankyou"
-            title="Schedule a meeting with Allora Media"
+            title="Schedule a meeting with Story Real Studios"
             className="min-h-150"
             sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
           />

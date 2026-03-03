@@ -24,8 +24,8 @@ export function MeetingClient() {
             Pick a time that works for you.
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-white/60">
-            Use the calendar below to schedule a discovery call with Allora
-            Media. We&apos;ll discuss your goals, review your current marketing,
+            Use the calendar below to schedule a discovery call with Story Real
+            Studios. We&apos;ll discuss your goals, review your current content strategy,
             and map out the best path forward.
           </p>
         </motion.div>
@@ -42,7 +42,7 @@ export function MeetingClient() {
             style={{ width: "100%", border: "none", overflow: "hidden" }}
             scrolling="no"
             id="ghl-booking-calendar"
-            title="Schedule a meeting with Allora Media"
+            title="Schedule a meeting with Story Real Studios"
             className="min-h-150"
             sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
           />

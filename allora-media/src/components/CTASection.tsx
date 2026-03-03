@@ -15,8 +15,8 @@ interface CTASectionProps {
 }
 
 export function CTASection({
-  headline = "Ready to get marketing that actually works?",
-  subhead = "Book a free Growth Blueprint Call. We\u2019ll review your current marketing, identify the biggest opportunities, and give you a clear plan to drive real results \u2014 whether you work with us or not.",
+  headline = "Ready to get content that actually works?",
+  subhead = "Book a free Growth Blueprint Call. We\u2019ll review your current content strategy, identify the biggest opportunities, and give you a clear plan to drive real results \u2014 whether you work with us or not.",
   primaryLabel = "Book a Strategy Call",
   primaryHref = "/contact",
   secondaryLabel = "See Our Work",

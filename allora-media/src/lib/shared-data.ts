@@ -49,7 +49,7 @@ export const googleReviews: GoogleReviewItem[] = [
   {
     name: "Morgan Bizeau",
     date: "Jun 2024",
-    text: "We Love Allora! I am the Director of Marketing for a local Roofing contractor and Jared and his entire team have been amazing and incredibly attentive and helpful in handling our social media accounts. He has taken phenomenal photos and truly has been a blessing for our company.",
+    text: "We Love Story Real! I am the Director of Marketing for a local Roofing contractor and Jared and his entire team have been amazing and incredibly attentive and helpful in handling our social media accounts. He has taken phenomenal photos and truly has been a blessing for our company.",
   },
   {
     name: "Kendall Hils",
@@ -64,12 +64,12 @@ export const googleReviews: GoogleReviewItem[] = [
   {
     name: "Meg Riel",
     date: "Jun 2024",
-    text: "Highly recommend Allora Media!! I had them for a brew fest and couldn\u2019t be happier with the results. Got so much content from the event. Got great slow motion videos that I can speed up if needed. Sent everything over very soon after the event.",
+    text: "Highly recommend Story Real Studios!! I had them for a brew fest and couldn\u2019t be happier with the results. Got so much content from the event. Got great slow motion videos that I can speed up if needed. Sent everything over very soon after the event.",
   },
   {
     name: "Leann Tonnotti",
     date: "2025",
-    text: "Our family business has been working with Allora for almost a year now & they have truly elevated our social media presence! They follow thru, their work is impeccable, and truly are such a great group of people to work with. An eye for design and professionalism all the way!",
+    text: "Our family business has been working with Story Real for almost a year now & they have truly elevated our social media presence! They follow thru, their work is impeccable, and truly are such a great group of people to work with. An eye for design and professionalism all the way!",
   },
 ];
 
@@ -131,7 +131,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Before Allora, we were running on referrals and hoping the phone would ring. Now we have a real pipeline \u2014 we can actually see where our leads come from and plan around it. Total game changer for us.",
+      "Before Story Real, we were running on referrals and hoping the phone would ring. Now we have a real pipeline \u2014 we can actually see where our leads come from and plan around it. Total game changer for us.",
     author: "Casey Electrical Services",
     role: "Construction",
   },
@@ -143,19 +143,19 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Allora took our social media from something we ignored to our single biggest lead source. Professional, no-nonsense, and they actually track the numbers so we know it\u2019s working.",
+      "Story Real took our social media from something we ignored to our single biggest lead source. Professional, no-nonsense, and they actually track the numbers so we know it\u2019s working.",
     author: "A1 Home Improvement",
     role: "Construction",
   },
   {
     quote:
-      "They understood our industry \u2014 abatement isn\u2019t easy to market, but Allora built content that communicates trust and professionalism. The leads we get now are higher quality than anything we\u2019ve seen.",
+      "They understood our industry \u2014 abatement isn\u2019t easy to market, but Story Real built content that communicates trust and professionalism. The leads we get now are higher quality than anything we\u2019ve seen.",
     author: "Anthony\u2019s Abatement",
     role: "Construction",
   },
   {
     quote:
-      "Our social media actually drives people through the door now. Allora built a system \u2014 not just pretty posts \u2014 and we can see the results in our numbers every month.",
+      "Our social media actually drives people through the door now. Story Real built a system \u2014 not just pretty posts \u2014 and we can see the results in our numbers every month.",
     author: "Hot Taco",
     role: "Restaurant & Food",
   },

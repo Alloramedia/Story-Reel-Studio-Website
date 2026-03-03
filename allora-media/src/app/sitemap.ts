@@ -5,7 +5,7 @@ import { caseStudies } from "@/lib/case-studies-data";
 import { blogPosts } from "@/lib/blog-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.alloramedia.us";
+  const baseUrl = "https://www.storyreal.co";
   // Use a fixed date for static pages — `new Date()` would produce the
   // build timestamp which is misleading.  Update this when content changes.
   const lastModified = new Date("2026-03-01");

@@ -34,7 +34,7 @@ export function ProblemSection() {
         <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
           eyebrow="Sound Familiar?"
-          title="Tired of spending money on marketing that doesn't work?"
+          title="Tired of spending money on content that doesn't work?"
           description="You've tried posting on social media. Maybe you've boosted a few posts or hired a freelancer. But the phone isn't ringing any more than it was before — and you have no idea what's actually bringing in customers. You're not alone. Here's why most businesses struggle:"
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

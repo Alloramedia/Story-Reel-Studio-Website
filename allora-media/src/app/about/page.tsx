@@ -3,16 +3,16 @@ import { AboutClient } from "./AboutClient";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
-  title: "About Us — Marketing Agency in Southington, CT",
+  title: "About Us — Strategy-Led Video Production Studio",
   description:
-    "Allora Media is a full-service marketing agency based in Southington, Connecticut. Learn how we evolved from a media production company into a complete marketing partner for local businesses.",
+    "Story Real Studios is a strategy-led video production studio based in Connecticut. Learn how we evolved from a media production company into a complete production partner for purpose-led organizations.",
   alternates: {
-    canonical: "https://www.alloramedia.us/about",
+    canonical: "https://www.storyreal.co/about",
   },
   openGraph: {
-    title: "About Allora Media — Marketing Agency in Southington, CT",
+    title: "About Story Real Studios — Strategy-Led Video Production in Connecticut",
     description:
-      "Founded in Southington, CT. From media production roots to a full-service marketing agency — learn how Allora Media helps local businesses grow with paid ads, video, and strategy.",
+      "From media production roots to a strategy-led video production studio — learn how Story Real Studios helps purpose-led organizations grow with strategy, cinematic production, and content systems.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };

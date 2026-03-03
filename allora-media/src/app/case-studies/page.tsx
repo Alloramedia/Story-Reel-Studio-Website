@@ -5,14 +5,14 @@ import { BreadcrumbSchema } from "@/components/StructuredData";
 export const metadata: Metadata = {
   title: "Case Studies — Real Campaigns, Real Results",
   description:
-    "See how real businesses went from inconsistent marketing to measurable growth. Case studies from construction, home services, restaurants, beauty, and professional services.",
+    "See how real businesses went from inconsistent content to measurable growth. Case studies from construction, home services, restaurants, beauty, and professional services.",
   alternates: {
-    canonical: "https://www.alloramedia.us/case-studies",
+    canonical: "https://www.storyreal.co/case-studies",
   },
   openGraph: {
-    title: "Case Studies — Real Campaigns, Real Results | Allora Media",
+    title: "Case Studies — Real Campaigns, Real Results | Story Real Studios",
     description:
-      "See how businesses across construction, home services, food & beverage, beauty, and professional services achieved measurable growth with Allora Media's marketing systems.",
+      "See how businesses across construction, home services, food & beverage, beauty, and professional services achieved measurable growth with Story Real Studios's video production and content systems.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };

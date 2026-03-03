@@ -21,28 +21,28 @@ const redHatText = Red_Hat_Text({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.alloramedia.us"),
+  metadataBase: new URL("https://www.storyreal.co"),
   title: {
-    default: "Allora Media | Performance-Driven Marketing, Paid Growth & Media Production",
-    template: "%s | Allora Media",
+    default: "Story Real Studios | Strategy-Led Video Production & Content Systems",
+    template: "%s | Story Real Studios",
   },
   description:
-    "Allora Media is a full-service marketing agency in Southington, CT. Paid advertising, professional video & photo production, and social media management — built to bring in real customers.",
+    "Story Real Studios builds strategy-led video campaigns and content systems for purpose-led organizations — combining strategy, cinematic production, and deployment into measurable growth.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.alloramedia.us",
-    siteName: "Allora Media",
-    title: "Allora Media | Marketing Agency in Connecticut — Paid Ads, Video & Social Media",
+    url: "https://www.storyreal.co",
+    siteName: "Story Real Studios",
+    title: "Story Real Studios | Strategy-Led Video Production & Content Systems",
     description:
-      "Paid advertising, professional video & photo production, and social media management for Connecticut businesses. Built to bring in real customers and measurable revenue.",
+      "Strategy-led video campaigns and content systems for purpose-led organizations. Combining strategy, cinematic production, and deployment into measurable growth.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Allora Media | Marketing Agency in Connecticut — Paid Ads, Video & Social Media",
+    title: "Story Real Studios | Strategy-Led Video Production & Content Systems",
     description:
-      "Paid advertising, professional video & photo production, and social media management. Built to bring in real customers and measurable revenue for your business.",
+      "Strategy-led video campaigns and content systems for purpose-led organizations. Combining strategy, cinematic production, and deployment into measurable growth.",
   },
   robots: {
     index: true,

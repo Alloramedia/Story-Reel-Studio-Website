@@ -30,7 +30,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
       <HeroBanner
         videoSrc="/videos/hero-general.mp4"
         imageSrc="/images/hero-bg.jpg"
-        imageAlt="Allora Media blog"
+        imageAlt="Story Real Studios blog"
         overlayOpacity={70}
         cursorSpotlight
       >
@@ -53,7 +53,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
             }}
             className="text-4xl font-heading font-black leading-tight tracking-tight text-pretty md:text-5xl lg:text-6xl"
           >
-            Marketing playbooks that drive real revenue.
+            Video & content playbooks that drive real growth.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 22, filter: "blur(4px)" }}
@@ -94,7 +94,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
         <SectionHeader
           eyebrow="Filter by Topic"
           title="Find what matters to your business."
-          description="Every article is based on real campaign data and strategies we use for clients — not recycled advice from other marketing blogs."
+          description="Every article is based on real campaign data and strategies we use for clients — not recycled advice from other production blogs."
         />
         <div className="mb-8 flex flex-wrap justify-center gap-2">
           {categories.map((category) => (
@@ -229,7 +229,7 @@ export function BlogClient({ posts, categories }: BlogClientProps) {
       {/* CTA */}
       <CTASection
         headline="Ready to apply these strategies to your business?"
-        subhead="Book a free Growth Blueprint Call. We'll audit your current marketing, show you the biggest opportunities, and give you a clear plan — whether you work with us or not."
+        subhead="Book a free Growth Blueprint Call. We'll audit your current content strategy, show you the biggest opportunities, and give you a clear plan — whether you work with us or not."
         primaryLabel="Book a Growth Blueprint Call"
         primaryHref="/contact"
         secondaryLabel="See Our Results"

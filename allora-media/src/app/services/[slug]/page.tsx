@@ -19,9 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${service.name} — Professional Media Production in CT`,
-    description: `${service.subhead} Professional ${service.name.toLowerCase()} for businesses in Connecticut by Allora Media.`,
+    description: `${service.subhead} Professional ${service.name.toLowerCase()} for businesses in Connecticut by Story Real Studios.`,
     alternates: {
-      canonical: `https://www.alloramedia.us/services/${slug}`,
+      canonical: `https://www.storyreal.co/services/${slug}`,
     },
     openGraph: {
       title: `${service.name} — Professional ${service.name} in Connecticut`,

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const reviews = [
   {
     author: "Casey Electrical Services",
-    body: "Before Allora, we were running on referrals and hoping the phone would ring. Now we have a real pipeline — we can actually see where our leads come from and plan around it. Total game changer for us.",
+    body: "Before Story Real, we were running on referrals and hoping the phone would ring. Now we have a real pipeline — we can actually see where our leads come from and plan around it. Total game changer for us.",
     rating: 5,
   },
   {
@@ -26,17 +26,17 @@ const reviews = [
   },
   {
     author: "A1 Home Improvement",
-    body: "Allora took our social media from something we ignored to our single biggest lead source. Professional, no-nonsense, and they actually track the numbers.",
+    body: "Story Real took our social media from something we ignored to our single biggest lead source. Professional, no-nonsense, and they actually track the numbers.",
     rating: 5,
   },
   {
     author: "Anthony's Abatement",
-    body: "They understood our industry — abatement isn't easy to market, but Allora built content that communicates trust and professionalism.",
+    body: "They understood our industry — abatement isn't easy to market, but Story Real built content that communicates trust and professionalism.",
     rating: 5,
   },
   {
     author: "Hot Taco",
-    body: "Our social media actually drives people through the door now. Allora built a system — not just pretty posts — and we can see the results in our numbers every month.",
+    body: "Our social media actually drives people through the door now. Story Real built a system — not just pretty posts — and we can see the results in our numbers every month.",
     rating: 5,
   },
 ];

@@ -18,13 +18,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!industry) return {};
 
   return {
-    title: `${industry.name} Marketing — Paid Ads & Media Production in CT`,
-    description: `${industry.subhead} Allora Media helps ${industry.name.toLowerCase()} businesses in Connecticut grow with paid advertising and professional media production.`,
+    title: `${industry.name} Video Production & Content Systems in CT`,
+    description: `${industry.subhead} Story Real Studios helps ${industry.name.toLowerCase()} businesses in Connecticut grow with strategy-led video production and content systems.`,
     alternates: {
-      canonical: `https://www.alloramedia.us/industries/${slug}`,
+      canonical: `https://www.storyreal.co/industries/${slug}`,
     },
     openGraph: {
-      title: `${industry.name} Marketing — Paid Ads & Media Production in Connecticut`,
+      title: `${industry.name} Video Production & Content Systems in Connecticut`,
       description: industry.subhead,
       images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
     },
@@ -39,8 +39,8 @@ export default async function IndustryPage({ params }: Props) {
   return (
     <>
       <ServiceSchema
-        name={`${industry.name} Marketing`}
-        description={`Paid advertising, professional media production, and social media management for ${industry.name.toLowerCase()} businesses in Connecticut.`}
+        name={`${industry.name} Video Production`}
+        description={`Strategy-led video production, cinematic content, and content deployment systems for ${industry.name.toLowerCase()} businesses in Connecticut.`}
       />
       <BreadcrumbSchema
         items={[

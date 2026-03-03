@@ -437,7 +437,7 @@ const faqs = [
   {
     question: "How do I book a session?",
     answer:
-      "Just email Chelsie at chelsie@alloramedia.us. We\u2019ll walk you through available dates, discuss your vision for the session, and get everything scheduled. A deposit is required to secure your date.",
+      "Just email Chelsie at chelsie@storyreal.co. We\u2019ll walk you through available dates, discuss your vision for the session, and get everything scheduled. A deposit is required to secure your date.",
   },
   {
     question: "Where do sessions take place?",
@@ -532,7 +532,7 @@ export function PersonalClient() {
               className="mt-8 flex flex-wrap gap-4"
             >
               <a
-                href="mailto:chelsie@alloramedia.us"
+                href="mailto:chelsie@storyreal.co"
                 className="inline-flex items-center rounded-full px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:scale-105"
                 style={{
                   backgroundColor: purple.accent,
@@ -935,17 +935,17 @@ export function PersonalClient() {
               {
                 name: "Alexis Vieira Payne",
                 date: "2025",
-                text: "We had Jared come shoot some content for our personal training business. He did a fantastic job at capturing our studio and gave us exactly what we were looking for. The Allora team also created some content for us to use on social media which was extremely helpful and wonderfully done!",
+                text: "We had Jared come shoot some content for our personal training business. He did a fantastic job at capturing our studio and gave us exactly what we were looking for. The Story Real team also created some content for us to use on social media which was extremely helpful and wonderfully done!",
               },
               {
                 name: "Meg Riel",
                 date: "Jun 2024",
-                text: "Highly recommend Allora Media!! I had them for a brew fest and couldn\u2019t be happier with the results. Got so much content from the event. Got great slow motion videos that I can speed up if needed. Sent everything over very soon after the event.",
+                text: "Highly recommend Story Real Studios!! I had them for a brew fest and couldn\u2019t be happier with the results. Got so much content from the event. Got great slow motion videos that I can speed up if needed. Sent everything over very soon after the event.",
               },
               {
                 name: "Luke Adams",
                 date: "2025",
-                text: "I started working with Jared from Allora back in December and his social media marketing is incredible. His ability to help understand the value that my business provides and communicate that through incredible content is unmatched.",
+                text: "I started working with Jared from Story Real back in December and his social media marketing is incredible. His ability to help understand the value that my business provides and communicate that through incredible content is unmatched.",
               },
               {
                 name: "Kendall Hils",
@@ -955,7 +955,7 @@ export function PersonalClient() {
               {
                 name: "Anthony Torromeo",
                 date: "2025",
-                text: "Jared\u2019s attention to detail and genuine care for his clients is unmatched. I consider myself lucky to be part of the Allora media network.",
+                text: "Jared\u2019s attention to detail and genuine care for his clients is unmatched. I consider myself lucky to be part of the Story Real media network.",
               },
             ].map((review, i) => (
               <motion.div
@@ -1066,7 +1066,7 @@ export function PersonalClient() {
             className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center"
           >
             <a
-              href="mailto:chelsie@alloramedia.us"
+              href="mailto:chelsie@storyreal.co"
               className="inline-flex items-center rounded-full px-8 py-4 text-base font-bold text-white shadow-lg transition-all hover:scale-105"
               style={{
                 backgroundColor: purple.accent,

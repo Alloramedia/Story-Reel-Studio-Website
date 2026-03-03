@@ -348,7 +348,7 @@ export function VideoProductionClient() {
         <SectionHeader
           eyebrow="What You Get"
           title="One shoot day. An entire video library."
-          description="A single production day with Allora doesn't get you one video. It gets you an arsenal of content built to fuel your marketing for months."
+          description="A single production day with Story Real doesn't get you one video. It gets you an arsenal of content built to fuel your content strategy for months."
         />
         <div className="mx-auto max-w-4xl">
           <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#080808] p-8">
@@ -446,7 +446,7 @@ export function VideoProductionClient() {
             <SlideIn from="right">
               <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#1a2a1a] p-6">
                 <h3 className="mb-4 text-lg font-bold text-white">
-                  Allora Media Video Production
+                  Story Real Studios Video Production
                 </h3>
                 <ul className="space-y-3 text-sm text-white/80">
                   {[
@@ -686,7 +686,7 @@ export function VideoProductionClient() {
       {/* CTA */}
       <CTASection
         headline="Ready for video that actually drives results?"
-        subhead="Tell us about your project. We'll plan the production, handle everything on-site, and deliver professional video content built for your marketing."
+        subhead="Tell us about your project. We'll plan the production, handle everything on-site, and deliver professional video content built to grow your business."
         primaryLabel="Start a Video Project"
         primaryHref="/contact"
         secondaryLabel="See Our Case Studies"

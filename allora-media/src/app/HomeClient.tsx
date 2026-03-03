@@ -373,7 +373,7 @@ export default function HomeClient() {
       <Section variant="dark">
         <SectionHeader
           eyebrow="What Clients Say"
-          title="Trusted by Marketing Leaders"
+          title="Trusted by Business Leaders"
         />
         <TestimonialCarousel />
       </Section>

@@ -523,7 +523,7 @@ export function MediaProductionClient() {
         <SectionHeader
           eyebrow="The Content Multiplier"
           title="Choose your shoot. See what you get."
-          description="Every production day with Allora creates an entire content library — not just one video. Drag the slider to see realistic deliverable ranges based on shoot length and how involved you are on set."
+          description="Every production day with Story Real creates an entire content library — not just one video. Drag the slider to see realistic deliverable ranges based on shoot length and how involved you are on set."
         />
         <ContentMultiplierSlider />
       </Section>
@@ -625,7 +625,7 @@ export function MediaProductionClient() {
             </SlideIn>
             <SlideIn from="right">
             <div className="rounded-2xl border border-white/10 bg-[#080808] p-6 border-l-4 border-l-[#68ccd1]">
-              <h3 className="mb-4 text-lg font-bold text-white">Allora Media Production</h3>
+              <h3 className="mb-4 text-lg font-bold text-white">Story Real Studios Production</h3>
               <ul className="space-y-3 text-sm text-white/80">
                 {[
                   "Cinematic video and magazine-quality photography",

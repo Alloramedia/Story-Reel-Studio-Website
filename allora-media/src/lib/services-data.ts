@@ -123,7 +123,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     idealFor: [
       { title: "Service-based businesses", desc: "Companies where trust is the #1 factor in a buyer's decision — contractors, agencies, consultants, healthcare, and professional services." },
-      { title: "Businesses with happy clients", desc: "If your clients love working with you but you've never captured those stories on camera, you're leaving your most powerful marketing asset on the table." },
+      { title: "Businesses with happy clients", desc: "If your clients love working with you but you've never captured those stories on camera, you're leaving your most powerful content asset on the table." },
       { title: "Companies running paid ads", desc: "If you're investing in Facebook or Instagram ads, testimonial videos will dramatically reduce your cost per lead and improve conversion rates." },
     ],
     diyVsPro: {
@@ -226,7 +226,7 @@ export const servicesData: Record<string, ServiceData> = {
       "High-resolution files for print and digital",
       "Optimized versions for web, social, and ad placements",
     ],
-    whyItMatters: "Real photos of your real team and real work outperform stock images in every marketing context — websites, ads, social media, and proposals. Authentic photography builds the trust and credibility that generic imagery never can.",
+    whyItMatters: "Real photos of your real team and real work outperform stock images in every context — websites, ads, social media, and proposals. Authentic photography builds the trust and credibility that generic imagery never can.",
     faqs: [
       { question: "Where do you shoot?", answer: "Most corporate shoots happen on location at your office, facility, or job site. We bring all lighting and equipment needed to produce professional results in any environment." },
       { question: "How long does a typical shoot take?", answer: "A standard corporate shoot takes 2-4 hours depending on the scope — team size, number of locations, and deliverables needed." },

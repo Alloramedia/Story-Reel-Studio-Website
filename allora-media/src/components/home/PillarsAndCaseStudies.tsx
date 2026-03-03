@@ -181,7 +181,7 @@ export function CaseStudySection() {
         <SectionHeader
           eyebrow="Proven Results"
           title="Don't take our word for it."
-          description="Here are businesses like yours that went from guessing to growing with a real marketing strategy behind them."
+          description="Here are businesses like yours that went from guessing to growing with a real content strategy behind them."
         />
 
         <div className="grid gap-6 md:grid-cols-3">

@@ -9,7 +9,7 @@ export default function Loading() {
           <div className="absolute inset-0 animate-ping rounded-full bg-[#68ccd1]/10" />
           <div className="relative animate-pulse">
             <Image
-              src="/images/allora-logo-circle.png"
+              src="/images/logos/story-real-logo.png"
               alt="Loading"
               width={64}
               height={64}

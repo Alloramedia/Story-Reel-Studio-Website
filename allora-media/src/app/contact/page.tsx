@@ -5,14 +5,14 @@ import { BreadcrumbSchema } from "@/components/StructuredData";
 export const metadata: Metadata = {
   title: "Contact Us — Book a Free Growth Blueprint Call",
   description:
-    "Tell us about your business. We'll audit your current marketing, show you where the biggest opportunities are, and give you a clear plan — whether you work with us or not.",
+    "Tell us about your business. We'll audit your current content strategy, show you where the biggest opportunities are, and give you a clear plan — whether you work with us or not.",
   alternates: {
-    canonical: "https://www.alloramedia.us/contact",
+    canonical: "https://www.storyreal.co/contact",
   },
   openGraph: {
-    title: "Contact Allora Media — Book a Free Growth Blueprint Call",
+    title: "Contact Story Real Studios — Book a Free Growth Blueprint Call",
     description:
-      "Tell us about your business and we'll audit your current marketing for free. Get a clear plan to drive real, measurable results — whether you work with us or not.",
+      "Tell us about your business and we'll audit your current content strategy for free. Get a clear plan to drive real, measurable results — whether you work with us or not.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };
