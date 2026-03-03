@@ -165,7 +165,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── DESCRIPTION ──────────── */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to bottom" />
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-6 text-2xl font-heading font-bold tracking-tight md:text-3xl">
             We understand your business.
@@ -181,7 +181,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
       {/* ──────────── CHALLENGES ──────────── */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
@@ -212,7 +212,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── SERVICES (Industry-Specific) ──────────── */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="What You Get"
@@ -247,7 +247,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
       {/* ──────────── WHY STORY REAL ──────────── */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="rgba(104,204,209,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -279,7 +279,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── RESULTS ──────────── */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.02)" to="transparent" direction="to top" />
+        <GradientOverlay from="rgba(104,204,209,0.02)" to="transparent" direction="to top" />
         <SectionHeader
           eyebrow="Real Results"
           title="Numbers that speak for themselves."
@@ -310,7 +310,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
       {/* ──────────── OUR APPROACH ──────────── */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="rgba(104,204,209,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -342,7 +342,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── CASE STUDIES & REVIEWS ──────────── */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to bottom right" />
 
         {/* Logo marquee */}
         <p className="mb-8 text-center text-sm font-bold uppercase tracking-[0.2em] text-white/50">
@@ -500,7 +500,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── FAQ ──────────── */}
       <Section variant="light">
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -517,7 +517,7 @@ export function IndustryClient({ industry }: { industry: IndustryData }) {
 
       {/* ──────────── INLINE CTA ──────────── */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

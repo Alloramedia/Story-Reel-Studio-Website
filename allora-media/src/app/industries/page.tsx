@@ -115,7 +115,7 @@ export default function IndustriesPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 70% 50% at 50% 30%, rgba(101,178,7,0.06) 0%, transparent 70%)",
+              "radial-gradient(ellipse 70% 50% at 50% 30%, rgba(104,204,209,0.06) 0%, transparent 70%)",
           }}
           aria-hidden="true"
         />
@@ -173,7 +173,7 @@ export default function IndustriesPage() {
       {/* ═══════ WHY INDUSTRY-SPECIFIC ═══════ */}
       <AngleDivider variant="notch" fill="#080808" from="#151515" />
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom" />
+        <GradientOverlay from="rgba(104,204,209,0.04)" to="transparent" direction="to bottom" />
         <SectionHeader
           eyebrow="Why It Matters"
           title={<>Generic content wastes your money.<br className="hidden md:block" /> Industry expertise multiplies it.</>}
@@ -215,7 +215,7 @@ export default function IndustriesPage() {
       <AngleDivider variant="notch" fill="#f5fafa" from="#080808" />
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
@@ -320,7 +320,7 @@ export default function IndustriesPage() {
       {/* ═══════ CROSS-INDUSTRY RESULTS ═══════ */}
       <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="Proven Results"
@@ -360,7 +360,7 @@ export default function IndustriesPage() {
       {/* ═══════ HOW IT WORKS ═══════ */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="rgba(104,204,209,0.02)" direction="to bottom" />
         <div className="mx-auto max-w-5xl py-6">
           <SectionHeader
             variant="light"
@@ -412,7 +412,7 @@ export default function IndustriesPage() {
       {/* ═══════ FAQ ═══════ */}
       <AngleDivider variant="notch" fill="#080808" from="#f5fafa" flip />
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.02)" to="transparent" direction="to top" />
+        <GradientOverlay from="rgba(104,204,209,0.02)" to="transparent" direction="to top" />
         <div className="mx-auto max-w-3xl">
           <SectionHeader
             eyebrow="Questions & Answers"

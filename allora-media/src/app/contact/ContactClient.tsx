@@ -19,7 +19,7 @@ const helpOptions = [
 ];
 
 const inputClasses =
-  "w-full rounded-lg border border-white/10 bg-[#1a2a1a] px-4 py-3 text-base text-white placeholder:text-white/30 transition-all duration-300 focus:border-[#68ccd1] focus:ring-2 focus:ring-[#68ccd1]/20 focus:outline-none";
+  "w-full rounded-lg border border-white/10 bg-[#0e1e25] px-4 py-3 text-base text-white placeholder:text-white/30 transition-all duration-300 focus:border-[#68ccd1] focus:ring-2 focus:ring-[#68ccd1]/20 focus:outline-none";
 
 export function ContactClient() {
   const router = useRouter();

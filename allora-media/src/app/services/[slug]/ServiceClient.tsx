@@ -167,7 +167,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       {/* ═══ DESCRIPTION + WHY CARDS ═══ */}
       <Section variant="dark">
         <GradientOverlay
-          from="rgba(101,178,7,0.04)"
+          from="rgba(104,204,209,0.04)"
           to="transparent"
           direction="to bottom"
         />
@@ -214,7 +214,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
           <Section variant="light">
             <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
             <GradientOverlay
-              from="rgba(15,61,21,0.03)"
+              from="rgba(14,42,53,0.03)"
               to="transparent"
               direction="to bottom right"
             />
@@ -273,7 +273,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       {/* ═══ WHAT WE DELIVER ═══ */}
       <Section variant="dark">
         <GradientOverlay
-          from="rgba(101,178,7,0.03)"
+          from="rgba(104,204,209,0.03)"
           to="transparent"
           direction="to top left"
         />
@@ -324,8 +324,8 @@ export function ServiceClient({ service }: { service: ServiceData }) {
           <Section variant="light">
             <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
             <GradientOverlay
-              from="rgba(15,61,21,0.03)"
-              to="rgba(101,178,7,0.02)"
+              from="rgba(14,42,53,0.03)"
+              to="rgba(104,204,209,0.02)"
               direction="to bottom"
             />
             <div className="mx-auto max-w-5xl py-6">
@@ -380,7 +380,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         <>
           <Section variant="dark">
             <GradientOverlay
-              from="rgba(101,178,7,0.03)"
+              from="rgba(104,204,209,0.03)"
               to="transparent"
               direction="to top left"
             />
@@ -398,7 +398,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
               <div className="mx-auto max-w-4xl">
                 <div className="grid gap-6 md:grid-cols-2">
                   <SlideIn from="left">
-                    <div className="h-full rounded-2xl border border-white/10 bg-[#1a2a1a] p-6">
+                    <div className="h-full rounded-2xl border border-white/10 bg-[#0e1e25] p-6">
                       <h3 className="mb-4 text-lg font-bold text-white/60">
                         DIY Approach
                       </h3>
@@ -416,7 +416,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
                     </div>
                   </SlideIn>
                   <SlideIn from="right">
-                    <div className="h-full rounded-2xl border border-[#68ccd1]/20 bg-[#1a2a1a] p-6">
+                    <div className="h-full rounded-2xl border border-[#68ccd1]/20 bg-[#0e1e25] p-6">
                       <h3 className="mb-4 text-lg font-bold text-white">
                         Story Real Studios {service.name}
                       </h3>
@@ -447,8 +447,8 @@ export function ServiceClient({ service }: { service: ServiceData }) {
         <>
           <Section variant="light">
             <GradientOverlay
-              from="rgba(15,61,21,0.03)"
-              to="rgba(101,178,7,0.02)"
+              from="rgba(14,42,53,0.03)"
+              to="rgba(104,204,209,0.02)"
               direction="to bottom"
             />
             <RadialGlow
@@ -499,7 +499,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       {/* ═══ WHY STORY REAL STUDIOS ═══ */}
       <Section variant="dark">
         <GradientOverlay
-          from="rgba(101,178,7,0.03)"
+          from="rgba(104,204,209,0.03)"
           to="transparent"
           direction="to top left"
         />
@@ -549,7 +549,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       {/* ═══ FAQ ═══ */}
       <Section variant="light">
         <GradientOverlay
-          from="rgba(15,61,21,0.03)"
+          from="rgba(14,42,53,0.03)"
           to="transparent"
           direction="to bottom right"
         />
@@ -570,7 +570,7 @@ export function ServiceClient({ service }: { service: ServiceData }) {
       {/* Testimonial video examples — only on testimonial-videos page */}
       {service.slug === "testimonial-videos" && (
         <Section variant="dark">
-          <GradientOverlay from="rgba(101,178,7,0.04)" to="transparent" direction="to bottom right" />
+          <GradientOverlay from="rgba(104,204,209,0.04)" to="transparent" direction="to bottom right" />
           <RadialGlow color="#68ccd1" position="80% 30%" size="500px" opacity={0.03} />
           <VideoShowcase
             videos={[

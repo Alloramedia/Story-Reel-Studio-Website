@@ -109,7 +109,7 @@ export function CaseStudiesClient() {
 
       {/* FILTERS + CASE STUDIES */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to bottom" />
         <SectionHeader
           eyebrow="Filter by Industry"
           title="Find a business like yours."
@@ -144,7 +144,7 @@ export function CaseStudiesClient() {
       {/* WHY THESE RESULTS HAPPEN */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <div className="mx-auto max-w-3xl py-6 text-center">
           <SectionHeader
@@ -197,7 +197,7 @@ export function CaseStudiesClient() {
 
       {/* INDUSTRY ROI BENCHMARKS */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <SectionHeader
           eyebrow="Industry Benchmarks"
@@ -262,7 +262,7 @@ export function CaseStudiesClient() {
 
       {/* URGENCY */}
       <Section variant="light">
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-3xl py-6">
           <ScaleIn>
           <div className="rounded-2xl border border-[#68ccd1]/20 bg-[#151515] p-8 text-center md:p-10">

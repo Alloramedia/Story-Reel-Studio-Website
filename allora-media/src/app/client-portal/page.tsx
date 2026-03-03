@@ -3,16 +3,16 @@ import { ClientPortalClient } from "./ClientPortalClient";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
-  title: "Client Portal — Real-Time Production Dashboard",
+  title: "Client Portal — Content Library & Project Dashboard",
   description:
-    "Access your project performance, creative assets, project timelines, and monthly reports 24/7 through the Story Real Studios Hub — your personal production dashboard.",
+    "Access your content library, project timelines, strategy documents, and performance insights 24/7 through the Story Real Studios Hub — your personal project dashboard.",
   alternates: {
     canonical: "https://www.storyreal.co/client-portal",
   },
   openGraph: {
-    title: "Client Portal — Your 24/7 Production Dashboard",
+    title: "Client Portal — Your Content & Project Dashboard",
     description:
-      "Live project performance, creative assets, project timelines, and archived reports — all in one dashboard. No more wondering what your production studio is doing.",
+      "Your complete content library, project timelines, strategy documents, and performance insights — all in one dashboard. No more chasing files or wondering where your project stands.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };

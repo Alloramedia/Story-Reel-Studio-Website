@@ -12,18 +12,12 @@ export interface TrustedLogo {
 }
 
 export const trustedLogos: TrustedLogo[] = [
-  { file: "trusted-logo-cybin.png", name: "Cybin Inc." },
-  { file: "trusted-logo-powr2.png", name: "POWR2" },
+  { file: "trusted-logo-telly.png", name: "Telly Awards" },
   { file: "trusted-logo-rmhc.png", name: "Ronald McDonald House Charities" },
   { file: "trusted-logo-movember.png", name: "Movember Foundation" },
-  { file: "trusted-logo-sheath.png", name: "Sheath Underwear" },
-  { file: "trusted-logo-efi.png", name: "EFI Solutions" },
-  { file: "trusted-logo-marion.png", name: "Marion Manufacturing" },
-  { file: "trusted-logo-enstructure.png", name: "Enstructure" },
-  { file: "trusted-logo-blacklapel.png", name: "Black Lapel" },
-  { file: "trusted-logo-tudor.png", name: "Tudor Watches" },
   { file: "trusted-logo-adweek.png", name: "Adweek" },
-  { file: "trusted-logo-telly.png", name: "Telly Awards" },
+  { file: "clients/telly-awards.png", name: "Telly Gold Winner" },
+  { file: "awards/telly-gold-winner.png", name: "44th Telly Awards" },
 ];
 
 /* ------------------------------------------------------------------ */

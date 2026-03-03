@@ -138,7 +138,7 @@ export function ProcessClient() {
 
       {/* PROCESS STEPS */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to bottom" />
         <div className="mx-auto max-w-4xl space-y-16">
           {steps.map((step, i) => (
             <SlideIn key={i} from={i % 2 === 0 ? "left" : "right"} delay={i * 0.05}>
@@ -200,7 +200,7 @@ export function ProcessClient() {
       {/* WHAT YOU'LL HAVE AFTER 90 DAYS */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <RadialGlow color="#68ccd1" position="90% 20%" size="600px" opacity={0.04} />
         <SectionHeader
           variant="light"
@@ -242,7 +242,7 @@ export function ProcessClient() {
 
       {/* NO-RISK GUARANTEE */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <RadialGlow color="#68ccd1" position="10% 50%" size="500px" opacity={0.03} />
         <div className="mx-auto max-w-4xl">
           <ScaleIn>

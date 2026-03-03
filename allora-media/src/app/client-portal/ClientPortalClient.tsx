@@ -23,28 +23,28 @@ import { AngleDivider, EdgeAccentStripe, GradientOverlay, RadialGlow } from "@/c
 
 const features = [
   {
-    icon: <BarChart3 size={24} />,
-    title: "Live Campaign Performance",
-    description:
-      "See how your ads are performing right now — leads generated, cost per lead, total ad spend, and return on investment. No need to wait for a report to know what's happening.",
-  },
-  {
     icon: <FolderOpen size={24} />,
-    title: "All Your Content in One Place",
+    title: "Your Complete Content Library",
     description:
-      "Access every video, photo, and graphic we've produced for your business. Preview, download, and share content directly from your portal — any time you need it.",
+      "Access every video, photo, b-roll clip, and asset we've ever produced for your organization. Preview, download, and share content directly from your portal — any time you need it.",
   },
   {
     icon: <Clock size={24} />,
     title: "Project Status & Timelines",
     description:
-      "See exactly where every project stands — from content production to campaign launches — with clear milestones, deadlines, and real-time status updates.",
+      "See exactly where every production stands — from discovery through final delivery — with clear milestones, deadlines, and real-time status updates on every project.",
+  },
+  {
+    icon: <BarChart3 size={24} />,
+    title: "Content Performance Insights",
+    description:
+      "Track how your content is performing across channels — views, engagement, and deployment metrics so you can see the impact of your video investment.",
   },
   {
     icon: <FileText size={24} />,
-    title: "Monthly Performance Reports",
+    title: "Project Reports & Strategy Docs",
     description:
-      "Every monthly report we've ever delivered is archived here with detailed analysis, key insights, and our recommendations for the next month.",
+      "Every Media Blueprint, creative brief, production plan, and post-project report is archived here — a complete record of our strategic partnership.",
   },
 ];
 
@@ -52,17 +52,17 @@ const howItWorks = [
   {
     icon: <Eye size={20} />,
     step: "Log In",
-    desc: "Access your personal dashboard with your secure login — works on any device.",
+    desc: "Access your personal dashboard with your secure login — works on any device, anywhere.",
   },
   {
     icon: <Download size={20} />,
-    step: "See Everything",
-    desc: "View live campaign data, download content, check project timelines, and read reports.",
+    step: "Access Everything",
+    desc: "Browse your content library, check project timelines, download deliverables, and review strategy documents.",
   },
   {
     icon: <Bell size={20} />,
     step: "Stay Updated",
-    desc: "Get notified when new reports are published or project milestones are reached.",
+    desc: "Get notified when new content is delivered, project milestones are reached, or new assets are ready for download.",
   },
 ];
 
@@ -90,7 +90,7 @@ export function ClientPortalClient() {
             transition={{ duration: 0.8, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
             className="text-4xl font-heading font-black leading-tight tracking-tight text-pretty md:text-5xl lg:text-6xl"
           >
-            Always know where your money is going.
+            Your content. Your projects. All in one place.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 22, filter: "blur(4px)" }}
@@ -98,11 +98,10 @@ export function ClientPortalClient() {
             transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
             className="mt-6 max-w-xl text-lg leading-relaxed text-white/70"
           >
-            Most agencies send you a PDF once a month and hope you don&apos;t
-            ask too many questions. The Story Real Studios Hub gives you 24/7
-            access to your campaign performance, all your creative content,
-            project timelines, and monthly reports — all organized in one
-            dashboard. No more wondering what your production studio is doing.
+            The Story Real Studios Hub gives you 24/7 access to your entire
+            content library, project timelines, strategy documents, and
+            performance insights — all organized in one dashboard. No more
+            chasing files or wondering where your project stands.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 18 }}
@@ -125,11 +124,11 @@ export function ClientPortalClient() {
 
       {/* FEATURES */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to bottom" />
         <SectionHeader
           eyebrow="What's Inside"
-          title="No more wondering. No more chasing updates."
-          description="We built the client portal because we believe you should never have to ask your production studio what's going on. Everything you need to see is right here, updated in real time."
+          title="No more chasing files. No more wondering."
+          description="We built the client portal because you should never have to ask your production studio where your assets are or what's happening with your project. Everything you need is right here."
         />
         <div className="grid gap-6 md:grid-cols-2">
           {features.map((feature, i) => (
@@ -158,7 +157,7 @@ export function ClientPortalClient() {
       {/* HOW IT WORKS */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="right" width="5%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="transparent" direction="to bottom right" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="transparent" direction="to bottom right" />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
@@ -190,7 +189,7 @@ export function ClientPortalClient() {
 
       {/* PORTAL SCREENSHOT */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to top left" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to top left" />
         <div className="mx-auto max-w-4xl">
           <div className="overflow-hidden rounded-2xl border border-white/10 shadow-lg">
             <Image
@@ -210,32 +209,32 @@ export function ClientPortalClient() {
       {/* WHAT OTHER AGENCIES GIVE YOU */}
       <Section variant="light">
         <EdgeAccentStripe color="#68ccd1" side="left" width="4%" />
-        <GradientOverlay from="rgba(15,61,21,0.03)" to="rgba(101,178,7,0.02)" direction="to bottom" />
+        <GradientOverlay from="rgba(14,42,53,0.03)" to="rgba(104,204,209,0.02)" direction="to bottom" />
         <RadialGlow color="#68ccd1" position="50% 80%" size="800px" opacity={0.035} />
         <div className="mx-auto max-w-5xl py-6">
         <SectionHeader
           variant="light"
           eyebrow="The Comparison"
-          title="What most agencies give you vs. what we give you."
+          title="What most production companies give you vs. what we give you."
         />
         <div className="mx-auto max-w-4xl">
           <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#080808]">
             <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center bg-[#151515] px-6 py-4">
-              <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Agency</span>
+              <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Production Co.</span>
               <span className="text-white/20">vs</span>
               <span className="text-right text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Story Real Studios</span>
             </div>
             <div className="flex md:hidden items-center justify-between bg-[#151515] px-6 py-4">
-              <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Agency</span>
+              <span className="text-sm font-bold uppercase tracking-wider text-red-400">Typical Production Co.</span>
               <span className="text-sm font-bold uppercase tracking-wider text-[#68ccd1]">Story Real Studios</span>
             </div>
             {[
-              ["Monthly PDF emailed 2 weeks late", "Real-time dashboard accessible 24/7"],
-              ["No idea where your files are", "Every photo, video, and graphic organized in one library"],
-              ["\"The campaigns are doing well\" (no data)", "Exact leads, cost per lead, ROAS, and ad-level data"],
-              ["You have to ask for updates", "Notifications when reports are published or milestones hit"],
-              ["Reports filled with jargon you don't understand", "Clear monthly reviews in plain language with next steps"],
-              ["You never see what they're actually spending", "Full ad spend visibility — you see every dollar"],
+              ["Files emailed with no organization", "Every asset organized in a searchable content library"],
+              ["No idea where your project stands", "Real-time project status with milestones and timelines"],
+              ["\"We'll get back to you\" with no timeline", "Transparent deadlines and notification updates"],
+              ["You have to ask for your own files", "Download any asset, any time — 24/7 access"],
+              ["No strategy documentation or creative briefs", "Complete archive of blueprints, briefs, and reports"],
+              ["Relationship ends when the invoice is paid", "Ongoing partnership with continuous content insights"],
             ].map(([bad, good], i) => (
               <div
                 key={i}
@@ -263,20 +262,20 @@ export function ClientPortalClient() {
 
       {/* RED FLAGS */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.02)" to="transparent" direction="to top" />
+        <GradientOverlay from="rgba(104,204,209,0.02)" to="transparent" direction="to top" />
         <SectionHeader
           eyebrow="Red Flags"
-          title="Signs your current agency isn't being transparent."
+          title="Signs your current production company isn't organized."
         />
         <div className="mx-auto max-w-3xl">
           <div className="grid gap-4 md:grid-cols-2">
             {[
-              "You can't see your ad spend in real time",
-              "Reporting is full of vanity metrics (likes, impressions) with no lead data",
-              "You have to ask multiple times for your own creative assets",
-              "They never explain what they're changing or why",
-              "You don't know your cost per lead or return on ad spend",
-              "They have you locked in with no flexibility to leave",
+              "You can't access your own video files without emailing someone",
+              "You have no visibility into project timelines or milestones",
+              "Files are scattered across email threads, Dropbox links, and Google Drives",
+              "You don't know what content you have or where to find it",
+              "There's no creative brief or strategic documentation for your projects",
+              "You have to chase your production company for updates",
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -292,7 +291,7 @@ export function ClientPortalClient() {
             ))}
           </div>
           <p className="mt-8 text-center text-base text-white/55">
-            If any of these sound familiar, it&apos;s time for a change. Every Story Real Studios client gets complete transparency from day one.
+            If any of these sound familiar, it&apos;s time for a production partner that keeps you in the loop. Every Story Real Studios client gets complete visibility from day one.
           </p>
         </div>
       </Section>
@@ -309,10 +308,10 @@ export function ClientPortalClient() {
           />
           <p className="text-lg leading-relaxed text-[#1a1a1a]/60">
             Every Story Real Studios client gets portal access from day one — at no
-            extra cost. We don&apos;t hide data behind vague reports or unclear
-            jargon. You see the same numbers we see. If your current agency
-            doesn&apos;t give you this level of visibility, that should tell you
-            something.
+            extra cost. We don&apos;t scatter your files across email threads or
+            hide behind vague status updates. You see your content library, your
+            project timelines, and your strategy documents — organized and
+            accessible whenever you need them.
           </p>
         </div>
       </Section>
@@ -321,16 +320,15 @@ export function ClientPortalClient() {
 
       {/* NOT A CLIENT YET */}
       <Section variant="dark">
-        <GradientOverlay from="rgba(101,178,7,0.03)" to="transparent" direction="to bottom" />
+        <GradientOverlay from="rgba(104,204,209,0.03)" to="transparent" direction="to bottom" />
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-heading font-black tracking-tight md:text-4xl">
             Not a client yet? See what you&apos;re missing.
           </h2>
           <p className="mt-4 text-lg text-white/60">
             The client portal is available to every active Story Real Studios client at
-            no extra cost. If you want to see what it&apos;s like working with a
-            production studio that gives you this level of transparency, let&apos;s
-            talk.
+            no extra cost. If you want to work with a production studio that
+            gives you this level of organization and visibility, let&apos;s talk.
           </p>
           <Link
             href="/contact"
